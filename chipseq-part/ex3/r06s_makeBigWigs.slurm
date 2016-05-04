@@ -8,14 +8,11 @@
 
 # # # # # # # # # # # # # # # # # # # #
 # This SLURM script starts the conversion step (step 6) of the ChIP-seq variant
-# calling workflow.
+# calling workflow. This is the SUBMIT script.
 # # # # # # # # # # # # # # # # # # # #
 
 # get environment and helpers
 source /cluster/bin/jobsetup
 
 # Convert bedGraph to bwig files
-programs/bedGraphToBigWig -unc N1_INPUT_sorted.bedGraph data/sacisizes.txt N1_INPUT_bigWig.bwig
-programs/bedGraphToBigWig -unc T1_INPUT_sorted.bedGraph data/sacisizes.txt T1_INPUT_bigWig.bwig
-programs/bedGraphToBigWig -unc T1_CHIP_sorted.bedGraph data/sacisizes.txt T1_CHIP_bigWig.bwig
-programs/bedGraphToBigWig -unc N1_CHIP_sorted.bedGraph data/sacisizes.txt N1_CHIP_bigWig.bwig
+arrayrun 0-3 r06w_makeBigWigs.slurm

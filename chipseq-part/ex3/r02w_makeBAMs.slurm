@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=excs2_02
+#SBATCH --job-name=excs2_02_w
 #SBATCH --account=ln0002k
 #SBATCH --mem-per-cpu=3500M
 #SBATCH --time=01:00:00			########################################
@@ -8,7 +8,7 @@
 
 # # # # # # # # # # # # # # # # # # # #
 # This SLURM script starts the conversion step (step 2) of the ChIP-seq variant
-# calling workflow.
+# calling workflow. This is the WORKER script.
 # # # # # # # # # # # # # # # # # # # #
 
 # get environment and helpers
@@ -17,8 +17,7 @@ source /cluster/bin/jobsetup
 # Load modules
 module load samtools
 
+declare -a fnames=(N1_CHIP N1_INPUT T1_CHIP T1_INPUT)
+
 # Convert sam to bam files
-samtools view N1_CHIP.sam -bS > N1_CHIP.bam
-samtools view T1_CHIP.sam -bS > T1_CHIP.bam
-samtools view N1_INPUT.sam -bS > N1_INPUT.bam
-samtools view T1_INPUT.sam -bS > T1_INPUT.bam
+samtools view ${fnames[$TASK_ID]}.sam -bS > ${fnames[$TASK_ID]}.bam

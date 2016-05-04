@@ -8,17 +8,11 @@
 
 # # # # # # # # # # # # # # # # # # # #
 # This SLURM script starts the conversion step (step 4) of the ChIP-seq variant
-# calling workflow.
+# calling workflow. This is the SUBMIT script.
 # # # # # # # # # # # # # # # # # # # #
 
 # get environment and helpers
 source /cluster/bin/jobsetup
 
-# Load modules
-module load bedtools
-
 # Convert sorted bam to bedGraph files
-genomeCoverageBed -ibam N1_CHIP_sorted.bam -bg -g data/sacisizes.txt > N1_CHIP.bedGraph
-genomeCoverageBed -ibam T1_CHIP_sorted.bam -bg -g data/sacisizes.txt > T1_CHIP.bedGraph
-genomeCoverageBed -ibam T1_INPUT_sorted.bam -bg -g data/sacisizes.txt > T1_INPUT.bedGraph
-genomeCoverageBed -ibam N1_INPUT_sorted.bam -bg -g data/sacisizes.txt > N1_INPUT.bedGraph
+arrayrun 0-3 r04w_makeBedGraphs.slurm

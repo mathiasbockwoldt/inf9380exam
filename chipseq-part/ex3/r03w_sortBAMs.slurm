@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=excs2_03
+#SBATCH --job-name=excs2_03_w
 #SBATCH --account=ln0002k
 #SBATCH --mem-per-cpu=3500M
 #SBATCH --time=01:00:00			########################################
@@ -8,7 +8,7 @@
 
 # # # # # # # # # # # # # # # # # # # #
 # This SLURM script starts the sorting step (step 3) of the ChIP-seq variant
-# calling workflow.
+# calling workflow. This is the WORKER script.
 # # # # # # # # # # # # # # # # # # # #
 
 # get environment and helpers
@@ -17,8 +17,7 @@ source /cluster/bin/jobsetup
 # Load modules
 module load samtools
 
+declare -a fnames=(N1_CHIP N1_INPUT T1_CHIP T1_INPUT)
+
 # Sort bam files
-samtools sort N1_INPUT.bam N1_INPUT_sorted
-samtools sort T1_INPUT.bam T1_INPUT_sorted
-samtools sort T1_CHIP.bam T1_CHIP_sorted
-samtools sort N1_CHIP.bam N1_CHIP_sorted
+samtools sort ${fnames[$TASK_ID]}.bam ${fnames[$TASK_ID]}_sorted
