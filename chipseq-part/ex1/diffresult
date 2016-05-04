@@ -1,0 +1,64 @@
+3c3
+< @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data/saci data/N1_CHIP.fastq"
+---
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt"
+57709a57710,57712
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node1/pmap.reads ./pmap_node1/pmapoutfile.out.txt"
+115415a115419,115421
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node2/pmap.reads ./pmap_node2/pmapoutfile.out.txt"
+173121a173128,173130
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node3/pmap.reads ./pmap_node3/pmapoutfile.out.txt"
+230827a230837,230839
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node4/pmap.reads ./pmap_node4/pmapoutfile.out.txt"
+288533a288546,288548
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node5/pmap.reads ./pmap_node5/pmapoutfile.out.txt"
+346239a346255,346257
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node6/pmap.reads ./pmap_node6/pmapoutfile.out.txt"
+403945a403964,403966
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node7/pmap.reads ./pmap_node7/pmapoutfile.out.txt"
+461651a461673,461675
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node8/pmap.reads ./pmap_node8/pmapoutfile.out.txt"
+519357a519382,519384
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node9/pmap.reads ./pmap_node9/pmapoutfile.out.txt"
+577063a577091,577093
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node10/pmap.reads ./pmap_node10/pmapoutfile.out.txt"
+634769a634800,634802
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node11/pmap.reads ./pmap_node11/pmapoutfile.out.txt"
+692475a692509,692511
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node12/pmap.reads ./pmap_node12/pmapoutfile.out.txt"
+750181a750218,750220
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node13/pmap.reads ./pmap_node13/pmapoutfile.out.txt"
+807887a807927,807929
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node14/pmap.reads ./pmap_node14/pmapoutfile.out.txt"
+865593a865636,865638
+> @HD	VN:1.0	SO:unsorted
+> @SQ	SN:Sulfolobus_acidocaldarius	LN:2225959
+> @PG	ID:Bowtie	VN:1.0.0	CL:"bowtie -S -v 2 -m 1 data//saci ./pmap_node15/pmap.reads ./pmap_node15/pmapoutfile.out.txt"

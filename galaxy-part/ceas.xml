@@ -1,0 +1,46 @@
+<tool id="ceas" name="CEAS" version="1.0.2">
+	<requirements>
+		<requirement type="package">python-mysqldb</requirement>
+		<requirement type="package">R</requirement>
+	</requirements>
+	<command><![CDATA[
+		ceas
+		-b $input_bed
+		-e $input_ebed
+		-w $input_wig
+		--sizes=$sizes_low,$sizes_med,$sizes_high
+		--bisizes=$bisizes_low,$bisizes_high
+	]]></command>
+	<inputs>
+		<param name="input_bed" type="data" format="bed" label="BED file of ChIP regions" />
+		<param name="input_ebed" type="data" format="bed" label="BED file of extra regions of interest (e.g. non-coding regions)" />
+		<param name="input_wig" type="data" format="wig" label="WIG file for either wig profiling or genome background annotation" optional="True" />
+		<conditional name="source">
+
+		</conditional>
+
+		<!--<param name="input_gdb" type="data" format="TODO" label="Gene annotation table" />-->
+
+		<param name="sizes_low" type="integer" value="1000" min="0" max="10000" label="Promoter (also dowsntream) sizes for ChIP region annotation" />
+		<param name="sizes_med" type="integer" value="2000" min="0" max="10000" label="Promoter (also dowsntream) sizes for ChIP region annotation" />
+		<param name="sizes_high" type="integer" value="3000" min="0" max="10000" label="Promoter (also dowsntream) sizes for ChIP region annotation" />
+
+		<param name="bisizes_low" type="integer" value="2500" min="0" max="20000" label="Bidirectional-promoter sizes for ChIP region annotation" />
+		<param name="bisizes_high" type="integer" value="5000" min="0" max="20000" label="Bidirectional-promoter sizes for ChIP region annotation" />
+
+		<!-- Many missing! -->
+
+
+
+
+	</inputs>
+	<outputs>
+
+	</outputs>
+	<help><![CDATA[
+		TODO: Fill in help.
+	]]></help>
+	<citations>
+		<citation type="doi">10.1093/bioinformatics/btp479</citation>
+	</citations>
+</tool>

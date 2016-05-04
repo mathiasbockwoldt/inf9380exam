@@ -1,0 +1,4040 @@
+Starting job 14497743 ("ex_cs_1") on c4-1 at Di 3. Mai 02:11:13 CEST 2016
+Plain bowtie
+# reads processed: 923302
+# reads with at least one reported alignment: 836576 (90.61%)
+# reads that failed to align: 82157 (8.90%)
+# reads with alignments suppressed due to -m: 4569 (0.49%)
+Reported 836576 alignments to 1 output stream(s)
+
+real	0m53.133s
+user	0m45.516s
+sys	0m0.103s
+# reads processed: 923302
+# reads with at least one reported alignment: 836576 (90.61%)
+# reads that failed to align: 82157 (8.90%)
+# reads with alignments suppressed due to -m: 4569 (0.49%)
+Reported 836576 alignments to 1 output stream(s)
+
+real	0m45.967s
+user	0m45.466s
+sys	0m0.105s
+# reads processed: 923302
+# reads with at least one reported alignment: 836576 (90.61%)
+# reads that failed to align: 82157 (8.90%)
+# reads with alignments suppressed due to -m: 4569 (0.49%)
+Reported 836576 alignments to 1 output stream(s)
+
+real	0m46.158s
+user	0m45.678s
+sys	0m0.112s
+# reads processed: 923302
+# reads with at least one reported alignment: 836576 (90.61%)
+# reads that failed to align: 82157 (8.90%)
+# reads with alignments suppressed due to -m: 4569 (0.49%)
+Reported 836576 alignments to 1 output stream(s)
+
+real	0m46.153s
+user	0m45.709s
+sys	0m0.115s
+# reads processed: 923302
+# reads with at least one reported alignment: 836576 (90.61%)
+# reads that failed to align: 82157 (8.90%)
+# reads with alignments suppressed due to -m: 4569 (0.49%)
+Reported 836576 alignments to 1 output stream(s)
+
+real	0m45.934s
+user	0m45.489s
+sys	0m0.101s
+Num Processors: 1
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 923302
+# reads with at least one reported alignment: 836576 (90.61%)
+# reads that failed to align: 82157 (8.90%)
+# reads with alignments suppressed due to -m: 4569 (0.49%)
+Reported 836576 alignments to 1 output stream(s)
+
+real	0m56.745s
+user	0m0.043s
+sys	0m0.083s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 923302
+# reads with at least one reported alignment: 836576 (90.61%)
+# reads that failed to align: 82157 (8.90%)
+# reads with alignments suppressed due to -m: 4569 (0.49%)
+Reported 836576 alignments to 1 output stream(s)
+
+real	0m50.370s
+user	0m0.028s
+sys	0m0.087s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 923302
+# reads with at least one reported alignment: 836576 (90.61%)
+# reads that failed to align: 82157 (8.90%)
+# reads with alignments suppressed due to -m: 4569 (0.49%)
+Reported 836576 alignments to 1 output stream(s)
+
+real	0m51.708s
+user	0m0.029s
+sys	0m0.087s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 923302
+# reads with at least one reported alignment: 836576 (90.61%)
+# reads that failed to align: 82157 (8.90%)
+# reads with alignments suppressed due to -m: 4569 (0.49%)
+Reported 836576 alignments to 1 output stream(s)
+
+real	0m50.818s
+user	0m0.039s
+sys	0m0.082s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 923302
+# reads with at least one reported alignment: 836576 (90.61%)
+# reads that failed to align: 82157 (8.90%)
+# reads with alignments suppressed due to -m: 4569 (0.49%)
+Reported 836576 alignments to 1 output stream(s)
+
+real	0m52.239s
+user	0m0.040s
+sys	0m0.078s
+Num Processors: 2
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 461651
+# reads with at least one reported alignment: 417858 (90.51%)
+# reads that failed to align: 41494 (8.99%)
+# reads with alignments suppressed due to -m: 2299 (0.50%)
+Reported 417858 alignments to 1 output stream(s)
+# reads processed: 461651
+# reads with at least one reported alignment: 418718 (90.70%)
+# reads that failed to align: 40663 (8.81%)
+# reads with alignments suppressed due to -m: 2270 (0.49%)
+Reported 418718 alignments to 1 output stream(s)
+
+real	0m26.749s
+user	0m0.036s
+sys	0m0.082s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 461651
+# reads with at least one reported alignment: 417858 (90.51%)
+# reads that failed to align: 41494 (8.99%)
+# reads with alignments suppressed due to -m: 2299 (0.50%)
+Reported 417858 alignments to 1 output stream(s)
+# reads processed: 461651
+# reads with at least one reported alignment: 418718 (90.70%)
+# reads that failed to align: 40663 (8.81%)
+# reads with alignments suppressed due to -m: 2270 (0.49%)
+Reported 418718 alignments to 1 output stream(s)
+
+real	0m28.205s
+user	0m0.033s
+sys	0m0.083s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 461651
+# reads with at least one reported alignment: 418718 (90.70%)
+# reads that failed to align: 40663 (8.81%)
+# reads with alignments suppressed due to -m: 2270 (0.49%)
+Reported 418718 alignments to 1 output stream(s)
+# reads processed: 461651
+# reads with at least one reported alignment: 417858 (90.51%)
+# reads that failed to align: 41494 (8.99%)
+# reads with alignments suppressed due to -m: 2299 (0.50%)
+Reported 417858 alignments to 1 output stream(s)
+
+real	0m28.744s
+user	0m0.038s
+sys	0m0.086s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 461651
+# reads with at least one reported alignment: 417858 (90.51%)
+# reads that failed to align: 41494 (8.99%)
+# reads with alignments suppressed due to -m: 2299 (0.50%)
+Reported 417858 alignments to 1 output stream(s)
+# reads processed: 461651
+# reads with at least one reported alignment: 418718 (90.70%)
+# reads that failed to align: 40663 (8.81%)
+# reads with alignments suppressed due to -m: 2270 (0.49%)
+Reported 418718 alignments to 1 output stream(s)
+
+real	0m26.847s
+user	0m0.036s
+sys	0m0.084s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 461651
+# reads with at least one reported alignment: 418718 (90.70%)
+# reads that failed to align: 40663 (8.81%)
+# reads with alignments suppressed due to -m: 2270 (0.49%)
+Reported 418718 alignments to 1 output stream(s)
+# reads processed: 461651
+# reads with at least one reported alignment: 417858 (90.51%)
+# reads that failed to align: 41494 (8.99%)
+# reads with alignments suppressed due to -m: 2299 (0.50%)
+Reported 417858 alignments to 1 output stream(s)
+
+real	0m27.784s
+user	0m0.043s
+sys	0m0.072s
+Num Processors: 3
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 307767
+# reads with at least one reported alignment: 278636 (90.53%)
+# reads that failed to align: 27614 (8.97%)
+# reads with alignments suppressed due to -m: 1517 (0.49%)
+Reported 278636 alignments to 1 output stream(s)
+# reads processed: 307768
+# reads with at least one reported alignment: 279386 (90.78%)
+# reads that failed to align: 26884 (8.74%)
+# reads with alignments suppressed due to -m: 1498 (0.49%)
+Reported 279386 alignments to 1 output stream(s)
+# reads processed: 307767
+# reads with at least one reported alignment: 278554 (90.51%)
+# reads that failed to align: 27659 (8.99%)
+# reads with alignments suppressed due to -m: 1554 (0.50%)
+Reported 278554 alignments to 1 output stream(s)
+
+real	0m20.944s
+user	0m0.032s
+sys	0m0.081s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 307767
+# reads with at least one reported alignment: 278636 (90.53%)
+# reads that failed to align: 27614 (8.97%)
+# reads with alignments suppressed due to -m: 1517 (0.49%)
+Reported 278636 alignments to 1 output stream(s)
+# reads processed: 307768
+# reads with at least one reported alignment: 279386 (90.78%)
+# reads that failed to align: 26884 (8.74%)
+# reads with alignments suppressed due to -m: 1498 (0.49%)
+Reported 279386 alignments to 1 output stream(s)
+# reads processed: 307767
+# reads with at least one reported alignment: 278554 (90.51%)
+# reads that failed to align: 27659 (8.99%)
+# reads with alignments suppressed due to -m: 1554 (0.50%)
+Reported 278554 alignments to 1 output stream(s)
+
+real	0m18.972s
+user	0m0.035s
+sys	0m0.084s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 307768
+# reads with at least one reported alignment: 279386 (90.78%)
+# reads that failed to align: 26884 (8.74%)
+# reads with alignments suppressed due to -m: 1498 (0.49%)
+Reported 279386 alignments to 1 output stream(s)
+# reads processed: 307767
+# reads with at least one reported alignment: 278636 (90.53%)
+# reads that failed to align: 27614 (8.97%)
+# reads with alignments suppressed due to -m: 1517 (0.49%)
+Reported 278636 alignments to 1 output stream(s)
+# reads processed: 307767
+# reads with at least one reported alignment: 278554 (90.51%)
+# reads that failed to align: 27659 (8.99%)
+# reads with alignments suppressed due to -m: 1554 (0.50%)
+Reported 278554 alignments to 1 output stream(s)
+
+real	0m19.176s
+user	0m0.029s
+sys	0m0.091s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 307767
+# reads with at least one reported alignment: 278636 (90.53%)
+# reads that failed to align: 27614 (8.97%)
+# reads with alignments suppressed due to -m: 1517 (0.49%)
+Reported 278636 alignments to 1 output stream(s)
+# reads processed: 307767
+# reads with at least one reported alignment: 278554 (90.51%)
+# reads that failed to align: 27659 (8.99%)
+# reads with alignments suppressed due to -m: 1554 (0.50%)
+Reported 278554 alignments to 1 output stream(s)
+# reads processed: 307768
+# reads with at least one reported alignment: 279386 (90.78%)
+# reads that failed to align: 26884 (8.74%)
+# reads with alignments suppressed due to -m: 1498 (0.49%)
+Reported 279386 alignments to 1 output stream(s)
+
+real	0m21.474s
+user	0m0.035s
+sys	0m0.079s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 307767
+# reads with at least one reported alignment: 278636 (90.53%)
+# reads that failed to align: 27614 (8.97%)
+# reads with alignments suppressed due to -m: 1517 (0.49%)
+Reported 278636 alignments to 1 output stream(s)
+# reads processed: 307768
+# reads with at least one reported alignment: 279386 (90.78%)
+# reads that failed to align: 26884 (8.74%)
+# reads with alignments suppressed due to -m: 1498 (0.49%)
+Reported 279386 alignments to 1 output stream(s)
+# reads processed: 307767
+# reads with at least one reported alignment: 278554 (90.51%)
+# reads that failed to align: 27659 (8.99%)
+# reads with alignments suppressed due to -m: 1554 (0.50%)
+Reported 278554 alignments to 1 output stream(s)
+
+real	0m19.559s
+user	0m0.040s
+sys	0m0.078s
+Num Processors: 4
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 230825
+# reads with at least one reported alignment: 208844 (90.48%)
+# reads that failed to align: 20814 (9.02%)
+# reads with alignments suppressed due to -m: 1167 (0.51%)
+Reported 208844 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 209013 (90.55%)
+# reads that failed to align: 20680 (8.96%)
+# reads with alignments suppressed due to -m: 1132 (0.49%)
+Reported 209013 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 209235 (90.65%)
+# reads that failed to align: 20426 (8.85%)
+# reads with alignments suppressed due to -m: 1164 (0.50%)
+Reported 209235 alignments to 1 output stream(s)
+# reads processed: 230827
+# reads with at least one reported alignment: 209484 (90.75%)
+# reads that failed to align: 20237 (8.77%)
+# reads with alignments suppressed due to -m: 1106 (0.48%)
+Reported 209484 alignments to 1 output stream(s)
+
+real	0m15.347s
+user	0m0.034s
+sys	0m0.084s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 230827
+# reads with at least one reported alignment: 209484 (90.75%)
+# reads that failed to align: 20237 (8.77%)
+# reads with alignments suppressed due to -m: 1106 (0.48%)
+Reported 209484 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 209235 (90.65%)
+# reads that failed to align: 20426 (8.85%)
+# reads with alignments suppressed due to -m: 1164 (0.50%)
+Reported 209235 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 208844 (90.48%)
+# reads that failed to align: 20814 (9.02%)
+# reads with alignments suppressed due to -m: 1167 (0.51%)
+Reported 208844 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 209013 (90.55%)
+# reads that failed to align: 20680 (8.96%)
+# reads with alignments suppressed due to -m: 1132 (0.49%)
+Reported 209013 alignments to 1 output stream(s)
+
+real	0m15.462s
+user	0m0.036s
+sys	0m0.078s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 230827
+# reads with at least one reported alignment: 209484 (90.75%)
+# reads that failed to align: 20237 (8.77%)
+# reads with alignments suppressed due to -m: 1106 (0.48%)
+Reported 209484 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 209235 (90.65%)
+# reads that failed to align: 20426 (8.85%)
+# reads with alignments suppressed due to -m: 1164 (0.50%)
+Reported 209235 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 208844 (90.48%)
+# reads that failed to align: 20814 (9.02%)
+# reads with alignments suppressed due to -m: 1167 (0.51%)
+Reported 208844 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 209013 (90.55%)
+# reads that failed to align: 20680 (8.96%)
+# reads with alignments suppressed due to -m: 1132 (0.49%)
+Reported 209013 alignments to 1 output stream(s)
+
+real	0m16.033s
+user	0m0.039s
+sys	0m0.080s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 230825
+# reads with at least one reported alignment: 209235 (90.65%)
+# reads that failed to align: 20426 (8.85%)
+# reads with alignments suppressed due to -m: 1164 (0.50%)
+Reported 209235 alignments to 1 output stream(s)
+# reads processed: 230827
+# reads with at least one reported alignment: 209484 (90.75%)
+# reads that failed to align: 20237 (8.77%)
+# reads with alignments suppressed due to -m: 1106 (0.48%)
+Reported 209484 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 208844 (90.48%)
+# reads that failed to align: 20814 (9.02%)
+# reads with alignments suppressed due to -m: 1167 (0.51%)
+Reported 208844 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 209013 (90.55%)
+# reads that failed to align: 20680 (8.96%)
+# reads with alignments suppressed due to -m: 1132 (0.49%)
+Reported 209013 alignments to 1 output stream(s)
+
+real	0m17.859s
+user	0m0.039s
+sys	0m0.080s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 230825
+# reads with at least one reported alignment: 209235 (90.65%)
+# reads that failed to align: 20426 (8.85%)
+# reads with alignments suppressed due to -m: 1164 (0.50%)
+Reported 209235 alignments to 1 output stream(s)
+# reads processed: 230827
+# reads with at least one reported alignment: 209484 (90.75%)
+# reads that failed to align: 20237 (8.77%)
+# reads with alignments suppressed due to -m: 1106 (0.48%)
+Reported 209484 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 208844 (90.48%)
+# reads that failed to align: 20814 (9.02%)
+# reads with alignments suppressed due to -m: 1167 (0.51%)
+Reported 208844 alignments to 1 output stream(s)
+# reads processed: 230825
+# reads with at least one reported alignment: 209013 (90.55%)
+# reads that failed to align: 20680 (8.96%)
+# reads with alignments suppressed due to -m: 1132 (0.49%)
+Reported 209013 alignments to 1 output stream(s)
+
+real	0m15.423s
+user	0m0.038s
+sys	0m0.079s
+Num Processors: 5
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 184660
+# reads with at least one reported alignment: 167181 (90.53%)
+# reads that failed to align: 16552 (8.96%)
+# reads with alignments suppressed due to -m: 927 (0.50%)
+Reported 167181 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167152 (90.52%)
+# reads that failed to align: 16601 (8.99%)
+# reads with alignments suppressed due to -m: 907 (0.49%)
+Reported 167152 alignments to 1 output stream(s)
+# reads processed: 184662
+# reads with at least one reported alignment: 167615 (90.77%)
+# reads that failed to align: 16176 (8.76%)
+# reads with alignments suppressed due to -m: 871 (0.47%)
+Reported 167615 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167611 (90.77%)
+# reads that failed to align: 16128 (8.73%)
+# reads with alignments suppressed due to -m: 921 (0.50%)
+Reported 167611 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167017 (90.45%)
+# reads that failed to align: 16700 (9.04%)
+# reads with alignments suppressed due to -m: 943 (0.51%)
+Reported 167017 alignments to 1 output stream(s)
+
+real	0m13.235s
+user	0m0.031s
+sys	0m0.087s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 184662
+# reads with at least one reported alignment: 167615 (90.77%)
+# reads that failed to align: 16176 (8.76%)
+# reads with alignments suppressed due to -m: 871 (0.47%)
+Reported 167615 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167611 (90.77%)
+# reads that failed to align: 16128 (8.73%)
+# reads with alignments suppressed due to -m: 921 (0.50%)
+Reported 167611 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167181 (90.53%)
+# reads that failed to align: 16552 (8.96%)
+# reads with alignments suppressed due to -m: 927 (0.50%)
+Reported 167181 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167152 (90.52%)
+# reads that failed to align: 16601 (8.99%)
+# reads with alignments suppressed due to -m: 907 (0.49%)
+Reported 167152 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167017 (90.45%)
+# reads that failed to align: 16700 (9.04%)
+# reads with alignments suppressed due to -m: 943 (0.51%)
+Reported 167017 alignments to 1 output stream(s)
+
+real	0m13.116s
+user	0m0.037s
+sys	0m0.080s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 184660
+# reads with at least one reported alignment: 167152 (90.52%)
+# reads that failed to align: 16601 (8.99%)
+# reads with alignments suppressed due to -m: 907 (0.49%)
+Reported 167152 alignments to 1 output stream(s)
+# reads processed: 184662
+# reads with at least one reported alignment: 167615 (90.77%)
+# reads that failed to align: 16176 (8.76%)
+# reads with alignments suppressed due to -m: 871 (0.47%)
+Reported 167615 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167611 (90.77%)
+# reads that failed to align: 16128 (8.73%)
+# reads with alignments suppressed due to -m: 921 (0.50%)
+Reported 167611 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167181 (90.53%)
+# reads that failed to align: 16552 (8.96%)
+# reads with alignments suppressed due to -m: 927 (0.50%)
+Reported 167181 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167017 (90.45%)
+# reads that failed to align: 16700 (9.04%)
+# reads with alignments suppressed due to -m: 943 (0.51%)
+Reported 167017 alignments to 1 output stream(s)
+
+real	0m14.373s
+user	0m0.042s
+sys	0m0.077s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 184660
+# reads with at least one reported alignment: 167181 (90.53%)
+# reads that failed to align: 16552 (8.96%)
+# reads with alignments suppressed due to -m: 927 (0.50%)
+Reported 167181 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167152 (90.52%)
+# reads that failed to align: 16601 (8.99%)
+# reads with alignments suppressed due to -m: 907 (0.49%)
+Reported 167152 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167017 (90.45%)
+# reads that failed to align: 16700 (9.04%)
+# reads with alignments suppressed due to -m: 943 (0.51%)
+Reported 167017 alignments to 1 output stream(s)
+# reads processed: 184662
+# reads with at least one reported alignment: 167615 (90.77%)
+# reads that failed to align: 16176 (8.76%)
+# reads with alignments suppressed due to -m: 871 (0.47%)
+Reported 167615 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167611 (90.77%)
+# reads that failed to align: 16128 (8.73%)
+# reads with alignments suppressed due to -m: 921 (0.50%)
+Reported 167611 alignments to 1 output stream(s)
+
+real	0m15.806s
+user	0m0.034s
+sys	0m0.086s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 184660
+# reads with at least one reported alignment: 167181 (90.53%)
+# reads that failed to align: 16552 (8.96%)
+# reads with alignments suppressed due to -m: 927 (0.50%)
+Reported 167181 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167152 (90.52%)
+# reads that failed to align: 16601 (8.99%)
+# reads with alignments suppressed due to -m: 907 (0.49%)
+Reported 167152 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167017 (90.45%)
+# reads that failed to align: 16700 (9.04%)
+# reads with alignments suppressed due to -m: 943 (0.51%)
+Reported 167017 alignments to 1 output stream(s)
+# reads processed: 184662
+# reads with at least one reported alignment: 167615 (90.77%)
+# reads that failed to align: 16176 (8.76%)
+# reads with alignments suppressed due to -m: 871 (0.47%)
+Reported 167615 alignments to 1 output stream(s)
+# reads processed: 184660
+# reads with at least one reported alignment: 167611 (90.77%)
+# reads that failed to align: 16128 (8.73%)
+# reads with alignments suppressed due to -m: 921 (0.50%)
+Reported 167611 alignments to 1 output stream(s)
+
+real	0m16.717s
+user	0m0.034s
+sys	0m0.087s
+Num Processors: 6
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 153883
+# reads with at least one reported alignment: 139221 (90.47%)
+# reads that failed to align: 13880 (9.02%)
+# reads with alignments suppressed due to -m: 782 (0.51%)
+Reported 139221 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139333 (90.54%)
+# reads that failed to align: 13778 (8.95%)
+# reads with alignments suppressed due to -m: 772 (0.50%)
+Reported 139333 alignments to 1 output stream(s)
+# reads processed: 153887
+# reads with at least one reported alignment: 139650 (90.75%)
+# reads that failed to align: 13529 (8.79%)
+# reads with alignments suppressed due to -m: 708 (0.46%)
+Reported 139650 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139318 (90.54%)
+# reads that failed to align: 13816 (8.98%)
+# reads with alignments suppressed due to -m: 749 (0.49%)
+Reported 139318 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139737 (90.81%)
+# reads that failed to align: 13356 (8.68%)
+# reads with alignments suppressed due to -m: 790 (0.51%)
+Reported 139737 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139317 (90.53%)
+# reads that failed to align: 13798 (8.97%)
+# reads with alignments suppressed due to -m: 768 (0.50%)
+Reported 139317 alignments to 1 output stream(s)
+
+real	0m11.759s
+user	0m0.039s
+sys	0m0.083s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 153883
+# reads with at least one reported alignment: 139318 (90.54%)
+# reads that failed to align: 13816 (8.98%)
+# reads with alignments suppressed due to -m: 749 (0.49%)
+Reported 139318 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139221 (90.47%)
+# reads that failed to align: 13880 (9.02%)
+# reads with alignments suppressed due to -m: 782 (0.51%)
+Reported 139221 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139737 (90.81%)
+# reads that failed to align: 13356 (8.68%)
+# reads with alignments suppressed due to -m: 790 (0.51%)
+Reported 139737 alignments to 1 output stream(s)
+# reads processed: 153887
+# reads with at least one reported alignment: 139650 (90.75%)
+# reads that failed to align: 13529 (8.79%)
+# reads with alignments suppressed due to -m: 708 (0.46%)
+Reported 139650 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139333 (90.54%)
+# reads that failed to align: 13778 (8.95%)
+# reads with alignments suppressed due to -m: 772 (0.50%)
+Reported 139333 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139317 (90.53%)
+# reads that failed to align: 13798 (8.97%)
+# reads with alignments suppressed due to -m: 768 (0.50%)
+Reported 139317 alignments to 1 output stream(s)
+
+real	0m11.697s
+user	0m0.038s
+sys	0m0.081s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 153883
+# reads with at least one reported alignment: 139221 (90.47%)
+# reads that failed to align: 13880 (9.02%)
+# reads with alignments suppressed due to -m: 782 (0.51%)
+Reported 139221 alignments to 1 output stream(s)
+# reads processed: 153887
+# reads with at least one reported alignment: 139650 (90.75%)
+# reads that failed to align: 13529 (8.79%)
+# reads with alignments suppressed due to -m: 708 (0.46%)
+Reported 139650 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139333 (90.54%)
+# reads that failed to align: 13778 (8.95%)
+# reads with alignments suppressed due to -m: 772 (0.50%)
+Reported 139333 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139318 (90.54%)
+# reads that failed to align: 13816 (8.98%)
+# reads with alignments suppressed due to -m: 749 (0.49%)
+Reported 139318 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139737 (90.81%)
+# reads that failed to align: 13356 (8.68%)
+# reads with alignments suppressed due to -m: 790 (0.51%)
+Reported 139737 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139317 (90.53%)
+# reads that failed to align: 13798 (8.97%)
+# reads with alignments suppressed due to -m: 768 (0.50%)
+Reported 139317 alignments to 1 output stream(s)
+
+real	0m11.711s
+user	0m0.032s
+sys	0m0.089s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 153883
+# reads with at least one reported alignment: 139333 (90.54%)
+# reads that failed to align: 13778 (8.95%)
+# reads with alignments suppressed due to -m: 772 (0.50%)
+Reported 139333 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139221 (90.47%)
+# reads that failed to align: 13880 (9.02%)
+# reads with alignments suppressed due to -m: 782 (0.51%)
+Reported 139221 alignments to 1 output stream(s)
+# reads processed: 153887
+# reads with at least one reported alignment: 139650 (90.75%)
+# reads that failed to align: 13529 (8.79%)
+# reads with alignments suppressed due to -m: 708 (0.46%)
+Reported 139650 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139318 (90.54%)
+# reads that failed to align: 13816 (8.98%)
+# reads with alignments suppressed due to -m: 749 (0.49%)
+Reported 139318 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139317 (90.53%)
+# reads that failed to align: 13798 (8.97%)
+# reads with alignments suppressed due to -m: 768 (0.50%)
+Reported 139317 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139737 (90.81%)
+# reads that failed to align: 13356 (8.68%)
+# reads with alignments suppressed due to -m: 790 (0.51%)
+Reported 139737 alignments to 1 output stream(s)
+
+real	0m13.987s
+user	0m0.038s
+sys	0m0.086s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 153883
+# reads with at least one reported alignment: 139318 (90.54%)
+# reads that failed to align: 13816 (8.98%)
+# reads with alignments suppressed due to -m: 749 (0.49%)
+Reported 139318 alignments to 1 output stream(s)
+# reads processed: 153887
+# reads with at least one reported alignment: 139650 (90.75%)
+# reads that failed to align: 13529 (8.79%)
+# reads with alignments suppressed due to -m: 708 (0.46%)
+Reported 139650 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139221 (90.47%)
+# reads that failed to align: 13880 (9.02%)
+# reads with alignments suppressed due to -m: 782 (0.51%)
+Reported 139221 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139317 (90.53%)
+# reads that failed to align: 13798 (8.97%)
+# reads with alignments suppressed due to -m: 768 (0.50%)
+Reported 139317 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139737 (90.81%)
+# reads that failed to align: 13356 (8.68%)
+# reads with alignments suppressed due to -m: 790 (0.51%)
+Reported 139737 alignments to 1 output stream(s)
+# reads processed: 153883
+# reads with at least one reported alignment: 139333 (90.54%)
+# reads that failed to align: 13778 (8.95%)
+# reads with alignments suppressed due to -m: 772 (0.50%)
+Reported 139333 alignments to 1 output stream(s)
+
+real	0m12.475s
+user	0m0.032s
+sys	0m0.086s
+Num Processors: 7
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 131900
+# reads with at least one reported alignment: 119654 (90.72%)
+# reads that failed to align: 11579 (8.78%)
+# reads with alignments suppressed due to -m: 667 (0.51%)
+Reported 119654 alignments to 1 output stream(s)
+# reads processed: 131902
+# reads with at least one reported alignment: 119737 (90.78%)
+# reads that failed to align: 11561 (8.76%)
+# reads with alignments suppressed due to -m: 604 (0.46%)
+Reported 119737 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119710 (90.76%)
+# reads that failed to align: 11523 (8.74%)
+# reads with alignments suppressed due to -m: 667 (0.51%)
+Reported 119710 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119236 (90.40%)
+# reads that failed to align: 11978 (9.08%)
+# reads with alignments suppressed due to -m: 686 (0.52%)
+Reported 119236 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119367 (90.50%)
+# reads that failed to align: 11895 (9.02%)
+# reads with alignments suppressed due to -m: 638 (0.48%)
+Reported 119367 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119381 (90.51%)
+# reads that failed to align: 11882 (9.01%)
+# reads with alignments suppressed due to -m: 637 (0.48%)
+Reported 119381 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119491 (90.59%)
+# reads that failed to align: 11739 (8.90%)
+# reads with alignments suppressed due to -m: 670 (0.51%)
+Reported 119491 alignments to 1 output stream(s)
+
+real	0m12.038s
+user	0m0.036s
+sys	0m0.083s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 131902
+# reads with at least one reported alignment: 119737 (90.78%)
+# reads that failed to align: 11561 (8.76%)
+# reads with alignments suppressed due to -m: 604 (0.46%)
+Reported 119737 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119654 (90.72%)
+# reads that failed to align: 11579 (8.78%)
+# reads with alignments suppressed due to -m: 667 (0.51%)
+Reported 119654 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119710 (90.76%)
+# reads that failed to align: 11523 (8.74%)
+# reads with alignments suppressed due to -m: 667 (0.51%)
+Reported 119710 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119367 (90.50%)
+# reads that failed to align: 11895 (9.02%)
+# reads with alignments suppressed due to -m: 638 (0.48%)
+Reported 119367 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119236 (90.40%)
+# reads that failed to align: 11978 (9.08%)
+# reads with alignments suppressed due to -m: 686 (0.52%)
+Reported 119236 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119381 (90.51%)
+# reads that failed to align: 11882 (9.01%)
+# reads with alignments suppressed due to -m: 637 (0.48%)
+Reported 119381 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119491 (90.59%)
+# reads that failed to align: 11739 (8.90%)
+# reads with alignments suppressed due to -m: 670 (0.51%)
+Reported 119491 alignments to 1 output stream(s)
+
+real	0m19.875s
+user	0m0.032s
+sys	0m0.086s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 131900
+# reads with at least one reported alignment: 119654 (90.72%)
+# reads that failed to align: 11579 (8.78%)
+# reads with alignments suppressed due to -m: 667 (0.51%)
+Reported 119654 alignments to 1 output stream(s)
+# reads processed: 131902
+# reads with at least one reported alignment: 119737 (90.78%)
+# reads that failed to align: 11561 (8.76%)
+# reads with alignments suppressed due to -m: 604 (0.46%)
+Reported 119737 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119367 (90.50%)
+# reads that failed to align: 11895 (9.02%)
+# reads with alignments suppressed due to -m: 638 (0.48%)
+Reported 119367 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119710 (90.76%)
+# reads that failed to align: 11523 (8.74%)
+# reads with alignments suppressed due to -m: 667 (0.51%)
+Reported 119710 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119381 (90.51%)
+# reads that failed to align: 11882 (9.01%)
+# reads with alignments suppressed due to -m: 637 (0.48%)
+Reported 119381 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119236 (90.40%)
+# reads that failed to align: 11978 (9.08%)
+# reads with alignments suppressed due to -m: 686 (0.52%)
+Reported 119236 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119491 (90.59%)
+# reads that failed to align: 11739 (8.90%)
+# reads with alignments suppressed due to -m: 670 (0.51%)
+Reported 119491 alignments to 1 output stream(s)
+
+real	0m11.929s
+user	0m0.040s
+sys	0m0.079s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 131900
+# reads with at least one reported alignment: 119710 (90.76%)
+# reads that failed to align: 11523 (8.74%)
+# reads with alignments suppressed due to -m: 667 (0.51%)
+Reported 119710 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119654 (90.72%)
+# reads that failed to align: 11579 (8.78%)
+# reads with alignments suppressed due to -m: 667 (0.51%)
+Reported 119654 alignments to 1 output stream(s)
+# reads processed: 131902
+# reads with at least one reported alignment: 119737 (90.78%)
+# reads that failed to align: 11561 (8.76%)
+# reads with alignments suppressed due to -m: 604 (0.46%)
+Reported 119737 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119236 (90.40%)
+# reads that failed to align: 11978 (9.08%)
+# reads with alignments suppressed due to -m: 686 (0.52%)
+Reported 119236 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119367 (90.50%)
+# reads that failed to align: 11895 (9.02%)
+# reads with alignments suppressed due to -m: 638 (0.48%)
+Reported 119367 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119381 (90.51%)
+# reads that failed to align: 11882 (9.01%)
+# reads with alignments suppressed due to -m: 637 (0.48%)
+Reported 119381 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119491 (90.59%)
+# reads that failed to align: 11739 (8.90%)
+# reads with alignments suppressed due to -m: 670 (0.51%)
+Reported 119491 alignments to 1 output stream(s)
+
+real	0m10.889s
+user	0m0.039s
+sys	0m0.079s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 131900
+# reads with at least one reported alignment: 119710 (90.76%)
+# reads that failed to align: 11523 (8.74%)
+# reads with alignments suppressed due to -m: 667 (0.51%)
+Reported 119710 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119654 (90.72%)
+# reads that failed to align: 11579 (8.78%)
+# reads with alignments suppressed due to -m: 667 (0.51%)
+Reported 119654 alignments to 1 output stream(s)
+# reads processed: 131902
+# reads with at least one reported alignment: 119737 (90.78%)
+# reads that failed to align: 11561 (8.76%)
+# reads with alignments suppressed due to -m: 604 (0.46%)
+Reported 119737 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119236 (90.40%)
+# reads that failed to align: 11978 (9.08%)
+# reads with alignments suppressed due to -m: 686 (0.52%)
+Reported 119236 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119381 (90.51%)
+# reads that failed to align: 11882 (9.01%)
+# reads with alignments suppressed due to -m: 637 (0.48%)
+Reported 119381 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119367 (90.50%)
+# reads that failed to align: 11895 (9.02%)
+# reads with alignments suppressed due to -m: 638 (0.48%)
+Reported 119367 alignments to 1 output stream(s)
+# reads processed: 131900
+# reads with at least one reported alignment: 119491 (90.59%)
+# reads that failed to align: 11739 (8.90%)
+# reads with alignments suppressed due to -m: 670 (0.51%)
+Reported 119491 alignments to 1 output stream(s)
+
+real	0m13.269s
+user	0m0.035s
+sys	0m0.082s
+Num Processors: 8
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 115418
+# reads with at least one reported alignment: 104727 (90.74%)
+# reads that failed to align: 10166 (8.81%)
+# reads with alignments suppressed due to -m: 525 (0.45%)
+Reported 104727 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104760 (90.77%)
+# reads that failed to align: 10071 (8.73%)
+# reads with alignments suppressed due to -m: 581 (0.50%)
+Reported 104760 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104821 (90.82%)
+# reads that failed to align: 10023 (8.68%)
+# reads with alignments suppressed due to -m: 568 (0.49%)
+Reported 104821 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104413 (90.47%)
+# reads that failed to align: 10403 (9.01%)
+# reads with alignments suppressed due to -m: 596 (0.52%)
+Reported 104413 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104446 (90.50%)
+# reads that failed to align: 10376 (8.99%)
+# reads with alignments suppressed due to -m: 590 (0.51%)
+Reported 104446 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104443 (90.50%)
+# reads that failed to align: 10425 (9.03%)
+# reads with alignments suppressed due to -m: 544 (0.47%)
+Reported 104443 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104397 (90.46%)
+# reads that failed to align: 10438 (9.04%)
+# reads with alignments suppressed due to -m: 577 (0.50%)
+Reported 104397 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104569 (90.60%)
+# reads that failed to align: 10255 (8.89%)
+# reads with alignments suppressed due to -m: 588 (0.51%)
+Reported 104569 alignments to 1 output stream(s)
+
+real	0m12.114s
+user	0m0.035s
+sys	0m0.083s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 115412
+# reads with at least one reported alignment: 104821 (90.82%)
+# reads that failed to align: 10023 (8.68%)
+# reads with alignments suppressed due to -m: 568 (0.49%)
+Reported 104821 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104413 (90.47%)
+# reads that failed to align: 10403 (9.01%)
+# reads with alignments suppressed due to -m: 596 (0.52%)
+Reported 104413 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104760 (90.77%)
+# reads that failed to align: 10071 (8.73%)
+# reads with alignments suppressed due to -m: 581 (0.50%)
+Reported 104760 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104397 (90.46%)
+# reads that failed to align: 10438 (9.04%)
+# reads with alignments suppressed due to -m: 577 (0.50%)
+Reported 104397 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104446 (90.50%)
+# reads that failed to align: 10376 (8.99%)
+# reads with alignments suppressed due to -m: 590 (0.51%)
+Reported 104446 alignments to 1 output stream(s)
+# reads processed: 115418
+# reads with at least one reported alignment: 104727 (90.74%)
+# reads that failed to align: 10166 (8.81%)
+# reads with alignments suppressed due to -m: 525 (0.45%)
+Reported 104727 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104443 (90.50%)
+# reads that failed to align: 10425 (9.03%)
+# reads with alignments suppressed due to -m: 544 (0.47%)
+Reported 104443 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104569 (90.60%)
+# reads that failed to align: 10255 (8.89%)
+# reads with alignments suppressed due to -m: 588 (0.51%)
+Reported 104569 alignments to 1 output stream(s)
+
+real	0m13.142s
+user	0m0.030s
+sys	0m0.088s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 115412
+# reads with at least one reported alignment: 104413 (90.47%)
+# reads that failed to align: 10403 (9.01%)
+# reads with alignments suppressed due to -m: 596 (0.52%)
+Reported 104413 alignments to 1 output stream(s)
+# reads processed: 115418
+# reads with at least one reported alignment: 104727 (90.74%)
+# reads that failed to align: 10166 (8.81%)
+# reads with alignments suppressed due to -m: 525 (0.45%)
+Reported 104727 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104760 (90.77%)
+# reads that failed to align: 10071 (8.73%)
+# reads with alignments suppressed due to -m: 581 (0.50%)
+Reported 104760 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104821 (90.82%)
+# reads that failed to align: 10023 (8.68%)
+# reads with alignments suppressed due to -m: 568 (0.49%)
+Reported 104821 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104397 (90.46%)
+# reads that failed to align: 10438 (9.04%)
+# reads with alignments suppressed due to -m: 577 (0.50%)
+Reported 104397 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104443 (90.50%)
+# reads that failed to align: 10425 (9.03%)
+# reads with alignments suppressed due to -m: 544 (0.47%)
+Reported 104443 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104446 (90.50%)
+# reads that failed to align: 10376 (8.99%)
+# reads with alignments suppressed due to -m: 590 (0.51%)
+Reported 104446 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104569 (90.60%)
+# reads that failed to align: 10255 (8.89%)
+# reads with alignments suppressed due to -m: 588 (0.51%)
+Reported 104569 alignments to 1 output stream(s)
+
+real	0m10.002s
+user	0m0.029s
+sys	0m0.090s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 115412
+# reads with at least one reported alignment: 104413 (90.47%)
+# reads that failed to align: 10403 (9.01%)
+# reads with alignments suppressed due to -m: 596 (0.52%)
+Reported 104413 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104821 (90.82%)
+# reads that failed to align: 10023 (8.68%)
+# reads with alignments suppressed due to -m: 568 (0.49%)
+Reported 104821 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104760 (90.77%)
+# reads that failed to align: 10071 (8.73%)
+# reads with alignments suppressed due to -m: 581 (0.50%)
+Reported 104760 alignments to 1 output stream(s)
+# reads processed: 115418
+# reads with at least one reported alignment: 104727 (90.74%)
+# reads that failed to align: 10166 (8.81%)
+# reads with alignments suppressed due to -m: 525 (0.45%)
+Reported 104727 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104397 (90.46%)
+# reads that failed to align: 10438 (9.04%)
+# reads with alignments suppressed due to -m: 577 (0.50%)
+Reported 104397 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104446 (90.50%)
+# reads that failed to align: 10376 (8.99%)
+# reads with alignments suppressed due to -m: 590 (0.51%)
+Reported 104446 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104443 (90.50%)
+# reads that failed to align: 10425 (9.03%)
+# reads with alignments suppressed due to -m: 544 (0.47%)
+Reported 104443 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104569 (90.60%)
+# reads that failed to align: 10255 (8.89%)
+# reads with alignments suppressed due to -m: 588 (0.51%)
+Reported 104569 alignments to 1 output stream(s)
+
+real	0m9.998s
+user	0m0.038s
+sys	0m0.080s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 115412
+# reads with at least one reported alignment: 104413 (90.47%)
+# reads that failed to align: 10403 (9.01%)
+# reads with alignments suppressed due to -m: 596 (0.52%)
+Reported 104413 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104397 (90.46%)
+# reads that failed to align: 10438 (9.04%)
+# reads with alignments suppressed due to -m: 577 (0.50%)
+Reported 104397 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104443 (90.50%)
+# reads that failed to align: 10425 (9.03%)
+# reads with alignments suppressed due to -m: 544 (0.47%)
+Reported 104443 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104821 (90.82%)
+# reads that failed to align: 10023 (8.68%)
+# reads with alignments suppressed due to -m: 568 (0.49%)
+Reported 104821 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104760 (90.77%)
+# reads that failed to align: 10071 (8.73%)
+# reads with alignments suppressed due to -m: 581 (0.50%)
+Reported 104760 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104446 (90.50%)
+# reads that failed to align: 10376 (8.99%)
+# reads with alignments suppressed due to -m: 590 (0.51%)
+Reported 104446 alignments to 1 output stream(s)
+# reads processed: 115418
+# reads with at least one reported alignment: 104727 (90.74%)
+# reads that failed to align: 10166 (8.81%)
+# reads with alignments suppressed due to -m: 525 (0.45%)
+Reported 104727 alignments to 1 output stream(s)
+# reads processed: 115412
+# reads with at least one reported alignment: 104569 (90.60%)
+# reads that failed to align: 10255 (8.89%)
+# reads with alignments suppressed due to -m: 588 (0.51%)
+Reported 104569 alignments to 1 output stream(s)
+
+real	0m10.069s
+user	0m0.035s
+sys	0m0.080s
+Num Processors: 9
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 102589
+# reads with at least one reported alignment: 93185 (90.83%)
+# reads that failed to align: 8888 (8.66%)
+# reads with alignments suppressed due to -m: 516 (0.50%)
+Reported 93185 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 93070 (90.72%)
+# reads that failed to align: 9000 (8.77%)
+# reads with alignments suppressed due to -m: 519 (0.51%)
+Reported 93070 alignments to 1 output stream(s)
+# reads processed: 102590
+# reads with at least one reported alignment: 93131 (90.78%)
+# reads that failed to align: 8996 (8.77%)
+# reads with alignments suppressed due to -m: 463 (0.45%)
+Reported 93131 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92982 (90.64%)
+# reads that failed to align: 9100 (8.87%)
+# reads with alignments suppressed due to -m: 507 (0.49%)
+Reported 92982 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92726 (90.39%)
+# reads that failed to align: 9318 (9.08%)
+# reads with alignments suppressed due to -m: 545 (0.53%)
+Reported 92726 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92846 (90.50%)
+# reads that failed to align: 9241 (9.01%)
+# reads with alignments suppressed due to -m: 502 (0.49%)
+Reported 92846 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92813 (90.47%)
+# reads that failed to align: 9283 (9.05%)
+# reads with alignments suppressed due to -m: 493 (0.48%)
+Reported 92813 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92900 (90.56%)
+# reads that failed to align: 9180 (8.95%)
+# reads with alignments suppressed due to -m: 509 (0.50%)
+Reported 92900 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92923 (90.58%)
+# reads that failed to align: 9151 (8.92%)
+# reads with alignments suppressed due to -m: 515 (0.50%)
+Reported 92923 alignments to 1 output stream(s)
+
+real	0m9.453s
+user	0m0.037s
+sys	0m0.080s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 102589
+# reads with at least one reported alignment: 93185 (90.83%)
+# reads that failed to align: 8888 (8.66%)
+# reads with alignments suppressed due to -m: 516 (0.50%)
+Reported 93185 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 93070 (90.72%)
+# reads that failed to align: 9000 (8.77%)
+# reads with alignments suppressed due to -m: 519 (0.51%)
+Reported 93070 alignments to 1 output stream(s)
+# reads processed: 102590
+# reads with at least one reported alignment: 93131 (90.78%)
+# reads that failed to align: 8996 (8.77%)
+# reads with alignments suppressed due to -m: 463 (0.45%)
+Reported 93131 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92982 (90.64%)
+# reads that failed to align: 9100 (8.87%)
+# reads with alignments suppressed due to -m: 507 (0.49%)
+Reported 92982 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92726 (90.39%)
+# reads that failed to align: 9318 (9.08%)
+# reads with alignments suppressed due to -m: 545 (0.53%)
+Reported 92726 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92813 (90.47%)
+# reads that failed to align: 9283 (9.05%)
+# reads with alignments suppressed due to -m: 493 (0.48%)
+Reported 92813 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92900 (90.56%)
+# reads that failed to align: 9180 (8.95%)
+# reads with alignments suppressed due to -m: 509 (0.50%)
+Reported 92900 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92846 (90.50%)
+# reads that failed to align: 9241 (9.01%)
+# reads with alignments suppressed due to -m: 502 (0.49%)
+Reported 92846 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92923 (90.58%)
+# reads that failed to align: 9151 (8.92%)
+# reads with alignments suppressed due to -m: 515 (0.50%)
+Reported 92923 alignments to 1 output stream(s)
+
+real	0m9.456s
+user	0m0.036s
+sys	0m0.083s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 102589
+# reads with at least one reported alignment: 92982 (90.64%)
+# reads that failed to align: 9100 (8.87%)
+# reads with alignments suppressed due to -m: 507 (0.49%)
+Reported 92982 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 93070 (90.72%)
+# reads that failed to align: 9000 (8.77%)
+# reads with alignments suppressed due to -m: 519 (0.51%)
+Reported 93070 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 93185 (90.83%)
+# reads that failed to align: 8888 (8.66%)
+# reads with alignments suppressed due to -m: 516 (0.50%)
+Reported 93185 alignments to 1 output stream(s)
+# reads processed: 102590
+# reads with at least one reported alignment: 93131 (90.78%)
+# reads that failed to align: 8996 (8.77%)
+# reads with alignments suppressed due to -m: 463 (0.45%)
+Reported 93131 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92900 (90.56%)
+# reads that failed to align: 9180 (8.95%)
+# reads with alignments suppressed due to -m: 509 (0.50%)
+Reported 92900 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92846 (90.50%)
+# reads that failed to align: 9241 (9.01%)
+# reads with alignments suppressed due to -m: 502 (0.49%)
+Reported 92846 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92813 (90.47%)
+# reads that failed to align: 9283 (9.05%)
+# reads with alignments suppressed due to -m: 493 (0.48%)
+Reported 92813 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92726 (90.39%)
+# reads that failed to align: 9318 (9.08%)
+# reads with alignments suppressed due to -m: 545 (0.53%)
+Reported 92726 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92923 (90.58%)
+# reads that failed to align: 9151 (8.92%)
+# reads with alignments suppressed due to -m: 515 (0.50%)
+Reported 92923 alignments to 1 output stream(s)
+
+real	0m9.802s
+user	0m0.035s
+sys	0m0.083s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 102590
+# reads with at least one reported alignment: 93131 (90.78%)
+# reads that failed to align: 8996 (8.77%)
+# reads with alignments suppressed due to -m: 463 (0.45%)
+Reported 93131 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 93185 (90.83%)
+# reads that failed to align: 8888 (8.66%)
+# reads with alignments suppressed due to -m: 516 (0.50%)
+Reported 93185 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 93070 (90.72%)
+# reads that failed to align: 9000 (8.77%)
+# reads with alignments suppressed due to -m: 519 (0.51%)
+Reported 93070 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92846 (90.50%)
+# reads that failed to align: 9241 (9.01%)
+# reads with alignments suppressed due to -m: 502 (0.49%)
+Reported 92846 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92726 (90.39%)
+# reads that failed to align: 9318 (9.08%)
+# reads with alignments suppressed due to -m: 545 (0.53%)
+Reported 92726 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92900 (90.56%)
+# reads that failed to align: 9180 (8.95%)
+# reads with alignments suppressed due to -m: 509 (0.50%)
+Reported 92900 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92813 (90.47%)
+# reads that failed to align: 9283 (9.05%)
+# reads with alignments suppressed due to -m: 493 (0.48%)
+Reported 92813 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92923 (90.58%)
+# reads that failed to align: 9151 (8.92%)
+# reads with alignments suppressed due to -m: 515 (0.50%)
+Reported 92923 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92982 (90.64%)
+# reads that failed to align: 9100 (8.87%)
+# reads with alignments suppressed due to -m: 507 (0.49%)
+Reported 92982 alignments to 1 output stream(s)
+
+real	0m10.595s
+user	0m0.037s
+sys	0m0.082s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 102589
+# reads with at least one reported alignment: 92982 (90.64%)
+# reads that failed to align: 9100 (8.87%)
+# reads with alignments suppressed due to -m: 507 (0.49%)
+Reported 92982 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 93070 (90.72%)
+# reads that failed to align: 9000 (8.77%)
+# reads with alignments suppressed due to -m: 519 (0.51%)
+Reported 93070 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 93185 (90.83%)
+# reads that failed to align: 8888 (8.66%)
+# reads with alignments suppressed due to -m: 516 (0.50%)
+Reported 93185 alignments to 1 output stream(s)
+# reads processed: 102590
+# reads with at least one reported alignment: 93131 (90.78%)
+# reads that failed to align: 8996 (8.77%)
+# reads with alignments suppressed due to -m: 463 (0.45%)
+Reported 93131 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92900 (90.56%)
+# reads that failed to align: 9180 (8.95%)
+# reads with alignments suppressed due to -m: 509 (0.50%)
+Reported 92900 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92846 (90.50%)
+# reads that failed to align: 9241 (9.01%)
+# reads with alignments suppressed due to -m: 502 (0.49%)
+Reported 92846 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92813 (90.47%)
+# reads that failed to align: 9283 (9.05%)
+# reads with alignments suppressed due to -m: 493 (0.48%)
+Reported 92813 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92726 (90.39%)
+# reads that failed to align: 9318 (9.08%)
+# reads with alignments suppressed due to -m: 545 (0.53%)
+Reported 92726 alignments to 1 output stream(s)
+# reads processed: 102589
+# reads with at least one reported alignment: 92923 (90.58%)
+# reads that failed to align: 9151 (8.92%)
+# reads with alignments suppressed due to -m: 515 (0.50%)
+Reported 92923 alignments to 1 output stream(s)
+
+real	0m10.409s
+user	0m0.036s
+sys	0m0.080s
+Num Processors: 10
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 92330
+# reads with at least one reported alignment: 83495 (90.43%)
+# reads that failed to align: 8358 (9.05%)
+# reads with alignments suppressed due to -m: 477 (0.52%)
+Reported 83495 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83796 (90.76%)
+# reads that failed to align: 8063 (8.73%)
+# reads with alignments suppressed due to -m: 471 (0.51%)
+Reported 83796 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83524 (90.46%)
+# reads that failed to align: 8341 (9.03%)
+# reads with alignments suppressed due to -m: 465 (0.50%)
+Reported 83524 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83686 (90.64%)
+# reads that failed to align: 8194 (8.87%)
+# reads with alignments suppressed due to -m: 450 (0.49%)
+Reported 83686 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83540 (90.48%)
+# reads that failed to align: 8336 (9.03%)
+# reads with alignments suppressed due to -m: 454 (0.49%)
+Reported 83540 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83768 (90.73%)
+# reads that failed to align: 8110 (8.78%)
+# reads with alignments suppressed due to -m: 452 (0.49%)
+Reported 83768 alignments to 1 output stream(s)
+# reads processed: 92332
+# reads with at least one reported alignment: 83847 (90.81%)
+# reads that failed to align: 8066 (8.74%)
+# reads with alignments suppressed due to -m: 419 (0.45%)
+Reported 83847 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83493 (90.43%)
+# reads that failed to align: 8359 (9.05%)
+# reads with alignments suppressed due to -m: 478 (0.52%)
+Reported 83493 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83815 (90.78%)
+# reads that failed to align: 8065 (8.73%)
+# reads with alignments suppressed due to -m: 450 (0.49%)
+Reported 83815 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83612 (90.56%)
+# reads that failed to align: 8265 (8.95%)
+# reads with alignments suppressed due to -m: 453 (0.49%)
+Reported 83612 alignments to 1 output stream(s)
+
+real	0m9.832s
+user	0m0.037s
+sys	0m0.086s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 92330
+# reads with at least one reported alignment: 83495 (90.43%)
+# reads that failed to align: 8358 (9.05%)
+# reads with alignments suppressed due to -m: 477 (0.52%)
+Reported 83495 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83540 (90.48%)
+# reads that failed to align: 8336 (9.03%)
+# reads with alignments suppressed due to -m: 454 (0.49%)
+Reported 83540 alignments to 1 output stream(s)
+# reads processed: 92332
+# reads with at least one reported alignment: 83847 (90.81%)
+# reads that failed to align: 8066 (8.74%)
+# reads with alignments suppressed due to -m: 419 (0.45%)
+Reported 83847 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83524 (90.46%)
+# reads that failed to align: 8341 (9.03%)
+# reads with alignments suppressed due to -m: 465 (0.50%)
+Reported 83524 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83686 (90.64%)
+# reads that failed to align: 8194 (8.87%)
+# reads with alignments suppressed due to -m: 450 (0.49%)
+Reported 83686 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83493 (90.43%)
+# reads that failed to align: 8359 (9.05%)
+# reads with alignments suppressed due to -m: 478 (0.52%)
+Reported 83493 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83796 (90.76%)
+# reads that failed to align: 8063 (8.73%)
+# reads with alignments suppressed due to -m: 471 (0.51%)
+Reported 83796 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83815 (90.78%)
+# reads that failed to align: 8065 (8.73%)
+# reads with alignments suppressed due to -m: 450 (0.49%)
+Reported 83815 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83768 (90.73%)
+# reads that failed to align: 8110 (8.78%)
+# reads with alignments suppressed due to -m: 452 (0.49%)
+Reported 83768 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83612 (90.56%)
+# reads that failed to align: 8265 (8.95%)
+# reads with alignments suppressed due to -m: 453 (0.49%)
+Reported 83612 alignments to 1 output stream(s)
+
+real	0m8.897s
+user	0m0.033s
+sys	0m0.080s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 92330
+# reads with at least one reported alignment: 83495 (90.43%)
+# reads that failed to align: 8358 (9.05%)
+# reads with alignments suppressed due to -m: 477 (0.52%)
+Reported 83495 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83524 (90.46%)
+# reads that failed to align: 8341 (9.03%)
+# reads with alignments suppressed due to -m: 465 (0.50%)
+Reported 83524 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83540 (90.48%)
+# reads that failed to align: 8336 (9.03%)
+# reads with alignments suppressed due to -m: 454 (0.49%)
+Reported 83540 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83815 (90.78%)
+# reads that failed to align: 8065 (8.73%)
+# reads with alignments suppressed due to -m: 450 (0.49%)
+Reported 83815 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83796 (90.76%)
+# reads that failed to align: 8063 (8.73%)
+# reads with alignments suppressed due to -m: 471 (0.51%)
+Reported 83796 alignments to 1 output stream(s)
+# reads processed: 92332
+# reads with at least one reported alignment: 83847 (90.81%)
+# reads that failed to align: 8066 (8.74%)
+# reads with alignments suppressed due to -m: 419 (0.45%)
+Reported 83847 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83686 (90.64%)
+# reads that failed to align: 8194 (8.87%)
+# reads with alignments suppressed due to -m: 450 (0.49%)
+Reported 83686 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83768 (90.73%)
+# reads that failed to align: 8110 (8.78%)
+# reads with alignments suppressed due to -m: 452 (0.49%)
+Reported 83768 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83612 (90.56%)
+# reads that failed to align: 8265 (8.95%)
+# reads with alignments suppressed due to -m: 453 (0.49%)
+Reported 83612 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83493 (90.43%)
+# reads that failed to align: 8359 (9.05%)
+# reads with alignments suppressed due to -m: 478 (0.52%)
+Reported 83493 alignments to 1 output stream(s)
+
+real	0m8.840s
+user	0m0.037s
+sys	0m0.084s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 92330
+# reads with at least one reported alignment: 83540 (90.48%)
+# reads that failed to align: 8336 (9.03%)
+# reads with alignments suppressed due to -m: 454 (0.49%)
+Reported 83540 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83524 (90.46%)
+# reads that failed to align: 8341 (9.03%)
+# reads with alignments suppressed due to -m: 465 (0.50%)
+Reported 83524 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83686 (90.64%)
+# reads that failed to align: 8194 (8.87%)
+# reads with alignments suppressed due to -m: 450 (0.49%)
+Reported 83686 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83495 (90.43%)
+# reads that failed to align: 8358 (9.05%)
+# reads with alignments suppressed due to -m: 477 (0.52%)
+Reported 83495 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83768 (90.73%)
+# reads that failed to align: 8110 (8.78%)
+# reads with alignments suppressed due to -m: 452 (0.49%)
+Reported 83768 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83815 (90.78%)
+# reads that failed to align: 8065 (8.73%)
+# reads with alignments suppressed due to -m: 450 (0.49%)
+Reported 83815 alignments to 1 output stream(s)
+# reads processed: 92332
+# reads with at least one reported alignment: 83847 (90.81%)
+# reads that failed to align: 8066 (8.74%)
+# reads with alignments suppressed due to -m: 419 (0.45%)
+Reported 83847 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83796 (90.76%)
+# reads that failed to align: 8063 (8.73%)
+# reads with alignments suppressed due to -m: 471 (0.51%)
+Reported 83796 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83493 (90.43%)
+# reads that failed to align: 8359 (9.05%)
+# reads with alignments suppressed due to -m: 478 (0.52%)
+Reported 83493 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83612 (90.56%)
+# reads that failed to align: 8265 (8.95%)
+# reads with alignments suppressed due to -m: 453 (0.49%)
+Reported 83612 alignments to 1 output stream(s)
+
+real	0m9.135s
+user	0m0.031s
+sys	0m0.088s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 92330
+# reads with at least one reported alignment: 83495 (90.43%)
+# reads that failed to align: 8358 (9.05%)
+# reads with alignments suppressed due to -m: 477 (0.52%)
+Reported 83495 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83540 (90.48%)
+# reads that failed to align: 8336 (9.03%)
+# reads with alignments suppressed due to -m: 454 (0.49%)
+Reported 83540 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83815 (90.78%)
+# reads that failed to align: 8065 (8.73%)
+# reads with alignments suppressed due to -m: 450 (0.49%)
+Reported 83815 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83686 (90.64%)
+# reads that failed to align: 8194 (8.87%)
+# reads with alignments suppressed due to -m: 450 (0.49%)
+Reported 83686 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83768 (90.73%)
+# reads that failed to align: 8110 (8.78%)
+# reads with alignments suppressed due to -m: 452 (0.49%)
+Reported 83768 alignments to 1 output stream(s)
+# reads processed: 92332
+# reads with at least one reported alignment: 83847 (90.81%)
+# reads that failed to align: 8066 (8.74%)
+# reads with alignments suppressed due to -m: 419 (0.45%)
+Reported 83847 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83796 (90.76%)
+# reads that failed to align: 8063 (8.73%)
+# reads with alignments suppressed due to -m: 471 (0.51%)
+Reported 83796 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83524 (90.46%)
+# reads that failed to align: 8341 (9.03%)
+# reads with alignments suppressed due to -m: 465 (0.50%)
+Reported 83524 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83612 (90.56%)
+# reads that failed to align: 8265 (8.95%)
+# reads with alignments suppressed due to -m: 453 (0.49%)
+Reported 83612 alignments to 1 output stream(s)
+# reads processed: 92330
+# reads with at least one reported alignment: 83493 (90.43%)
+# reads that failed to align: 8359 (9.05%)
+# reads with alignments suppressed due to -m: 478 (0.52%)
+Reported 83493 alignments to 1 output stream(s)
+
+real	0m8.913s
+user	0m0.041s
+sys	0m0.081s
+Num Processors: 11
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 83936
+# reads with at least one reported alignment: 76140 (90.71%)
+# reads that failed to align: 7419 (8.84%)
+# reads with alignments suppressed due to -m: 377 (0.45%)
+Reported 76140 alignments to 1 output stream(s)
+# reads processed: 83942
+# reads with at least one reported alignment: 76231 (90.81%)
+# reads that failed to align: 7320 (8.72%)
+# reads with alignments suppressed due to -m: 391 (0.47%)
+Reported 76231 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76200 (90.78%)
+# reads that failed to align: 7293 (8.69%)
+# reads with alignments suppressed due to -m: 443 (0.53%)
+Reported 76200 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75908 (90.44%)
+# reads that failed to align: 7575 (9.02%)
+# reads with alignments suppressed due to -m: 453 (0.54%)
+Reported 75908 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75990 (90.53%)
+# reads that failed to align: 7529 (8.97%)
+# reads with alignments suppressed due to -m: 417 (0.50%)
+Reported 75990 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76176 (90.75%)
+# reads that failed to align: 7336 (8.74%)
+# reads with alignments suppressed due to -m: 424 (0.51%)
+Reported 76176 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75989 (90.53%)
+# reads that failed to align: 7537 (8.98%)
+# reads with alignments suppressed due to -m: 410 (0.49%)
+Reported 75989 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75894 (90.42%)
+# reads that failed to align: 7620 (9.08%)
+# reads with alignments suppressed due to -m: 422 (0.50%)
+Reported 75894 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75967 (90.51%)
+# reads that failed to align: 7561 (9.01%)
+# reads with alignments suppressed due to -m: 408 (0.49%)
+Reported 75967 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76005 (90.55%)
+# reads that failed to align: 7518 (8.96%)
+# reads with alignments suppressed due to -m: 413 (0.49%)
+Reported 76005 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76076 (90.64%)
+# reads that failed to align: 7449 (8.87%)
+# reads with alignments suppressed due to -m: 411 (0.49%)
+Reported 76076 alignments to 1 output stream(s)
+
+real	0m8.849s
+user	0m0.034s
+sys	0m0.082s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 83936
+# reads with at least one reported alignment: 76140 (90.71%)
+# reads that failed to align: 7419 (8.84%)
+# reads with alignments suppressed due to -m: 377 (0.45%)
+Reported 76140 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76200 (90.78%)
+# reads that failed to align: 7293 (8.69%)
+# reads with alignments suppressed due to -m: 443 (0.53%)
+Reported 76200 alignments to 1 output stream(s)
+# reads processed: 83942
+# reads with at least one reported alignment: 76231 (90.81%)
+# reads that failed to align: 7320 (8.72%)
+# reads with alignments suppressed due to -m: 391 (0.47%)
+Reported 76231 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76005 (90.55%)
+# reads that failed to align: 7518 (8.96%)
+# reads with alignments suppressed due to -m: 413 (0.49%)
+Reported 76005 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76176 (90.75%)
+# reads that failed to align: 7336 (8.74%)
+# reads with alignments suppressed due to -m: 424 (0.51%)
+Reported 76176 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75894 (90.42%)
+# reads that failed to align: 7620 (9.08%)
+# reads with alignments suppressed due to -m: 422 (0.50%)
+Reported 75894 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75967 (90.51%)
+# reads that failed to align: 7561 (9.01%)
+# reads with alignments suppressed due to -m: 408 (0.49%)
+Reported 75967 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75908 (90.44%)
+# reads that failed to align: 7575 (9.02%)
+# reads with alignments suppressed due to -m: 453 (0.54%)
+Reported 75908 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75989 (90.53%)
+# reads that failed to align: 7537 (8.98%)
+# reads with alignments suppressed due to -m: 410 (0.49%)
+Reported 75989 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75990 (90.53%)
+# reads that failed to align: 7529 (8.97%)
+# reads with alignments suppressed due to -m: 417 (0.50%)
+Reported 75990 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76076 (90.64%)
+# reads that failed to align: 7449 (8.87%)
+# reads with alignments suppressed due to -m: 411 (0.49%)
+Reported 76076 alignments to 1 output stream(s)
+
+real	0m8.848s
+user	0m0.032s
+sys	0m0.090s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 83942
+# reads with at least one reported alignment: 76231 (90.81%)
+# reads that failed to align: 7320 (8.72%)
+# reads with alignments suppressed due to -m: 391 (0.47%)
+Reported 76231 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76140 (90.71%)
+# reads that failed to align: 7419 (8.84%)
+# reads with alignments suppressed due to -m: 377 (0.45%)
+Reported 76140 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76200 (90.78%)
+# reads that failed to align: 7293 (8.69%)
+# reads with alignments suppressed due to -m: 443 (0.53%)
+Reported 76200 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76005 (90.55%)
+# reads that failed to align: 7518 (8.96%)
+# reads with alignments suppressed due to -m: 413 (0.49%)
+Reported 76005 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76176 (90.75%)
+# reads that failed to align: 7336 (8.74%)
+# reads with alignments suppressed due to -m: 424 (0.51%)
+Reported 76176 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75990 (90.53%)
+# reads that failed to align: 7529 (8.97%)
+# reads with alignments suppressed due to -m: 417 (0.50%)
+Reported 75990 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75894 (90.42%)
+# reads that failed to align: 7620 (9.08%)
+# reads with alignments suppressed due to -m: 422 (0.50%)
+Reported 75894 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75908 (90.44%)
+# reads that failed to align: 7575 (9.02%)
+# reads with alignments suppressed due to -m: 453 (0.54%)
+Reported 75908 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75989 (90.53%)
+# reads that failed to align: 7537 (8.98%)
+# reads with alignments suppressed due to -m: 410 (0.49%)
+Reported 75989 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75967 (90.51%)
+# reads that failed to align: 7561 (9.01%)
+# reads with alignments suppressed due to -m: 408 (0.49%)
+Reported 75967 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76076 (90.64%)
+# reads that failed to align: 7449 (8.87%)
+# reads with alignments suppressed due to -m: 411 (0.49%)
+Reported 76076 alignments to 1 output stream(s)
+
+real	0m10.369s
+user	0m0.037s
+sys	0m0.082s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 83942
+# reads with at least one reported alignment: 76231 (90.81%)
+# reads that failed to align: 7320 (8.72%)
+# reads with alignments suppressed due to -m: 391 (0.47%)
+Reported 76231 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76140 (90.71%)
+# reads that failed to align: 7419 (8.84%)
+# reads with alignments suppressed due to -m: 377 (0.45%)
+Reported 76140 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76200 (90.78%)
+# reads that failed to align: 7293 (8.69%)
+# reads with alignments suppressed due to -m: 443 (0.53%)
+Reported 76200 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75990 (90.53%)
+# reads that failed to align: 7529 (8.97%)
+# reads with alignments suppressed due to -m: 417 (0.50%)
+Reported 75990 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75967 (90.51%)
+# reads that failed to align: 7561 (9.01%)
+# reads with alignments suppressed due to -m: 408 (0.49%)
+Reported 75967 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76005 (90.55%)
+# reads that failed to align: 7518 (8.96%)
+# reads with alignments suppressed due to -m: 413 (0.49%)
+Reported 76005 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76176 (90.75%)
+# reads that failed to align: 7336 (8.74%)
+# reads with alignments suppressed due to -m: 424 (0.51%)
+Reported 76176 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75908 (90.44%)
+# reads that failed to align: 7575 (9.02%)
+# reads with alignments suppressed due to -m: 453 (0.54%)
+Reported 75908 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75894 (90.42%)
+# reads that failed to align: 7620 (9.08%)
+# reads with alignments suppressed due to -m: 422 (0.50%)
+Reported 75894 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75989 (90.53%)
+# reads that failed to align: 7537 (8.98%)
+# reads with alignments suppressed due to -m: 410 (0.49%)
+Reported 75989 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76076 (90.64%)
+# reads that failed to align: 7449 (8.87%)
+# reads with alignments suppressed due to -m: 411 (0.49%)
+Reported 76076 alignments to 1 output stream(s)
+
+real	0m27.354s
+user	0m0.032s
+sys	0m0.088s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 83936
+# reads with at least one reported alignment: 76200 (90.78%)
+# reads that failed to align: 7293 (8.69%)
+# reads with alignments suppressed due to -m: 443 (0.53%)
+Reported 76200 alignments to 1 output stream(s)
+# reads processed: 83942
+# reads with at least one reported alignment: 76231 (90.81%)
+# reads that failed to align: 7320 (8.72%)
+# reads with alignments suppressed due to -m: 391 (0.47%)
+Reported 76231 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76140 (90.71%)
+# reads that failed to align: 7419 (8.84%)
+# reads with alignments suppressed due to -m: 377 (0.45%)
+Reported 76140 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75990 (90.53%)
+# reads that failed to align: 7529 (8.97%)
+# reads with alignments suppressed due to -m: 417 (0.50%)
+Reported 75990 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75967 (90.51%)
+# reads that failed to align: 7561 (9.01%)
+# reads with alignments suppressed due to -m: 408 (0.49%)
+Reported 75967 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75989 (90.53%)
+# reads that failed to align: 7537 (8.98%)
+# reads with alignments suppressed due to -m: 410 (0.49%)
+Reported 75989 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76005 (90.55%)
+# reads that failed to align: 7518 (8.96%)
+# reads with alignments suppressed due to -m: 413 (0.49%)
+Reported 76005 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75894 (90.42%)
+# reads that failed to align: 7620 (9.08%)
+# reads with alignments suppressed due to -m: 422 (0.50%)
+Reported 75894 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76176 (90.75%)
+# reads that failed to align: 7336 (8.74%)
+# reads with alignments suppressed due to -m: 424 (0.51%)
+Reported 76176 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 75908 (90.44%)
+# reads that failed to align: 7575 (9.02%)
+# reads with alignments suppressed due to -m: 453 (0.54%)
+Reported 75908 alignments to 1 output stream(s)
+# reads processed: 83936
+# reads with at least one reported alignment: 76076 (90.64%)
+# reads that failed to align: 7449 (8.87%)
+# reads with alignments suppressed due to -m: 411 (0.49%)
+Reported 76076 alignments to 1 output stream(s)
+
+real	0m8.703s
+user	0m0.039s
+sys	0m0.081s
+Num Processors: 12
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 76941
+# reads with at least one reported alignment: 69821 (90.75%)
+# reads that failed to align: 6765 (8.79%)
+# reads with alignments suppressed due to -m: 355 (0.46%)
+Reported 69821 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69902 (90.85%)
+# reads that failed to align: 6647 (8.64%)
+# reads with alignments suppressed due to -m: 392 (0.51%)
+Reported 69902 alignments to 1 output stream(s)
+# reads processed: 76951
+# reads with at least one reported alignment: 69834 (90.75%)
+# reads that failed to align: 6764 (8.79%)
+# reads with alignments suppressed due to -m: 353 (0.46%)
+Reported 69834 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69834 (90.76%)
+# reads that failed to align: 6709 (8.72%)
+# reads with alignments suppressed due to -m: 398 (0.52%)
+Reported 69834 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69822 (90.75%)
+# reads that failed to align: 6750 (8.77%)
+# reads with alignments suppressed due to -m: 369 (0.48%)
+Reported 69822 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69510 (90.34%)
+# reads that failed to align: 7028 (9.13%)
+# reads with alignments suppressed due to -m: 403 (0.52%)
+Reported 69510 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69622 (90.49%)
+# reads that failed to align: 6934 (9.01%)
+# reads with alignments suppressed due to -m: 385 (0.50%)
+Reported 69622 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69589 (90.44%)
+# reads that failed to align: 6950 (9.03%)
+# reads with alignments suppressed due to -m: 402 (0.52%)
+Reported 69589 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69631 (90.50%)
+# reads that failed to align: 6930 (9.01%)
+# reads with alignments suppressed due to -m: 380 (0.49%)
+Reported 69631 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69599 (90.46%)
+# reads that failed to align: 6939 (9.02%)
+# reads with alignments suppressed due to -m: 403 (0.52%)
+Reported 69599 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69695 (90.58%)
+# reads that failed to align: 6882 (8.94%)
+# reads with alignments suppressed due to -m: 364 (0.47%)
+Reported 69695 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69717 (90.61%)
+# reads that failed to align: 6859 (8.91%)
+# reads with alignments suppressed due to -m: 365 (0.47%)
+Reported 69717 alignments to 1 output stream(s)
+
+real	0m9.483s
+user	0m0.028s
+sys	0m0.089s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 76941
+# reads with at least one reported alignment: 69821 (90.75%)
+# reads that failed to align: 6765 (8.79%)
+# reads with alignments suppressed due to -m: 355 (0.46%)
+Reported 69821 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69902 (90.85%)
+# reads that failed to align: 6647 (8.64%)
+# reads with alignments suppressed due to -m: 392 (0.51%)
+Reported 69902 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69834 (90.76%)
+# reads that failed to align: 6709 (8.72%)
+# reads with alignments suppressed due to -m: 398 (0.52%)
+Reported 69834 alignments to 1 output stream(s)
+# reads processed: 76951
+# reads with at least one reported alignment: 69834 (90.75%)
+# reads that failed to align: 6764 (8.79%)
+# reads with alignments suppressed due to -m: 353 (0.46%)
+Reported 69834 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69695 (90.58%)
+# reads that failed to align: 6882 (8.94%)
+# reads with alignments suppressed due to -m: 364 (0.47%)
+Reported 69695 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69510 (90.34%)
+# reads that failed to align: 7028 (9.13%)
+# reads with alignments suppressed due to -m: 403 (0.52%)
+Reported 69510 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69631 (90.50%)
+# reads that failed to align: 6930 (9.01%)
+# reads with alignments suppressed due to -m: 380 (0.49%)
+Reported 69631 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69622 (90.49%)
+# reads that failed to align: 6934 (9.01%)
+# reads with alignments suppressed due to -m: 385 (0.50%)
+Reported 69622 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69822 (90.75%)
+# reads that failed to align: 6750 (8.77%)
+# reads with alignments suppressed due to -m: 369 (0.48%)
+Reported 69822 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69589 (90.44%)
+# reads that failed to align: 6950 (9.03%)
+# reads with alignments suppressed due to -m: 402 (0.52%)
+Reported 69589 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69599 (90.46%)
+# reads that failed to align: 6939 (9.02%)
+# reads with alignments suppressed due to -m: 403 (0.52%)
+Reported 69599 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69717 (90.61%)
+# reads that failed to align: 6859 (8.91%)
+# reads with alignments suppressed due to -m: 365 (0.47%)
+Reported 69717 alignments to 1 output stream(s)
+
+real	0m8.394s
+user	0m0.039s
+sys	0m0.081s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 76941
+# reads with at least one reported alignment: 69834 (90.76%)
+# reads that failed to align: 6709 (8.72%)
+# reads with alignments suppressed due to -m: 398 (0.52%)
+Reported 69834 alignments to 1 output stream(s)
+# reads processed: 76951
+# reads with at least one reported alignment: 69834 (90.75%)
+# reads that failed to align: 6764 (8.79%)
+# reads with alignments suppressed due to -m: 353 (0.46%)
+Reported 69834 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69902 (90.85%)
+# reads that failed to align: 6647 (8.64%)
+# reads with alignments suppressed due to -m: 392 (0.51%)
+Reported 69902 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69821 (90.75%)
+# reads that failed to align: 6765 (8.79%)
+# reads with alignments suppressed due to -m: 355 (0.46%)
+Reported 69821 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69631 (90.50%)
+# reads that failed to align: 6930 (9.01%)
+# reads with alignments suppressed due to -m: 380 (0.49%)
+Reported 69631 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69510 (# reads processed: 76941
+# reads with at least one reported alignment: 69599 (90.34%)
+# reads that failed to align: 7028 (9.13%)
+# reads with alignments suppressed due to -m: 403 (0.52%)
+Reported 69510 alignments to 1 output stream(s)
+90.46%)
+# reads that failed to align: 6939 (9.02%)
+# reads with alignments suppressed due to -m: 403 (0.52%)
+Reported 69599 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69695 (90.58%)
+# reads that failed to align: 6882 (8.94%)
+# reads with alignments suppressed due to -m: 364 (0.47%)
+Reported 69695 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69589 (90.44%)
+# reads that failed to align: 6950 (9.03%)
+# reads with alignments suppressed due to -m: 402 (0.52%)
+Reported 69589 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69822 (90.75%)
+# reads that failed to align: 6750 (8.77%)
+# reads with alignments suppressed due to -m: 369 (0.48%)
+Reported 69822 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69622 (90.49%)
+# reads that failed to align: 6934 (9.01%)
+# reads with alignments suppressed due to -m: 385 (0.50%)
+Reported 69622 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69717 (90.61%)
+# reads that failed to align: 6859 (8.91%)
+# reads with alignments suppressed due to -m: 365 (0.47%)
+Reported 69717 alignments to 1 output stream(s)
+
+real	0m8.345s
+user	0m0.037s
+sys	0m0.081s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 76941
+# reads with at least one reported alignment: 69902 (90.85%)
+# reads that failed to align: 6647 (8.64%)
+# reads with alignments suppressed due to -m: 392 (0.51%)
+Reported 69902 alignments to 1 output stream(s)
+# reads processed: 76951
+# reads with at least one reported alignment: 69834 (90.75%)
+# reads that failed to align: 6764 (8.79%)
+# reads with alignments suppressed due to -m: 353 (0.46%)
+Reported 69834 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69834 (90.76%)
+# reads that failed to align: 6709 (8.72%)
+# reads with alignments suppressed due to -m: 398 (0.52%)
+Reported 69834 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69821 (90.75%)
+# reads that failed to align: 6765 (8.79%)
+# reads with alignments suppressed due to -m: 355 (0.46%)
+Reported 69821 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69599 (90.46%)
+# reads that failed to align: 6939 (9.02%)
+# reads with alignments suppressed due to -m: 403 (0.52%)
+Reported 69599 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69622 (90.49%)
+# reads that failed to align: 6934 (9.01%)
+# reads with alignments suppressed due to -m: 385 (0.50%)
+Reported 69622 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69589 (90.44%)
+# reads that failed to align: 6950 (9.03%)
+# reads with alignments suppressed due to -m: 402 (0.52%)
+Reported 69589 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69631 (90.50%)
+# reads that failed to align: 6930 (9.01%)
+# reads with alignments suppressed due to -m: 380 (0.49%)
+Reported 69631 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69510 (90.34%)
+# reads that failed to align: 7028 (9.13%)
+# reads with alignments suppressed due to -m: 403 (0.52%)
+Reported 69510 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69695 (90.58%)
+# reads that failed to align: 6882 (8.94%)
+# reads with alignments suppressed due to -m: 364 (0.47%)
+Reported 69695 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69822 (90.75%)
+# reads that failed to align: 6750 (8.77%)
+# reads with alignments suppressed due to -m: 369 (0.48%)
+Reported 69822 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69717 (90.61%)
+# reads that failed to align: 6859 (8.91%)
+# reads with alignments suppressed due to -m: 365 (0.47%)
+Reported 69717 alignments to 1 output stream(s)
+
+real	0m10.003s
+user	0m0.039s
+sys	0m0.082s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 76941
+# reads with at least one reported alignment: 69902 (90.85%)
+# reads that failed to align: 6647 (8.64%)
+# reads with alignments suppressed due to -m: 392 (0.51%)
+Reported 69902 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69834 (90.76%)
+# reads that failed to align: 6709 (8.72%)
+# reads with alignments suppressed due to -m: 398 (0.52%)
+Reported 69834 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69821 (90.75%)
+# reads that failed to align: 6765 (8.79%)
+# reads with alignments suppressed due to -m: 355 (0.46%)
+Reported 69821 alignments to 1 output stream(s)
+# reads processed: 76951
+# reads with at least one reported alignment: 69834 (90.75%)
+# reads that failed to align: 6764 (8.79%)
+# reads with alignments suppressed due to -m: 353 (0.46%)
+Reported 69834 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69510 (90.34%)
+# reads that failed to align: 7028 (9.13%)
+# reads with alignments suppressed due to -m: 403 (0.52%)
+Reported 69510 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69822 (90.75%)
+# reads that failed to align: 6750 (8.77%)
+# reads with alignments suppressed due to -m: 369 (0.48%)
+Reported 69822 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69622 (90.49%)
+# reads that failed to align: 6934 (9.01%)
+# reads with alignments suppressed due to -m: 385 (0.50%)
+Reported 69622 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69589 (90.44%)
+# reads that failed to align: 6950 (9.03%)
+# reads with alignments suppressed due to -m: 402 (0.52%)
+Reported 69589 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69631 (90.50%)
+# reads that failed to align: 6930 (9.01%)
+# reads with alignments suppressed due to -m: 380 (0.49%)
+Reported 69631 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69599 (90.46%)
+# reads that failed to align: 6939 (9.02%)
+# reads with alignments suppressed due to -m: 403 (0.52%)
+Reported 69599 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69695 (90.58%)
+# reads that failed to align: 6882 (8.94%)
+# reads with alignments suppressed due to -m: 364 (0.47%)
+Reported 69695 alignments to 1 output stream(s)
+# reads processed: 76941
+# reads with at least one reported alignment: 69717 (90.61%)
+# reads that failed to align: 6859 (8.91%)
+# reads with alignments suppressed due to -m: 365 (0.47%)
+Reported 69717 alignments to 1 output stream(s)
+
+real	0m10.613s
+user	0m0.039s
+sys	0m0.078s
+Num Processors: 13
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 71023
+# reads with at least one reported alignment: 64458 (90.76%)
+# reads that failed to align: 6236 (8.78%)
+# reads with alignments suppressed due to -m: 329 (0.46%)
+Reported 64458 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64458 (90.76%)
+# reads that failed to align: 6238 (8.78%)
+# reads with alignments suppressed due to -m: 327 (0.46%)
+Reported 64458 alignments to 1 output stream(s)
+# reads processed: 71026
+# reads with at least one reported alignment: 64471 (90.77%)
+# reads that failed to align: 6227 (8.77%)
+# reads with alignments suppressed due to -m: 328 (0.46%)
+Reported 64471 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64531 (90.86%)
+# reads that failed to align: 6129 (8.63%)
+# reads with alignments suppressed due to -m: 363 (0.51%)
+Reported 64531 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64439 (90.73%)
+# reads that failed to align: 6216 (8.75%)
+# reads with alignments suppressed due to -m: 368 (0.52%)
+Reported 64439 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64254 (90.47%)
+# reads that failed to align: 6416 (9.03%)
+# reads with alignments suppressed due to -m: 353 (0.50%)
+Reported 64254 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64188 (90.38%)
+# reads that failed to align: 6489 (9.14%)
+# reads with alignments suppressed due to -m: 346 (0.49%)
+Reported 64188 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64262 (90.48%)
+# reads that failed to align: 6403 (9.02%)
+# reads with alignments suppressed due to -m: 358 (0.50%)
+Reported 64262 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64281 (90.51%)
+# reads that failed to align: 6411 (9.03%)
+# reads with alignments suppressed due to -m: 331 (0.47%)
+Reported 64281 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64407 (90.68%)
+# reads that failed to align: 6262 (8.82%)
+# reads with alignments suppressed due to -m: 354 (0.50%)
+Reported 64407 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64265 (90.48%)
+# reads that failed to align: 6385 (8.99%)
+# reads with alignments suppressed due to -m: 373 (0.53%)
+Reported 64265 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64228 (90.43%)
+# reads that failed to align: 6401 (9.01%)
+# reads with alignments suppressed due to -m: 394 (0.55%)
+Reported 64228 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64334 (90.58%)
+# reads that failed to align: 6344 (8.93%)
+# reads with alignments suppressed due to -m: 345 (0.49%)
+Reported 64334 alignments to 1 output stream(s)
+
+real	0m10.144s
+user	0m0.038s
+sys	0m0.082s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 71023
+# reads with at least one reported alignment: 64458 (90.76%)
+# reads that failed to align: 6236 (8.78%)
+# reads with alignments suppressed due to -m: 329 (0.46%)
+Reported 64458 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64439 (90.73%)
+# reads that failed to align: 6216 (8.75%)
+# reads with alignments suppressed due to -m: 368 (0.52%)
+Reported 64439 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64531 (90.86%)
+# reads that failed to align: 6129 (8.63%)
+# reads with alignments suppressed due to -m: 363 (0.51%)
+Reported 64531 alignments to 1 output stream(s)
+# reads processed: 71026
+# reads with at least one reported alignment: 64471 (90.77%)
+# reads that failed to align: 6227 (8.77%)
+# reads with alignments suppressed due to -m: 328 (0.46%)
+Reported 64471 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64458 (90.76%)
+# reads that failed to align: 6238 (8.78%)
+# reads with alignments suppressed due to -m: 327 (0.46%)
+Reported 64458 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64188 (90.38%)
+# reads that failed to align: 6489 (9.14%)
+# reads with alignments suppressed due to -m: 346 (0.49%)
+Reported 64188 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64281 (90.51%)
+# reads that failed to align: 6411 (9.03%)
+# reads with alignments suppressed due to -m: 331 (0.47%)
+Reported 64281 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64262 (90.48%)
+# reads that failed to align: 6403 (9.02%)
+# reads with alignments suppressed due to -m: 358 (0.50%)
+Reported 64262 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64254 (90.47%)
+# reads that failed to align: 6416 (9.03%)
+# reads with alignments suppressed due to -m: 353 (0.50%)
+Reported 64254 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64407 (90.68%)
+# reads that failed to align: 6262 (8.82%)
+# reads with alignments suppressed due to -m: 354 (0.50%)
+Reported 64407 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64265 (90.48%)
+# reads that failed to align: 6385 (8.99%)
+# reads with alignments suppressed due to -m: 373 (0.53%)
+Reported 64265 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64228 (90.43%)
+# reads that failed to align: 6401 (9.01%)
+# reads with alignments suppressed due to -m: 394 (0.55%)
+Reported 64228 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64334 (90.58%)
+# reads that failed to align: 6344 (8.93%)
+# reads with alignments suppressed due to -m: 345 (0.49%)
+Reported 64334 alignments to 1 output stream(s)
+
+real	0m9.346s
+user	0m0.042s
+sys	0m0.073s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 71026
+# reads with at least one reported alignment: 64471 (90.77%)
+# reads that failed to align: 6227 (8.77%)
+# reads with alignments suppressed due to -m: 328 (0.46%)
+Reported 64471 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64458 (90.76%)
+# reads that failed to align: 6238 (8.78%)
+# reads with alignments suppressed due to -m: 327 (0.46%)
+Reported 64458 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64458 (90.76%)
+# reads that failed to align: 6236 (8.78%)
+# reads with alignments suppressed due to -m: 329 (0.46%)
+Reported 64458 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64439 (90.73%)
+# reads that failed to align: 6216 (8.75%)
+# reads with alignments suppressed due to -m: 368 (0.52%)
+Reported 64439 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64531 (90.86%)
+# reads that failed to align: 6129 (8.63%)
+# reads with alignments suppressed due to -m: 363 (0.51%)
+Reported 64531 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64188 (90.38%)
+# reads that failed to align: 6489 (9.14%)
+# reads with alignments suppressed due to -m: 346 (0.49%)
+Reported 64188 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64407 (90.68%)
+# reads that failed to align: 6262 (8.82%)
+# reads with alignments suppressed due to -m: 354 (0.50%)
+Reported 64407 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64262 (90.48%)
+# reads that failed to align: 6403 (9.02%)
+# reads with alignments suppressed due to -m: 358 (0.50%)
+Reported 64262 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64254 (90.47%)
+# reads that failed to align: 6416 (9.03%)
+# reads with alignments suppressed due to -m: 353 (0.50%)
+Reported 64254 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64265 (90.48%)
+# reads that failed to align: 6385 (8.99%)
+# reads with alignments suppressed due to -m: 373 (0.53%)
+Reported 64265 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64281 (90.51%)
+# reads that failed to align: 6411 (9.03%)
+# reads with alignments suppressed due to -m: 331 (0.47%)
+Reported 64281 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64228 (90.43%)
+# reads that failed to align: 6401 (9.01%)
+# reads with alignments suppressed due to -m: 394 (0.55%)
+Reported 64228 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64334 (90.58%)
+# reads that failed to align: 6344 (8.93%)
+# reads with alignments suppressed due to -m: 345 (0.49%)
+Reported 64334 alignments to 1 output stream(s)
+
+real	0m8.033s
+user	0m0.034s
+sys	0m0.083s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 71023
+# reads with at least one reported alignment: 64458 (90.76%)
+# reads that failed to align: 6236 (8.78%)
+# reads with alignments suppressed due to -m: 329 (0.46%)
+Reported 64458 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64439 (90.73%)
+# reads that failed to align: 6216 (8.75%)
+# reads with alignments suppressed due to -m: 368 (0.52%)
+Reported 64439 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64531 (90.86%)
+# reads that failed to align: 6129 (8.63%)
+# reads with alignments suppressed due to -m: 363 (0.51%)
+Reported 64531 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64458 (90.76%)
+# reads that failed to align: 6238 (8.78%)
+# reads with alignments suppressed due to -m: 327 (0.46%)
+Reported 64458 alignments to 1 output stream(s)
+# reads processed: 71026
+# reads with at least one reported alignment: 64471 (90.77%)
+# reads that failed to align: 6227 (8.77%)
+# reads with alignments suppressed due to -m: 328 (0.46%)
+Reported 64471 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64262 (90.48%)
+# reads that failed to align: 6403 (9.02%)
+# reads with alignments suppressed due to -m: 358 (0.50%)
+Reported 64262 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64281 (90.51%)
+# reads that failed to align: 6411 (9.03%)
+# reads with alignments suppressed due to -m: 331 (0.47%)
+Reported 64281 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64254 (90.47%)
+# reads that failed to align: 6416 (9.03%)
+# reads with alignments suppressed due to -m: 353 (0.50%)
+Reported 64254 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64265 (90.48%)
+# reads that failed to align: 6385 (8.99%)
+# reads with alignments suppressed due to -m: 373 (0.53%)
+Reported 64265 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64407 (90.68%)
+# reads that failed to align: 6262 (8.82%)
+# reads with alignments suppressed due to -m: 354 (0.50%)
+Reported 64407 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64228 (90.43%)
+# reads that failed to align: 6401 (9.01%)
+# reads with alignments suppressed due to -m: 394 (0.55%)
+Reported 64228 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64188 (90.38%)
+# reads that failed to align: 6489 (9.14%)
+# reads with alignments suppressed due to -m: 346 (0.49%)
+Reported 64188 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64334 (90.58%)
+# reads that failed to align: 6344 (8.93%)
+# reads with alignments suppressed due to -m: 345 (0.49%)
+Reported 64334 alignments to 1 output stream(s)
+
+real	0m8.073s
+user	0m0.036s
+sys	0m0.085s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 71023
+# reads with at least one reported alignment: 64531 (90.86%)
+# reads that failed to align: 6129 (8.63%)
+# reads with alignments suppressed due to -m: 363 (0.51%)
+Reported 64531 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64458 (90.76%)
+# reads that failed to align: 6236 (8.78%)
+# reads with alignments suppressed due to -m: 329 (0.46%)
+Reported 64458 alignments to 1 output stream(s)
+# reads processed: 71026
+# reads with at least one reported alignment: 64471 (90.77%)
+# reads that failed to align: 6227 (8.77%)
+# reads with alignments suppressed due to -m: 328 (0.46%)
+Reported 64471 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64439 (90.73%)
+# reads that failed to align: 6216 (8.75%)
+# reads with alignments suppressed due to -m: 368 (0.52%)
+Reported 64439 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64458 (90.76%)
+# reads that failed to align: 6238 (8.78%)
+# reads with alignments suppressed due to -m: 327 (0.46%)
+Reported 64458 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64254 (90.47%)
+# reads that failed to align: 6416 (9.03%)
+# reads with alignments suppressed due to -m: 353 (0.50%)
+Reported 64254 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64265 (90.48%)
+# reads that failed to align: 6385 (8.99%)
+# reads with alignments suppressed due to -m: 373 (0.53%)
+Reported 64265 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64228 (90.43%)
+# reads that failed to align: 6401 (9.01%)
+# reads with alignments suppressed due to -m: 394 (0.55%)
+Reported 64228 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64262 (90.48%)
+# reads that failed to align: 6403 (9.02%)
+# reads with alignments suppressed due to -m: 358 (0.50%)
+Reported 64262 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64407 (90.68%)
+# reads that failed to align: 6262 (8.82%)
+# reads with alignments suppressed due to -m: 354 (0.50%)
+Reported 64407 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64281 (90.51%)
+# reads that failed to align: 6411 (9.03%)
+# reads with alignments suppressed due to -m: 331 (0.47%)
+Reported 64281 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64188 (90.38%)
+# reads that failed to align: 6489 (9.14%)
+# reads with alignments suppressed due to -m: 346 (0.49%)
+Reported 64188 alignments to 1 output stream(s)
+# reads processed: 71023
+# reads with at least one reported alignment: 64334 (90.58%)
+# reads that failed to align: 6344 (8.93%)
+# reads with alignments suppressed due to -m: 345 (0.49%)
+Reported 64334 alignments to 1 output stream(s)
+
+real	0m10.142s
+user	0m0.039s
+sys	0m0.079s
+Num Processors: 14
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 65950
+# reads with at least one reported alignment: 59835 (90.73%)
+# reads that failed to align: 5782 (8.77%)
+# reads with alignments suppressed due to -m: 333 (0.50%)
+Reported 59835 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59843 (90.74%)
+# reads that failed to align: 5777 (8.76%)
+# reads with alignments suppressed due to -m: 330 (0.50%)
+Reported 59843 alignments to 1 output stream(s)
+# reads processed: 65952
+# reads with at least one reported alignment: 59922 (90.86%)
+# reads that failed to align: 5722 (8.68%)
+# reads with alignments suppressed due to -m: 308 (0.47%)
+Reported 59922 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59867 (90.78%)
+# reads that failed to align: 5746 (8.71%)
+# reads with alignments suppressed due to -m: 337 (0.51%)
+Reported 59867 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59815 (90.70%)
+# reads that failed to align: 5839 (8.85%)
+# reads with alignments suppressed due to -m: 296 (0.45%)
+Reported 59815 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59819 (90.70%)
+# reads that failed to align: 5797 (8.79%)
+# reads with alignments suppressed due to -m: 334 (0.51%)
+Reported 59819 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59763 (90.62%)
+# reads that failed to align: 5844 (8.86%)
+# reads with alignments suppressed due to -m: 343 (0.52%)
+Reported 59763 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59618 (90.40%)
+# reads that failed to align: 5978 (9.06%)
+# reads with alignments suppressed due to -m: 354 (0.54%)
+Reported 59618 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59604 (90.38%)
+# reads that failed to align: 6051 (9.18%)
+# reads with alignments suppressed due to -m: 295 (0.45%)
+Reported 59604 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59629 (90.42%)
+# reads that failed to align: 5991 (9.08%)
+# reads with alignments suppressed due to -m: 330 (0.50%)
+Reported 59629 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59752 (90.60%)
+# reads that failed to align: 5891 (8.93%)
+# reads with alignments suppressed due to -m: 307 (0.47%)
+Reported 59752 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59746 (90.59%)
+# reads that failed to align: 5847 (8.87%)
+# reads with alignments suppressed due to -m: 357 (0.54%)
+Reported 59746 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59618 (90.40%)
+# reads that failed to align: 6000 (9.10%)
+# reads with alignments suppressed due to -m: 332 (0.50%)
+Reported 59618 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59745 (90.59%)
+# reads that failed to align: 5892 (8.93%)
+# reads with alignments suppressed due to -m: 313 (0.47%)
+Reported 59745 alignments to 1 output stream(s)
+
+real	0m8.834s
+user	0m0.038s
+sys	0m0.076s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 65950
+# reads with at least one reported alignment: 59819 (90.70%)
+# reads that failed to align: 5797 (8.79%)
+# reads with alignments suppressed due to -m: 334 (0.51%)
+Reported 59819 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59867 (90.78%)
+# reads that failed to align: 5746 (8.71%)
+# reads with alignments suppressed due to -m: 337 (0.51%)
+Reported 59867 alignments to 1 output stream(s)
+# reads processed: 65952
+# reads with at least one reported alignment: 59922 (90.86%)
+# reads that failed to align: 5722 (8.68%)
+# reads with alignments suppressed due to -m: 308 (0.47%)
+Reported 59922 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59835 (90.73%)
+# reads that failed to align: 5782 (8.77%)
+# reads with alignments suppressed due to -m: 333 (0.50%)
+Reported 59835 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59815 (90.70%)
+# reads that failed to align: 5839 (8.85%)
+# reads with alignments suppressed due to -m: 296 (0.45%)
+Reported 59815 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59843 (90.74%)
+# reads that failed to align: 5777 (8.76%)
+# reads with alignments suppressed due to -m: 330 (0.50%)
+Reported 59843 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59604 (90.38%)
+# reads that failed to align: 6051 (9.18%)
+# reads with alignments suppressed due to -m: 295 (0.45%)
+Reported 59604 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59618 (90.40%)
+# reads that failed to align: 6000 (9.10%)
+# reads with alignments suppressed due to -m: 332 (0.50%)
+Reported 59618 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59752 (90.60%)
+# reads that failed to align: 5891 (8.93%)
+# reads with alignments suppressed due to -m: 307 (0.47%)
+Reported 59752 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59746 (90.59%)
+# reads that failed to align: 5847 (8.87%)
+# reads with alignments suppressed due to -m: 357 (0.54%)
+Reported 59746 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59618 (90.40%)
+# reads that failed to align: 5978 (9.06%)
+# reads with alignments suppressed due to -m: 354 (0.54%)
+Reported 59618 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59763 (90.62%)
+# reads that failed to align: 5844 (8.86%)
+# reads with alignments suppressed due to -m: 343 (0.52%)
+Reported 59763 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59629 (90.42%)
+# reads that failed to align: 5991 (9.08%)
+# reads with alignments suppressed due to -m: 330 (0.50%)
+Reported 59629 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59745 (90.59%)
+# reads that failed to align: 5892 (8.93%)
+# reads with alignments suppressed due to -m: 313 (0.47%)
+Reported 59745 alignments to 1 output stream(s)
+
+real	0m9.647s
+user	0m0.033s
+sys	0m0.087s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 65950
+# reads with at least one reported alignment: 59835 (90.73%)
+# reads that failed to align: 5782 (8.77%)
+# reads with alignments suppressed due to -m: 333 (0.50%)
+Reported 59835 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59867 (90.78%)
+# reads that failed to align: 5746 (8.71%)
+# reads with alignments suppressed due to -m: 337 (0.51%)
+Reported 59867 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59843 (90.74%)
+# reads that failed to align: 5777 (8.76%)
+# reads with alignments suppressed due to -m: 330 (0.50%)
+Reported 59843 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59815 (90.70%)
+# reads that failed to align: 5839 (8.85%)
+# reads with alignments suppressed due to -m: 296 (0.45%)
+Reported 59815 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59819 (90.70%)
+# reads that failed to align: 5797 (8.79%)
+# reads with alignments suppressed due to -m: 334 (0.51%)
+Reported 59819 alignments to 1 output stream(s)
+# reads processed: 65952
+# reads with at least one reported alignment: 59922 (90.86%)
+# reads that failed to align: 5722 (8.68%)
+# reads with alignments suppressed due to -m: 308 (0.47%)
+Reported 59922 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59763 (90.62%)
+# reads that failed to align: 5844 (8.86%)
+# reads with alignments suppressed due to -m: 343 (0.52%)
+Reported 59763 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59629 (90.42%)
+# reads that failed to align: 5991 (9.08%)
+# reads with alignments suppressed due to -m: 330 (0.50%)
+Reported 59629 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59618 (90.40%)
+# reads that failed to align: 5978 (9.06%)
+# reads with alignments suppressed due to -m: 354 (0.54%)
+Reported 59618 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59618 (90.40%)
+# reads that failed to align: 6000 (9.10%)
+# reads with alignments suppressed due to -m: 332 (0.50%)
+Reported 59618 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59746 (90.59%)
+# reads that failed to align: 5847 (8.87%)
+# reads with alignments suppressed due to -m: 357 (0.54%)
+Reported 59746 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59752 (90.60%)
+# reads that failed to align: 5891 (8.93%)
+# reads with alignments suppressed due to -m: 307 (0.47%)
+Reported 59752 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59604 (90.38%)
+# reads that failed to align: 6051 (9.18%)
+# reads with alignments suppressed due to -m: 295 (0.45%)
+Reported 59604 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59745 (90.59%)
+# reads that failed to align: 5892 (8.93%)
+# reads with alignments suppressed due to -m: 313 (0.47%)
+Reported 59745 alignments to 1 output stream(s)
+
+real	0m10.163s
+user	0m0.035s
+sys	0m0.081s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 65950
+# reads with at least one reported alignment: 59867 (90.78%)
+# reads that failed to align: 5746 (8.71%)
+# reads with alignments suppressed due to -m: 337 (0.51%)
+Reported 59867 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59815 (90.70%)
+# reads that failed to align: 5839 (8.85%)
+# reads with alignments suppressed due to -m: 296 (0.45%)
+Reported 59815 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59835 (90.73%)
+# reads that failed to align: 5782 (8.77%)
+# reads with alignments suppressed due to -m: 333 (0.50%)
+Reported 59835 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59843 (90.74%)
+# reads that failed to align: 5777 (8.76%)
+# reads with alignments suppressed due to -m: 330 (0.50%)
+Reported 59843 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59819 (90.70%)
+# reads that failed to align: 5797 (8.79%)
+# reads with alignments suppressed due to -m: 334 (0.51%)
+Reported 59819 alignments to 1 output stream(s)
+# reads processed: 65952
+# reads with at least one reported alignment: 59922 (90.86%)
+# reads that failed to align: 5722 (8.68%)
+# reads with alignments suppressed due to -m: 308 (0.47%)
+Reported 59922 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59746 (90.59%)
+# reads that failed to align: 5847 (8.87%)
+# reads with alignments suppressed due to -m: 357 (0.54%)
+Reported 59746 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59629 (90.42%)
+# reads that failed to align: 5991 (9.08%)
+# reads with alignments suppressed due to -m: 330 (0.50%)
+Reported 59629 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59618 (90.40%)
+# reads that failed to align: 5978 (9.06%)
+# reads with alignments suppressed due to -m: 354 (0.54%)
+Reported 59618 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59618 (90.40%)
+# reads that failed to align: 6000 (9.10%)
+# reads with alignments suppressed due to -m: 332 (0.50%)
+Reported 59618 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59604 (90.38%)
+# reads that failed to align: 6051 (9.18%)
+# reads with alignments suppressed due to -m: 295 (0.45%)
+Reported 59604 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59763 (90.62%)
+# reads that failed to align: 5844 (8.86%)
+# reads with alignments suppressed due to -m: 343 (0.52%)
+Reported 59763 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59752 (90.60%)
+# reads that failed to align: 5891 (8.93%)
+# reads with alignments suppressed due to -m: 307 (0.47%)
+Reported 59752 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59745 (90.59%)
+# reads that failed to align: 5892 (8.93%)
+# reads with alignments suppressed due to -m: 313 (0.47%)
+Reported 59745 alignments to 1 output stream(s)
+
+real	0m7.987s
+user	0m0.033s
+sys	0m0.085s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 65950
+# reads with at least one reported alignment: 59867 (90.78%)
+# reads that failed to align: 5746 (8.71%)
+# reads with alignments suppressed due to -m: 337 (0.51%)
+Reported 59867 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59819 (90.70%)
+# reads that failed to align: 5797 (8.79%)
+# reads with alignments suppressed due to -m: 334 (0.51%)
+Reported 59819 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59835 (90.73%)
+# reads that failed to align: 5782 (8.77%)
+# reads with alignments suppressed due to -m: 333 (0.50%)
+Reported 59835 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59843 (90.74%)
+# reads that failed to align: 5777 (8.76%)
+# reads with alignments suppressed due to -m: 330 (0.50%)
+Reported 59843 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59815 (90.70%)
+# reads that failed to align: 5839 (8.85%)
+# reads with alignments suppressed due to -m: 296 (0.45%)
+Reported 59815 alignments to 1 output stream(s)
+# reads processed: 65952
+# reads with at least one reported alignment: 59922 (90.86%)
+# reads that failed to align: 5722 (8.68%)
+# reads with alignments suppressed due to -m: 308 (0.47%)
+Reported 59922 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59752 (90.60%)
+# reads that failed to align: 5891 (8.93%)
+# reads with alignments suppressed due to -m: 307 (0.47%)
+Reported 59752 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59746 (90.59%)
+# reads that failed to align: 5847 (8.87%)
+# reads with alignments suppressed due to -m: 357 (0.54%)
+Reported 59746 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59604 (90.38%)
+# reads that failed to align: 6051 (9.18%)
+# reads with alignments suppressed due to -m: 295 (0.45%)
+Reported 59604 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59629 (90.42%)
+# reads that failed to align: 5991 (9.08%)
+# reads with alignments suppressed due to -m: 330 (0.50%)
+Reported 59629 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59618 (90.40%)
+# reads that failed to align: 5978 (9.06%)
+# reads with alignments suppressed due to -m: 354 (0.54%)
+Reported 59618 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59763 (90.62%)
+# reads that failed to align: 5844 (8.86%)
+# reads with alignments suppressed due to -m: 343 (0.52%)
+Reported 59763 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59618 (90.40%)
+# reads that failed to align: 6000 (9.10%)
+# reads with alignments suppressed due to -m: 332 (0.50%)
+Reported 59618 alignments to 1 output stream(s)
+# reads processed: 65950
+# reads with at least one reported alignment: 59745 (90.59%)
+# reads that failed to align: 5892 (8.93%)
+# reads with alignments suppressed due to -m: 313 (0.47%)
+Reported 59745 alignments to 1 output stream(s)
+
+real	0m10.641s
+user	0m0.031s
+sys	0m0.095s
+Num Processors: 15
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 61553
+# reads with at least one reported alignment: 55621 (90.36%)
+# reads that failed to align: 5659 (9.19%)
+# reads with alignments suppressed due to -m: 273 (0.44%)
+Reported 55621 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55676 (90.45%)
+# reads that failed to align: 5542 (9.00%)
+# reads with alignments suppressed due to -m: 335 (0.54%)
+Reported 55676 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55672 (90.45%)
+# reads that failed to align: 5582 (9.07%)
+# reads with alignments suppressed due to -m: 299 (0.49%)
+Reported 55672 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55726 (90.53%)
+# reads that failed to align: 5553 (9.02%)
+# reads with alignments suppressed due to -m: 274 (0.45%)
+Reported 55726 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55697 (90.49%)
+# reads that failed to align: 5539 (9.00%)
+# reads with alignments suppressed due to -m: 317 (0.52%)
+Reported 55697 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55668 (90.44%)
+# reads that failed to align: 5576 (9.06%)
+# reads with alignments suppressed due to -m: 309 (0.50%)
+Reported 55668 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55918 (90.85%)
+# reads that failed to align: 5319 (8.64%)
+# reads with alignments suppressed due to -m: 316 (0.51%)
+Reported 55918 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55893 (90.80%)
+# reads that failed to align: 5350 (8.69%)
+# reads with alignments suppressed due to -m: 310 (0.50%)
+Reported 55893 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55852 (90.74%)
+# reads that failed to align: 5390 (8.76%)
+# reads with alignments suppressed due to -m: 311 (0.51%)
+Reported 55852 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55724 (90.53%)
+# reads that failed to align: 5519 (8.97%)
+# reads with alignments suppressed due to -m: 310 (0.50%)
+Reported 55724 alignments to 1 output stream(s)
+# reads processed: 61560
+# reads with at least one reported alignment: 56000 (90.97%)
+# reads that failed to align: 5273 (8.57%)
+# reads with alignments suppressed due to -m: 287 (0.47%)
+Reported 56000 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55797 (90.65%)
+# reads that failed to align: 5413 (8.79%)
+# reads with alignments suppressed due to -m: 343 (0.56%)
+Reported 55797 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55759 (90.59%)
+# reads that failed to align: 5494 (8.93%)
+# reads with alignments suppressed due to -m: 300 (0.49%)
+Reported 55759 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55840 (90.72%)
+# reads that failed to align: 5419 (8.80%)
+# reads with alignments suppressed due to -m: 294 (0.48%)
+Reported 55840 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55733 (90.54%)
+# reads that failed to align: 5529 (8.98%)
+# reads with alignments suppressed due to -m: 291 (0.47%)
+Reported 55733 alignments to 1 output stream(s)
+
+real	0m9.684s
+user	0m0.038s
+sys	0m0.080s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 61560
+# reads with at least one reported alignment: 56000 (90.97%)
+# reads that failed to align: 5273 (8.57%)
+# reads with alignments suppressed due to -m: 287 (0.47%)
+Reported 56000 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55840 (90.72%)
+# reads that failed to align: 5419 (8.80%)
+# reads with alignments suppressed due to -m: 294 (0.48%)
+Reported 55840 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55676 (90.45%)
+# reads that failed to align: 5542 (9.00%)
+# reads with alignments suppressed due to -m: 335 (0.54%)
+Reported 55676 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55697 (90.49%)
+# reads that failed to align: 5539 (9.00%)
+# reads with alignments suppressed due to -m: 317 (0.52%)
+Reported 55697 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55893 (90.80%)
+# reads that failed to align: 5350 (8.69%)
+# reads with alignments suppressed due to -m: 310 (0.50%)
+Reported 55893 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55759 (90.59%)
+# reads that failed to align: 5494 (8.93%)
+# reads with alignments suppressed due to -m: 300 (0.49%)
+Reported 55759 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55726 (90.53%)
+# reads that failed to align: 5553 (9.02%)
+# reads with alignments suppressed due to -m: 274 (0.45%)
+Reported 55726 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55621 (90.36%)
+# reads that failed to align: 5659 (9.19%)
+# reads with alignments suppressed due to -m: 273 (0.44%)
+Reported 55621 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55852 (90.74%)
+# reads that failed to align: 5390 (8.76%)
+# reads with alignments suppressed due to -m: 311 (0.51%)
+Reported 55852 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55668 (90.44%)
+# reads that failed to align: 5576 (9.06%)
+# reads with alignments suppressed due to -m: 309 (0.50%)
+Reported 55668 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55672 (90.45%)
+# reads that failed to align: 5582 (9.07%)
+# reads with alignments suppressed due to -m: 299 (0.49%)
+Reported 55672 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55918 (90.85%)
+# reads that failed to align: 5319 (8.64%)
+# reads with alignments suppressed due to -m: 316 (0.51%)
+Reported 55918 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55724 (90.53%)
+# reads that failed to align: 5519 (8.97%)
+# reads with alignments suppressed due to -m: 310 (0.50%)
+Reported 55724 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55797 (90.65%)
+# reads that failed to align: 5413 (8.79%)
+# reads with alignments suppressed due to -m: 343 (0.56%)
+Reported 55797 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55733 (90.54%)
+# reads that failed to align: 5529 (8.98%)
+# reads with alignments suppressed due to -m: 291 (0.47%)
+Reported 55733 alignments to 1 output stream(s)
+
+real	0m7.731s
+user	0m0.038s
+sys	0m0.081s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 61553
+# reads with at least one reported alignment: 55621 (90.36%)
+# reads that failed to align: 5659 (9.19%)
+# reads with alignments suppressed due to -m: 273 (0.44%)
+Reported 55621 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55724 (90.53%)
+# reads that failed to align: 5519 (8.97%)
+# reads with alignments suppressed due to -m: 310 (0.50%)
+Reported 55724 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55918 (90.85%)
+# reads that failed to align: 5319 (8.64%)
+# reads with alignments suppressed due to -m: 316 (0.51%)
+Reported 55918 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55893 (90.80%)
+# reads that failed to align: 5350 (8.69%)
+# reads with alignments suppressed due to -m: 310 (0.50%)
+Reported 55893 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55726 (90.53%)
+# reads that failed to align: 5553 (9.02%)
+# reads with alignments suppressed due to -m: 274 (0.45%)
+Reported 55726 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55676 (90.45%)
+# reads that failed to align: 5542 (9.00%)
+# reads with alignments suppressed due to -m: 335 (0.54%)
+Reported 55676 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55672 (90.45%)
+# reads that failed to align: 5582 (9.07%)
+# reads with alignments suppressed due to -m: 299 (0.49%)
+Reported 55672 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55852 (90.74%)
+# reads that failed to align: 5390 (8.76%)
+# reads with alignments suppressed due to -m: 311 (0.51%)
+Reported 55852 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55668 (90.44%)
+# reads that failed to align: 5576 (9.06%)
+# reads with alignments suppressed due to -m: 309 (0.50%)
+Reported 55668 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55759 (90.59%)
+# reads that failed to align: 5494 (8.93%)
+# reads with alignments suppressed due to -m: 300 (0.49%)
+Reported 55759 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55797 (90.65%)
+# reads that failed to align: 5413 (8.79%)
+# reads with alignments suppressed due to -m: 343 (0.56%)
+Reported 55797 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55840 (90.72%)
+# reads that failed to align: 5419 (8.80%)
+# reads with alignments suppressed due to -m: 294 (0.48%)
+Reported 55840 alignments to 1 output stream(s)
+# reads processed: 61560
+# reads with at least one reported alignment: 56000 (90.97%)
+# reads that failed to align: 5273 (8.57%)
+# reads with alignments suppressed due to -m: 287 (0.47%)
+Reported 56000 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55697 (90.49%)
+# reads that failed to align: 5539 (9.00%)
+# reads with alignments suppressed due to -m: 317 (0.52%)
+Reported 55697 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55733 (90.54%)
+# reads that failed to align: 5529 (8.98%)
+# reads with alignments suppressed due to -m: 291 (0.47%)
+Reported 55733 alignments to 1 output stream(s)
+
+real	0m7.590s
+user	0m0.031s
+sys	0m0.085s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 61553
+# reads with at least one reported alignment: 55672 (90.45%)
+# reads that failed to align: 5582 (9.07%)
+# reads with alignments suppressed due to -m: 299 (0.49%)
+Reported 55672 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55726 (90.53%)
+# reads that failed to align: 5553 (9.02%)
+# reads with alignments suppressed due to -m: 274 (0.45%)
+Reported 55726 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55852 (90.74%)
+# reads that failed to align: 5390 (8.76%)
+# reads with alignments suppressed due to -m: 311 (0.51%)
+Reported 55852 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55697 (90.49%)
+# reads that failed to align: 5539 (9.00%)
+# reads with alignments suppressed due to -m: 317 (0.52%)
+Reported 55697 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55668 (90.44%)
+# reads that failed to align: 5576 (9.06%)
+# reads with alignments suppressed due to -m: 309 (0.50%)
+Reported 55668 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55797 (90.65%)
+# reads that failed to align: 5413 (8.79%)
+# reads with alignments suppressed due to -m: 343 (0.56%)
+Reported 55797 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55676 (90.45%)
+# reads that failed to align: 5542 (9.00%)
+# reads with alignments suppressed due to -m: 335 (0.54%)
+Reported 55676 alignments to 1 output stream(s)
+# reads processed: 61560
+# reads with at least one reported alignment: 56000 (90.97%)
+# reads that failed to align: 5273 (8.57%)
+# reads with alignments suppressed due to -m: 287 (0.47%)
+Reported 56000 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55840 (90.72%)
+# reads that failed to align: 5419 (8.80%)
+# reads with alignments suppressed due to -m: 294 (0.48%)
+Reported 55840 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55621 (90.36%)
+# reads that failed to align: 5659 (9.19%)
+# reads with alignments suppressed due to -m: 273 (0.44%)
+Reported 55621 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55893 (90.80%)
+# reads that failed to align: 5350 (8.69%)
+# reads with alignments suppressed due to -m: 310 (0.50%)
+Reported 55893 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55759 (90.59%)
+# reads that failed to align: 5494 (8.93%)
+# reads with alignments suppressed due to -m: 300 (0.49%)
+Reported 55759 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55918 (90.85%)
+# reads that failed to align: 5319 (8.64%)
+# reads with alignments suppressed due to -m: 316 (0.51%)
+Reported 55918 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55724 (90.53%)
+# reads that failed to align: 5519 (8.97%)
+# reads with alignments suppressed due to -m: 310 (0.50%)
+Reported 55724 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55733 (90.54%)
+# reads that failed to align: 5529 (8.98%)
+# reads with alignments suppressed due to -m: 291 (0.47%)
+Reported 55733 alignments to 1 output stream(s)
+
+real	0m10.084s
+user	0m0.041s
+sys	0m0.074s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 61560
+# reads with at least one reported alignment: 56000 (90.97%)
+# reads that failed to align: 5273 (8.57%)
+# reads with alignments suppressed due to -m: 287 (0.47%)
+Reported 56000 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55759 (90.59%)
+# reads that failed to align: 5494 (8.93%)
+# reads with alignments suppressed due to -m: 300 (0.49%)
+Reported 55759 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55668 (90.44%)
+# reads that failed to align: 5576 (9.06%)
+# reads with alignments suppressed due to -m: 309 (0.50%)
+Reported 55668 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55672 (90.45%)
+# reads that failed to align: 5582 (9.07%)
+# reads with alignments suppressed due to -m: 299 (0.49%)
+Reported 55672 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55797 (90.65%)
+# reads that failed to align: 5413 (8.79%)
+# reads with alignments suppressed due to -m: 343 (0.56%)
+Reported 55797 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55621 (90.36%)
+# reads that failed to align: 5659 (9.19%)
+# reads with alignments suppressed due to -m: 273 (0.44%)
+Reported 55621 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55893 (90.80%)
+# reads that failed to align: 5350 (8.69%)
+# reads with alignments suppressed due to -m: 310 (0.50%)
+Reported 55893 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55852 (90.74%)
+# reads that failed to align: 5390 (8.76%)
+# reads with alignments suppressed due to -m: 311 (0.51%)
+Reported 55852 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55697 (90.49%)
+# reads that failed to align: 5539 (9.00%)
+# reads with alignments suppressed due to -m: 317 (0.52%)
+Reported 55697 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55918 (90.85%)
+# reads that failed to align: 5319 (8.64%)
+# reads with alignments suppressed due to -m: 316 (0.51%)
+Reported 55918 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55726 (90.53%)
+# reads that failed to align: 5553 (9.02%)
+# reads with alignments suppressed due to -m: 274 (0.45%)
+Reported 55726 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55676 (90.45%)
+# reads that failed to align: 5542 (9.00%)
+# reads with alignments suppressed due to -m: 335 (0.54%)
+Reported 55676 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55840 (90.72%)
+# reads that failed to align: 5419 (8.80%)
+# reads with alignments suppressed due to -m: 294 (0.48%)
+Reported 55840 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55724 (90.53%)
+# reads that failed to align: 5519 (8.97%)
+# reads with alignments suppressed due to -m: 310 (0.50%)
+Reported 55724 alignments to 1 output stream(s)
+# reads processed: 61553
+# reads with at least one reported alignment: 55733 (90.54%)
+# reads that failed to align: 5529 (8.98%)
+# reads with alignments suppressed due to -m: 291 (0.47%)
+Reported 55733 alignments to 1 output stream(s)
+
+real	0m7.497s
+user	0m0.032s
+sys	0m0.090s
+Num Processors: 16
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 57706
+# reads with at least one reported alignment: 52315 (90.66%)
+# reads that failed to align: 5117 (8.87%)
+# reads with alignments suppressed due to -m: 274 (0.47%)
+Reported 52315 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52311 (90.65%)
+# reads that failed to align: 5078 (8.80%)
+# reads with alignments suppressed due to -m: 317 (0.55%)
+Reported 52311 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52203 (90.46%)
+# reads that failed to align: 5183 (8.98%)
+# reads with alignments suppressed due to -m: 320 (0.55%)
+Reported 52203 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52293 (90.62%)
+# reads that failed to align: 5122 (8.88%)
+# reads with alignments suppressed due to -m: 291 (0.50%)
+Reported 52293 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52104 (90.29%)
+# reads that failed to align: 5316 (9.21%)
+# reads with alignments suppressed due to -m: 286 (0.50%)
+Reported 52104 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52445 (90.88%)
+# reads that failed to align: 4956 (8.59%)
+# reads with alignments suppressed due to -m: 305 (0.53%)
+Reported 52445 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52376 (90.76%)
+# reads that failed to align: 5067 (8.78%)
+# reads with alignments suppressed due to -m: 263 (0.46%)
+Reported 52376 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52243 (90.53%)
+# reads that failed to align: 5193 (9.00%)
+# reads with alignments suppressed due to -m: 270 (0.47%)
+Reported 52243 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52352 (90.72%)
+# reads that failed to align: 5048 (8.75%)
+# reads with alignments suppressed due to -m: 306 (0.53%)
+Reported 52352 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52128 (90.33%)
+# reads that failed to align: 5308 (9.20%)
+# reads with alignments suppressed due to -m: 270 (0.47%)
+Reported 52128 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52139 (90.35%)
+# reads that failed to align: 5269 (9.13%)
+# reads with alignments suppressed due to -m: 298 (0.52%)
+Reported 52139 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52234 (90.52%)
+# reads that failed to align: 5216 (9.04%)
+# reads with alignments suppressed due to -m: 256 (0.44%)
+Reported 52234 alignments to 1 output stream(s)
+# reads processed: 57712
+# reads with at least one reported alignment: 52493 (90.96%)
+# reads that failed to align: 4950 (8.58%)
+# reads with alignments suppressed due to -m: 269 (0.47%)
+Reported 52493 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52408 (90.82%)
+# reads that failed to align: 5023 (8.70%)
+# reads with alignments suppressed due to -m: 275 (0.48%)
+Reported 52408 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52274 (90.59%)
+# reads that failed to align: 5134 (8.90%)
+# reads with alignments suppressed due to -m: 298 (0.52%)
+Reported 52274 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52258 (90.56%)
+# reads that failed to align: 5177 (8.97%)
+# reads with alignments suppressed due to -m: 271 (0.47%)
+Reported 52258 alignments to 1 output stream(s)
+
+real	0m7.898s
+user	0m0.037s
+sys	0m0.082s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 57706
+# reads with at least one reported alignment: 52243 (90.53%)
+# reads that failed to align: 5193 (9.00%)
+# reads with alignments suppressed due to -m: 270 (0.47%)
+Reported 52243 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52311 (90.65%)
+# reads that failed to align: 5078 (8.80%)
+# reads with alignments suppressed due to -m: 317 (0.55%)
+Reported 52311 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52104 (90.29%)
+# reads that failed to align: 5316 (9.21%)
+# reads with alignments suppressed due to -m: 286 (0.50%)
+Reported 52104 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52352 (90.72%)
+# reads that failed to align: 5048 (8.75%)
+# reads with alignments suppressed due to -m: 306 (0.53%)
+Reported 52352 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52376 (90.76%)
+# reads that failed to align: 5067 (8.78%)
+# reads with alignments suppressed due to -m: 263 (0.46%)
+Reported 52376 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52408 (90.82%)
+# reads that failed to align: 5023 (8.70%)
+# reads with alignments suppressed due to -m: 275 (0.48%)
+Reported 52408 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52139 (90.35%)
+# reads that failed to align: 5269 (9.13%)
+# reads with alignments suppressed due to -m: 298 (0.52%)
+Reported 52139 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52293 (90.62%)
+# reads that failed to align: 5122 (8.88%)
+# reads with alignments suppressed due to -m: 291 (0.50%)
+Reported 52293 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52128 (90.33%)
+# reads that failed to align: 5308 (9.20%)
+# reads with alignments suppressed due to -m: 270 (0.47%)
+Reported 52128 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52234 (90.52%)
+# reads that failed to align: 5216 (9.04%)
+# reads with alignments suppressed due to -m: 256 (0.44%)
+Reported 52234 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52274 (90.59%)
+# reads that failed to align: 5134 (8.90%)
+# reads with alignments suppressed due to -m: 298 (0.52%)
+Reported 52274 alignments to 1 output stream(s)
+# reads processed: 57712
+# reads with at least one reported alignment: 52493 (90.96%)
+# reads that failed to align: 4950 (8.58%)
+# reads with alignments suppressed due to -m: 269 (0.47%)
+Reported 52493 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52203 (90.46%)
+# reads that failed to align: 5183 (8.98%)
+# reads with alignments suppressed due to -m: 320 (0.55%)
+Reported 52203 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52315 (90.66%)
+# reads that failed to align: 5117 (8.87%)
+# reads with alignments suppressed due to -m: 274 (0.47%)
+Reported 52315 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52445 (90.88%)
+# reads that failed to align: 4956 (8.59%)
+# reads with alignments suppressed due to -m: 305 (0.53%)
+Reported 52445 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52258 (90.56%)
+# reads that failed to align: 5177 (8.97%)
+# reads with alignments suppressed due to -m: 271 (0.47%)
+Reported 52258 alignments to 1 output stream(s)
+
+real	0m7.691s
+user	0m0.035s
+sys	0m0.086s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 57706
+# reads with at least one reported alignment: 52203 (90.46%)
+# reads that failed to align: 5183 (8.98%)
+# reads with alignments suppressed due to -m: 320 (0.55%)
+Reported 52203 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52311 (90.65%)
+# reads that failed to align: 5078 (8.80%)
+# reads with alignments suppressed due to -m: 317 (0.55%)
+Reported 52311 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52445 (90.88%)
+# reads that failed to align: 4956 (8.59%)
+# reads with alignments suppressed due to -m: 305 (0.53%)
+Reported 52445 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52104 (90.29%)
+# reads that failed to align: 5316 (9.21%)
+# reads with alignments suppressed due to -m: 286 (0.50%)
+Reported 52104 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52408 (90.82%)
+# reads that failed to align: 5023 (8.70%)
+# reads with alignments suppressed due to -m: 275 (0.48%)
+Reported 52408 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52139 (90.35%)
+# reads that failed to align: 5269 (9.13%)
+# reads with alignments suppressed due to -m: 298 (0.52%)
+Reported 52139 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52352 (90.72%)
+# reads that failed to align: 5048 (8.75%)
+# reads with alignments suppressed due to -m: 306 (0.53%)
+Reported 52352 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52315 (90.66%)
+# reads that failed to align: 5117 (8.87%)
+# reads with alignments suppressed due to -m: 274 (0.47%)
+Reported 52315 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52274 (90.59%)
+# reads that failed to align: 5134 (8.90%)
+# reads with alignments suppressed due to -m: 298 (0.52%)
+Reported 52274 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52128 (90.33%)
+# reads that failed to align: 5308 (9.20%)
+# reads with alignments suppressed due to -m: 270 (0.47%)
+Reported 52128 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52243 (90.53%)
+# reads that failed to align: 5193 (9.00%)
+# reads with alignments suppressed due to -m: 270 (0.47%)
+Reported 52243 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52234 (90.52%)
+# reads that failed to align: 5216 (9.04%)
+# reads with alignments suppressed due to -m: 256 (0.44%)
+Reported 52234 alignments to 1 output stream(s)
+# reads processed: 57712
+# reads with at least one reported alignment: 52493 (90.96%)
+# reads that failed to align: 4950 (8.58%)
+# reads with alignments suppressed due to -m: 269 (0.47%)
+Reported 52493 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52293 (90.62%)
+# reads that failed to align: 5122 (8.88%)
+# reads with alignments suppressed due to -m: 291 (0.50%)
+Reported 52293 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52376 (90.76%)
+# reads that failed to align: 5067 (8.78%)
+# reads with alignments suppressed due to -m: 263 (0.46%)
+Reported 52376 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52258 (90.56%)
+# reads that failed to align: 5177 (8.97%)
+# reads with alignments suppressed due to -m: 271 (0.47%)
+Reported 52258 alignments to 1 output stream(s)
+
+real	0m7.648s
+user	0m0.027s
+sys	0m0.090s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 57706
+# reads with at least one reported alignment: 52311 (90.65%)
+# reads that failed to align: 5078 (8.80%)
+# reads with alignments suppressed due to -m: 317 (0.55%)
+Reported 52311 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52243 (90.53%)
+# reads that failed to align: 5193 (9.00%)
+# reads with alignments suppressed due to -m: 270 (0.47%)
+Reported 52243 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52352 (90.72%)
+# reads that failed to align: 5048 (8.75%)
+# reads with alignments suppressed due to -m: 306 (0.53%)
+Reported 52352 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52203 (90.46%)
+# reads that failed to align: 5183 (8.98%)
+# reads with alignments suppressed due to -m: 320 (0.55%)
+Reported 52203 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52104 (90.29%)
+# reads that failed to align: 5316 (9.21%)
+# reads with alignments suppressed due to -m: 286 (0.50%)
+Reported 52104 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52315 (90.66%)
+# reads that failed to align: 5117 (8.87%)
+# reads with alignments suppressed due to -m: 274 (0.47%)
+Reported 52315 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52293 (90.62%)
+# reads that failed to align: 5122 (8.88%)
+# reads with alignments suppressed due to -m: 291 (0.50%)
+Reported 52293 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52445 (90.88%)
+# reads that failed to align: 4956 (8.59%)
+# reads with alignments suppressed due to -m: 305 (0.53%)
+Reported 52445 alignments to 1 output stream(s)
+# reads processed: 57712
+# reads with at least one reported alignment: 52493 (90.96%)
+# reads that failed to align: 4950 (8.58%)
+# reads with alignments suppressed due to -m: 269 (0.47%)
+Reported 52493 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52128 (90.33%)
+# reads that failed to align: 5308 (9.20%)
+# reads with alignments suppressed due to -m: 270 (0.47%)
+Reported 52128 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52408 (90.82%)
+# reads that failed to align: 5023 (8.70%)
+# reads with alignments suppressed due to -m: 275 (0.48%)
+Reported 52408 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52376 (90.76%)
+# reads that failed to align: 5067 (8.78%)
+# reads with alignments suppressed due to -m: 263 (0.46%)
+Reported 52376 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52234 (90.52%)
+# reads that failed to align: 5216 (9.04%)
+# reads with alignments suppressed due to -m: 256 (0.44%)
+Reported 52234 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52139 (90.35%)
+# reads that failed to align: 5269 (9.13%)
+# reads with alignments suppressed due to -m: 298 (0.52%)
+Reported 52139 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52274 (90.59%)
+# reads that failed to align: 5134 (8.90%)
+# reads with alignments suppressed due to -m: 298 (0.52%)
+Reported 52274 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52258 (90.56%)
+# reads that failed to align: 5177 (8.97%)
+# reads with alignments suppressed due to -m: 271 (0.47%)
+Reported 52258 alignments to 1 output stream(s)
+
+real	0m7.918s
+user	0m0.034s
+sys	0m0.086s
+pmap: executing in parallel: bowtie  -S -v 2 -m 1 data//saci ./pmap_node0/pmap.reads ./pmap_node0/pmapoutfile.out.txt
+# reads processed: 57706
+# reads with at least one reported alignment: 52203 (90.46%)
+# reads that failed to align: 5183 (8.98%)
+# reads with alignments suppressed due to -m: 320 (0.55%)
+Reported 52203 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52243 (90.53%)
+# reads that failed to align: 5193 (9.00%)
+# reads with alignments suppressed due to -m: 270 (0.47%)
+Reported 52243 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52128 (90.33%)
+# reads that failed to align: 5308 (9.20%)
+# reads with alignments suppressed due to -m: 270 (0.47%)
+Reported 52128 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52234 (90.52%)
+# reads that failed to align: 5216 (9.04%)
+# reads with alignments suppressed due to -m: 256 (0.44%)
+Reported 52234 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52104 (90.29%)
+# reads that failed to align: 5316 (9.21%)
+# reads with alignments suppressed due to -m: 286 (0.50%)
+Reported 52104 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52445 (90.88%)
+# reads that failed to align: 4956 (8.59%)
+# reads with alignments suppressed due to -m: 305 (0.53%)
+Reported 52445 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52139 (90.35%)
+# reads that failed to align: 5269 (9.13%)
+# reads with alignments suppressed due to -m: 298 (# reads processed: 57706
+# reads with at least one reported alignment: 52311 (90.65%)0.52%)
+Reported 52139 alignments to 1 output stream(s)
+
+# reads that failed to align: 5078 (8.80%)
+# reads with alignments suppressed due to -m: 317 (0.55%)
+Reported 52311 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52315 (90.66%)
+# reads that failed to align: 5117 (8.87%)
+# reads with alignments suppressed due to -m: 274 (0.47%)
+Reported 52315 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52408 (90.82%)
+# reads that failed to align: 5023 (8.70%)
+# reads with alignments suppressed due to -m: 275 (0.48%)
+Reported 52408 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52274 (90.59%)
+# reads that failed to align: 5134 (8.90%)
+# reads with alignments suppressed due to -m: 298 (0.52%)
+Reported 52274 alignments to 1 output stream(s)
+# reads processed: 57712
+# reads with at least one reported alignment: 52493 (90.96%)
+# reads that failed to align: 4950 (8.58%)
+# reads with alignments suppressed due to -m: 269 (0.47%)
+Reported 52493 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52352 (90.72%)
+# reads that failed to align: 5048 (8.75%)
+# reads with alignments suppressed due to -m: 306 (0.53%)
+Reported 52352 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52376 (90.76%)
+# reads that failed to align: 5067 (8.78%)
+# reads with alignments suppressed due to -m: 263 (0.46%)
+Reported 52376 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52293 (90.62%)
+# reads that failed to align: 5122 (8.88%)
+# reads with alignments suppressed due to -m: 291 (0.50%)
+Reported 52293 alignments to 1 output stream(s)
+# reads processed: 57706
+# reads with at least one reported alignment: 52258 (90.56%)
+# reads that failed to align: 5177 (8.97%)
+# reads with alignments suppressed due to -m: 271 (0.47%)
+Reported 52258 alignments to 1 output stream(s)
+
+real	0m7.409s
+user	0m0.036s
+sys	0m0.085s
+
+Currently Loaded Modulefiles:
+  1) bowtie/1.0.0          4) intel/2016.1          7) blast+/2.2.26
+  2) intel/2015.3          5) intel/2016.2          8) exonerate/2.2.0
+  3) openmpi.intel/1.8.8   6) snap/20131129         9) pmap/1.0.0
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+14497743.ba+    591788K     13574K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+14497743        ex_cs_1         16                         00:24:21      0:0 
+14497743.0    pmi_proxy          1    273896K       601K   00:00:07      0:0 
+14497743.1    pmi_proxy          1    273896K     22255K   00:00:49      0:0 
+14497743.2    pmi_proxy          1    273896K       538K   00:00:03      0:0 
+14497743.3    pmi_proxy          1    273896K     22255K   00:00:47      0:0 
+14497743.4    pmi_proxy          1    273896K       599K   00:00:03      0:0 
+14497743.5    pmi_proxy          1    273896K     22255K   00:00:49      0:0 
+14497743.6    pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.7    pmi_proxy          1    273896K     22259K   00:00:50      0:0 
+14497743.8    pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.9    pmi_proxy          1    273896K     22255K   00:00:49      0:0 
+14497743.10   pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.11   pmi_proxy          1    273896K       538K   00:00:26      0:0 
+14497743.12   pmi_proxy          1    273896K       601K   00:00:03      0:0 
+14497743.13   pmi_proxy          1    273896K       536K   00:00:26      0:0 
+14497743.14   pmi_proxy          1    273896K       597K   00:00:02      0:0 
+14497743.15   pmi_proxy          1    438248K     29394K   00:00:25      0:0 
+14497743.16   pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.17   pmi_proxy          1    273896K       599K   00:00:25      0:0 
+14497743.18   pmi_proxy          1    273896K       599K   00:00:03      0:0 
+14497743.19   pmi_proxy          1    273896K       599K   00:00:26      0:0 
+14497743.20   pmi_proxy          1    273896K       540K   00:00:02      0:0 
+14497743.21   pmi_proxy          1    273896K       540K   00:00:17      0:0 
+14497743.22   pmi_proxy          1    273896K       603K   00:00:01      0:0 
+14497743.23   pmi_proxy          1    273896K       538K   00:00:16      0:0 
+14497743.24   pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.25   pmi_proxy          1    273896K       603K   00:00:16      0:0 
+14497743.26   pmi_proxy          1    273896K       540K   00:00:02      0:0 
+14497743.27   pmi_proxy          1    273896K       597K   00:00:17      0:0 
+14497743.28   pmi_proxy          1    273896K       540K   00:00:01      0:0 
+14497743.29   pmi_proxy          1    273896K       540K   00:00:16      0:0 
+14497743.30   pmi_proxy          1    273896K       597K   00:00:02      0:0 
+14497743.31   pmi_proxy          1    273896K       599K   00:00:13      0:0 
+14497743.32   pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.33   pmi_proxy          1    273896K       597K   00:00:13      0:0 
+14497743.34   pmi_proxy          1    273896K       603K   00:00:02      0:0 
+14497743.35   pmi_proxy          1    273896K       599K   00:00:15      0:0 
+14497743.36   pmi_proxy          1    273896K       601K   00:00:03      0:0 
+14497743.37   pmi_proxy          1    273896K       599K   00:00:13      0:0 
+14497743.38   pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.39   pmi_proxy          1    528556K      7699K   00:00:14      0:0 
+14497743.40   pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.41   pmi_proxy          1    273896K       540K   00:00:11      0:0 
+14497743.42   pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.43   pmi_proxy          1    273896K       597K   00:00:11      0:0 
+14497743.44   pmi_proxy          1    273896K       597K   00:00:02      0:0 
+14497743.45   pmi_proxy          1    273896K       601K   00:00:13      0:0 
+14497743.46   pmi_proxy          1    273896K       597K   00:00:03      0:0 
+14497743.47   pmi_proxy          1    273896K       538K   00:00:13      0:0 
+14497743.48   pmi_proxy          1    273896K       601K   00:00:03      0:0 
+14497743.49   pmi_proxy          1    273896K       538K   00:00:11      0:0 
+14497743.50   pmi_proxy          1    273896K       603K   00:00:02      0:0 
+14497743.51   pmi_proxy          1    273896K       536K   00:00:10      0:0 
+14497743.52   pmi_proxy          1    273896K       536K   00:00:02      0:0 
+14497743.53   pmi_proxy          1    273896K       538K   00:00:09      0:0 
+14497743.54   pmi_proxy          1    273896K       597K   00:00:01      0:0 
+14497743.55   pmi_proxy          1    273896K       536K   00:00:11      0:0 
+14497743.56   pmi_proxy          1    273896K       603K   00:00:02      0:0 
+14497743.57   pmi_proxy          1    273896K       599K   00:00:11      0:0 
+14497743.58   pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.59   pmi_proxy          1    273896K       599K   00:00:10      0:0 
+14497743.60   pmi_proxy          1    273896K       597K   00:00:03      0:0 
+14497743.61   pmi_proxy          1    273896K       597K   00:00:09      0:0 
+14497743.62   pmi_proxy          1    273896K       599K   00:00:11      0:0 
+14497743.63   pmi_proxy          1    273896K       538K   00:00:08      0:0 
+14497743.64   pmi_proxy          1    273896K       540K   00:00:03      0:0 
+14497743.65   pmi_proxy          1    273896K       605K   00:00:08      0:0 
+14497743.66   pmi_proxy          1    273896K       538K   00:00:01      0:0 
+14497743.67   pmi_proxy          1    273896K       536K   00:00:08      0:0 
+14497743.68   pmi_proxy          1    273896K       599K   00:00:05      0:0 
+14497743.69   pmi_proxy          1    273896K       599K   00:00:10      0:0 
+14497743.70   pmi_proxy          1    273896K       538K   00:00:03      0:0 
+14497743.71   pmi_proxy          1    273896K       601K   00:00:08      0:0 
+14497743.72   pmi_proxy          1    273896K       536K   00:00:05      0:0 
+14497743.73   pmi_proxy          1    273896K       540K   00:00:08      0:0 
+14497743.74   pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.75   pmi_proxy          1    273896K       538K   00:00:08      0:0 
+14497743.76   pmi_proxy          1    273896K       538K   00:00:02      0:0 
+14497743.77   pmi_proxy          1    273896K       599K   00:00:08      0:0 
+14497743.78   pmi_proxy          1    273896K       536K   00:00:02      0:0 
+14497743.79   pmi_proxy          1    273896K       536K   00:00:08      0:0 
+14497743.80   pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.81   pmi_proxy          1    273896K       540K   00:00:07      0:0 
+14497743.82   pmi_proxy          1    273896K       538K   00:00:02      0:0 
+14497743.83   pmi_proxy          1    273896K       597K   00:00:07      0:0 
+14497743.84   pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.85   pmi_proxy          1    273896K       599K   00:00:08      0:0 
+14497743.86   pmi_proxy          1    273896K       599K   00:00:03      0:0 
+14497743.87   pmi_proxy          1    273896K       599K   00:00:08      0:0 
+14497743.88   pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.89   pmi_proxy          1    273896K       603K   00:00:08      0:0 
+14497743.90   pmi_proxy          1    273896K       601K   00:00:03      0:0 
+14497743.91   pmi_proxy          1    273896K       536K   00:00:06      0:0 
+14497743.92   pmi_proxy          1    273896K       603K   00:00:02      0:0 
+14497743.93   pmi_proxy          1    273896K       538K   00:00:06      0:0 
+14497743.94   pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.95   pmi_proxy          1    273896K       538K   00:00:06      0:0 
+14497743.96   pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.97   pmi_proxy          1    273896K       542K   00:00:06      0:0 
+14497743.98   pmi_proxy          1    273896K       538K   00:00:02      0:0 
+14497743.99   pmi_proxy          1    273896K       538K   00:00:06      0:0 
+14497743.100  pmi_proxy          1    273896K       540K   00:00:02      0:0 
+14497743.101  pmi_proxy          1   3222684K    144665K   00:00:06      0:0 
+14497743.102  pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.103  pmi_proxy          1    273896K       538K   00:00:08      0:0 
+14497743.104  pmi_proxy          1    273896K       597K   00:00:03      0:0 
+14497743.105  pmi_proxy          1    273896K       536K   00:00:08      0:0 
+14497743.106  pmi_proxy          1    273896K       538K   00:00:19      0:0 
+14497743.107  pmi_proxy          1    273896K       536K   00:00:07      0:0 
+14497743.108  pmi_proxy          1    273896K       536K   00:00:02      0:0 
+14497743.109  pmi_proxy          1    273896K       603K   00:00:06      0:0 
+14497743.110  pmi_proxy          1    273896K       538K   00:00:04      0:0 
+14497743.111  pmi_proxy          1    273896K       603K   00:00:06      0:0 
+14497743.112  pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.113  pmi_proxy          1    273896K       538K   00:00:06      0:0 
+14497743.114  pmi_proxy          1    273896K       540K   00:00:02      0:0 
+14497743.115  pmi_proxy          1    273896K       599K   00:00:07      0:0 
+14497743.116  pmi_proxy          1    273896K       538K   00:00:03      0:0 
+14497743.117  pmi_proxy          1    273896K       603K   00:00:07      0:0 
+14497743.118  pmi_proxy          1    273896K       603K   00:00:03      0:0 
+14497743.119  pmi_proxy          1    273896K       601K   00:00:08      0:0 
+14497743.120  pmi_proxy          1    273896K       540K   00:00:03      0:0 
+14497743.121  pmi_proxy          1    273896K       536K   00:00:05      0:0 
+14497743.122  pmi_proxy          1    273896K       597K   00:00:02      0:0 
+14497743.123  pmi_proxy          1    273896K       599K   00:00:06      0:0 
+14497743.124  pmi_proxy          1    273896K       540K   00:00:02      0:0 
+14497743.125  pmi_proxy          1    273896K       540K   00:00:06      0:0 
+14497743.126  pmi_proxy          1    273896K       538K   00:00:02      0:0 
+14497743.127  pmi_proxy          1    273896K       601K   00:00:06      0:0 
+14497743.128  pmi_proxy          1    273896K       538K   00:00:04      0:0 
+14497743.129  pmi_proxy          1    273896K       538K   00:00:06      0:0 
+14497743.130  pmi_proxy          1    273896K       540K   00:00:03      0:0 
+14497743.131  pmi_proxy          1    273896K       538K   00:00:06      0:0 
+14497743.132  pmi_proxy          1    273896K       597K   00:00:04      0:0 
+14497743.133  pmi_proxy          1    273896K       601K   00:00:05      0:0 
+14497743.134  pmi_proxy          1    273896K       538K   00:00:02      0:0 
+14497743.135  pmi_proxy          1    273896K       538K   00:00:05      0:0 
+14497743.136  pmi_proxy          1    273896K       540K   00:00:02      0:0 
+14497743.137  pmi_proxy          1    273896K       601K   00:00:05      0:0 
+14497743.138  pmi_proxy          1    273896K       603K   00:00:03      0:0 
+14497743.139  pmi_proxy          1    273896K       538K   00:00:05      0:0 
+14497743.140  pmi_proxy          1    273896K       540K   00:00:02      0:0 
+14497743.141  pmi_proxy          1    273896K       538K   00:00:07      0:0 
+14497743.142  pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.143  pmi_proxy          1    273896K       538K   00:00:05      0:0 
+14497743.144  pmi_proxy          1    273896K       597K   00:00:02      0:0 
+14497743.145  pmi_proxy          1    273896K       538K   00:00:05      0:0 
+14497743.146  pmi_proxy          1    273896K       538K   00:00:05      0:0 
+14497743.147  pmi_proxy          1   4976160K    196136K   00:00:05      0:0 
+14497743.148  pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.149  pmi_proxy          1    273896K       601K   00:00:05      0:0 
+14497743.150  pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.151  pmi_proxy          1    273896K       599K   00:00:06      0:0 
+14497743.152  pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.153  pmi_proxy          1    273896K       601K   00:00:05      0:0 
+14497743.154  pmi_proxy          1    273896K       601K   00:00:02      0:0 
+14497743.155  pmi_proxy          1    273896K       599K   00:00:05      0:0 
+14497743.156  pmi_proxy          1    273896K       540K   00:00:03      0:0 
+14497743.157  pmi_proxy          1    273896K       597K   00:00:05      0:0 
+14497743.158  pmi_proxy          1    273896K       599K   00:00:02      0:0 
+14497743.159  pmi_proxy          1    273896K       601K   00:00:05      0:0 
+
+Job 14497743 ("ex_cs_1") completed on c4-1 at Di 3. Mai 02:35:32 CEST 2016
