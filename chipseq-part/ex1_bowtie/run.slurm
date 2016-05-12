@@ -33,9 +33,9 @@ time bowtie -S -v 2 -m 1 data/saci data/N1_CHIP.fastq > N1_CHIP_nompi.sam
 for i in {1..16}
 do
 	echo "Num Processors: $i"
-	time ./ex1_mpirun_script.sh $i
-	time ./ex1_mpirun_script.sh $i
-	time ./ex1_mpirun_script.sh $i
-	time ./ex1_mpirun_script.sh $i
-	time ./ex1_mpirun_script.sh $i
+	time ./mpirun_script.sh $i
+	time ./mpirun_script.sh $i
+	time ./mpirun_script.sh $i
+	time ./mpirun_script.sh $i
+	time ./mpirun_script.sh $i
 done

@@ -1,0 +1,17 @@
+Name	script	memory [KB]	time used [s]	start/end time
+preparation	preparation.slurm	2723	16
+
+ALIGN	alignment.slurm
+MBAM	makeBAMs.slurm
+SBAM	sortBAMs.slurm
+MBG	makeBedGraphs.slurm
+SBG	sortBedGraphs.slurm
+MBW	makeBigWigs.slurm
+PEAKC	peakCalling.slurm
+CSMERGE	catSortAndBTMerge.slurm
+IBED	intersectBed.slurm
+PREPR	prepareForR.slurm
+R	runRscript.slurm
+
+		total (w/o preparation)
+		total (from start/end)

@@ -1,0 +1,21 @@
+JOB	ALIGN	alignment_withMPI.slurm
+JOB	MBAM	makeBAMs.slurm
+JOB	SBAM	sortBAMs.slurm
+JOB	MBG		makeBedGraphs.slurm
+JOB	SBG		sortBedGraphs.slurm
+JOB	MBW		makeBigWigs.slurm
+JOB	PEAKC	peakCalling.slurm
+JOB	CSMERGE	catSortAndBTMerge.slurm
+JOB	IBED	intersectBed.slurm
+JOB	PREPR	prepareForR.slurm
+JOB	R		runRscript.slurm
+
+PARENT	ALIGN			CHILD	MBAM PEAKC
+PARENT	MBAM			CHILD	SBAM
+PARENT	SBAM			CHILD	MBG IBED
+PARENT	MBG				CHILD	SBG
+PARENT	SBG				CHILD	MBW
+PARENT	PEAKC			CHILD	CSMERGE
+PARENT	SBAM CSMERGE	CHILD	IBED
+PARENT	IBED			CHILD	PREPR
+PARENT	PREPR			CHILD	R
