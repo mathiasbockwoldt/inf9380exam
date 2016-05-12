@@ -5,6 +5,7 @@
 \usepackage[usenames,dvipsnames]{color}	% For colorful text
 \usepackage{microtype}			% For nicer spacing
 \usepackage{graphicx}
+\usepackage{bigfoot}
 %\usepackage{siunitx}			% For units
 
 \usepackage[colorlinks=true,
@@ -51,14 +52,14 @@ I ran bowtie five times in serial mode to get a baseline for the execution time.
 
 \begin{figure}[ht]
   \centering
-    \includegraphics[width=0.5\textwidth]{chipseq-bowtie}
+    %\includegraphics[width=0.5\textwidth]{chipseq-bowtie}
   \caption{The speedup of bowtie with MPI. Serial is bowtie without MPI and is set to 1. The MPI with only one processor has a negative speedup (lower than 1) due to the overhead of parallelisation.}
   \label{fig:chipseq-bowtie}
 \end{figure}
 
 The speedup is as expected. The execution gets faster with each additional core, but the increase in speed declines with the number of cores due to the parallelizing overhead. When using more cores, the file must be split into more chunks, more processes must be spawned and more result files must be concatenated after execution. With few processes, this pays off, but the more processes are spawned, the less pronounced is the speedup.
 
-A \texttt{diff} result of the output file of the serial bowtie and bowtie using MPI with 16 cores shows that the file contents themselves are identical. Only the header lines repeat (one header for each process). This is easily solveable for example using awk to remove the excessive headers\footnote{\xxx{I should enter the one-liner here}}.
+A \texttt{diff} result of the output file of the serial bowtie and bowtie using MPI with 16 cores shows that the file contents themselves are identical. Only the header lines repeat (one header for each process). This is easily solveable for example using awk to remove the excessive headers\footnote{\verb\awk 'NR <= 3 || !/^@/'\}.
 
 \paragraph{2. -- 5. SLURM scripts} All serial files are in the folder \texttt{ex2\_serial} and the parallelized files (using \texttt{arrayrun}) are in the folder \texttt{ex3\_parallel}.
 

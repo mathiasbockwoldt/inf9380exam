@@ -1,17 +1,23 @@
-Name	script	memory [KB]	time used [s]	start/end time
-preparation	preparation.slurm	2723	16	
-				
-ALIGN	alignment.slurm	13120	257	11:57:18
-MBAM	makeBAMs.slurm	2299	41	
-SBAM	sortBAMs.slurm	204059	39	
-MBG	makeBedGraphs.slurm	2266	20	
-SBG	sortBedGraphs.slurm	2241	9	
-MBW	makeBigWigs.slurm	2245	4	
-PEAKC	peakCalling.slurm	75465	75	
-CSMERGE	catSortAndBTMerge.slurm	2262	1	
-IBED	intersectBed.slurm	3180	48	
-PREPR	prepareForR.slurm	2639	2	
-R	runRscript.slurm	2689	4	12:04:34
-				
-		total (w/o preparation)	500	
-		total (from start/end)	436	
+Name	script	memory [KB]	time used [s]
+preparation	preparation.slurm	2723	16
+
+ALIGN	alignment.slurm	13120	245	237	265
+MBAM	makeBAMs.slurm	2299	43	40	41
+SBAM	sortBAMs.slurm	204059	37	37	39
+MBG	makeBedGraphs.slurm	2266	20	19	23
+SBG	sortBedGraphs.slurm	2241	162	163	164
+MBW	makeBigWigs.slurm	2245	5	7	8
+PEAKC	peakCalling.slurm	75465	78	74	75
+CSMERGE	catSortAndBTMerge.slurm	2262	1	2	5
+IBED	intersectBed.slurm	3180	48	47	46
+PREPR	prepareForR.slurm	2639	5	5	6
+R	runRscript.slurm	2689	4	5	2
+
+without MPI starts	19:16:02	19:35:52	19:52:59
+without MPI ends	19:25:03	19:45:23	20:03:46
+with MPI starts	20:16:00	20:28:14	20:56:52
+with MPI ends	20:26:17	20:39:19	21:06:42
+
+total (each)	648	636	674
+total (without MPI)	541	571	647
+total (with MPI)	617	665	590
