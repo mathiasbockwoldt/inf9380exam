@@ -1,15 +1,10 @@
 #!/bin/bash
 
-#SBATCH --job-name=excs2_10_w
+#SBATCH --job-name=prepr_w
 #SBATCH --account=ln0002k
-#SBATCH --mem-per-cpu=3500M
-#SBATCH --time=01:00:00			########################################
+#SBATCH --mem-per-cpu=1000M
+#SBATCH --time=00:10:00
 #SBATCH --ntasks=1
-
-# # # # # # # # # # # # # # # # # # # #
-# This SLURM script starts the preparation step for R (step 10) of the ChIP-seq
-# variant calling workflow. This is the WORKER script.
-# # # # # # # # # # # # # # # # # # # #
 
 # get environment and helpers
 source /cluster/bin/jobsetup

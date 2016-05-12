@@ -1,22 +1,21 @@
-JOB	ALIGN	r01s_alignment.slurm
-JOB	MBAM	r02s_makeBAMs.slurm
-JOB	SBAM	r03s_sortBAMs.slurm
-JOB	MBG		r04s_makeBedGraphs.slurm
-JOB	SBG		r05s_sortBedGraphs.slurm
-JOB	MBW		r06s_makeBigWigs.slurm
-JOB	PEAKC	r07s_peakCalling.slurm
-JOB	CSMERGE	r08_catSortAndBTMerge.slurm
-JOB	IBED	r09s_intersectBed.slurm
-JOB	PREPR	r10s_prepareForR.slurm
-JOB	R		r11_runRscript.slurm
+JOB	ALIGN	sub_alignment.slurm
+JOB	MBAM	sub_makeBAMs.slurm
+JOB	SBAM	sub_sortBAMs.slurm
+JOB	MBG		sub_makeBedGraphs.slurm
+JOB	SBG		sub_sortBedGraphs.slurm
+JOB	MBW		sub_makeBigWigs.slurm
+JOB	PEAKC	sub_peakCalling.slurm
+JOB	CSMERGE	catSortAndBTMerge.slurm
+JOB	IBED	sub_intersectBed.slurm
+JOB	PREPR	sub_prepareForR.slurm
+JOB	R		runRscript.slurm
 
-PARENT	ALIGN	CHILD	MBAM
-PARENT	MBAM	CHILD	SBAM
-PARENT	SBAM	CHILD	MBG
-PARENT	MBG		CHILD	SBG
-PARENT	SBG		CHILD	MBW
-PARENT	MBW		CHILD	PEAKC
-PARENT	PEAKC	CHILD	CSMERGE
-PARENT	CSMERGE	CHILD	IBED
-PARENT	IBED	CHILD	PREPR
-PARENT	PREPR	CHILD	R
+PARENT	ALIGN			CHILD	MBAM PEAKC
+PARENT	MBAM			CHILD	SBAM
+PARENT	SBAM			CHILD	MBG IBED
+PARENT	MBG				CHILD	SBG
+PARENT	SBG				CHILD	MBW
+PARENT	PEAKC			CHILD	CSMERGE
+PARENT	SBAM CSMERGE	CHILD	IBED
+PARENT	IBED			CHILD	PREPR
+PARENT	PREPR			CHILD	R
