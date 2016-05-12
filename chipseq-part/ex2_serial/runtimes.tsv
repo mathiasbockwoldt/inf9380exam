@@ -1,0 +1,13 @@
+preparation	r00_preparation.slurm	0:26	214760	2667
+
+ALIGN	r01_alignment.slurm	3:51	276448	13290	11:16:17
+MBAM	r02_makeBAMs.slurm	0:41	214760	2665
+SBAM	r03_sortBAMs.slurm	0:38	323496	198082
+MBG	r04_makeBedGraphs.slurm	0:18	214760	2641
+SBG	r05_sortBedGraphs.slurm	0:13	214760	2641
+MBW	r06_makeBigWigs.slurm	0:05	214760	2760
+PEAKC	r07_peakCalling.slurm	1:13	331028	75940
+CSMERGE	r08_catSortAndBTMerge.slurm	0:01	214760	2756
+IBED	r09_intersectBed.slurm	0:51	233376	3577
+PREPR	r10_prepareForR.slurm	0:02	214760	2757
+R	r11_runRscript.slurm	0:07	214896	2812	11:25:51
