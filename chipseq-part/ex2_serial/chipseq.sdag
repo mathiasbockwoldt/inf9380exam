@@ -1,14 +1,14 @@
-JOB	ALIGN	r01_alignment.slurm
-JOB	MBAM	r02_makeBAMs.slurm
-JOB	SBAM	r03_sortBAMs.slurm
-JOB	MBG		r04_makeBedGraphs.slurm
-JOB	SBG		r05_sortBedGraphs.slurm
-JOB	MBW		r06_makeBigWigs.slurm
-JOB	PEAKC	r07_peakCalling.slurm
-JOB	CSMERGE	r08_catSortAndBTMerge.slurm
-JOB	IBED	r09_intersectBed.slurm
-JOB	PREPR	r10_prepareForR.slurm
-JOB	R		r11_runRscript.slurm
+JOB	ALIGN	alignment.slurm
+JOB	MBAM	makeBAMs.slurm
+JOB	SBAM	sortBAMs.slurm
+JOB	MBG		makeBedGraphs.slurm
+JOB	SBG		sortBedGraphs.slurm
+JOB	MBW		makeBigWigs.slurm
+JOB	PEAKC	peakCalling.slurm
+JOB	CSMERGE	catSortAndBTMerge.slurm
+JOB	IBED	intersectBed.slurm
+JOB	PREPR	prepareForR.slurm
+JOB	R		runRscript.slurm
 
 PARENT	ALIGN	CHILD	MBAM
 PARENT	MBAM	CHILD	SBAM
