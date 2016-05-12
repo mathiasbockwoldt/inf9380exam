@@ -1,13 +1,17 @@
-preparation	r00_preparation.slurm	0:26	214760	2667
-
-ALIGN	r01_alignment.slurm	3:51	276448	13290	11:16:17
-MBAM	r02_makeBAMs.slurm	0:41	214760	2665
-SBAM	r03_sortBAMs.slurm	0:38	323496	198082
-MBG	r04_makeBedGraphs.slurm	0:18	214760	2641
-SBG	r05_sortBedGraphs.slurm	0:13	214760	2641
-MBW	r06_makeBigWigs.slurm	0:05	214760	2760
-PEAKC	r07_peakCalling.slurm	1:13	331028	75940
-CSMERGE	r08_catSortAndBTMerge.slurm	0:01	214760	2756
-IBED	r09_intersectBed.slurm	0:51	233376	3577
-PREPR	r10_prepareForR.slurm	0:02	214760	2757
-R	r11_runRscript.slurm	0:07	214896	2812	11:25:51
+Name	script	memory [KB]	time used [s]	start/end time
+preparation	preparation.slurm	2723	16	
+				
+ALIGN	alignment.slurm	13120	257	11:57:18
+MBAM	makeBAMs.slurm	2299	41	
+SBAM	sortBAMs.slurm	204059	39	
+MBG	makeBedGraphs.slurm	2266	20	
+SBG	sortBedGraphs.slurm	2241	9	
+MBW	makeBigWigs.slurm	2245	4	
+PEAKC	peakCalling.slurm	75465	75	
+CSMERGE	catSortAndBTMerge.slurm	2262	1	
+IBED	intersectBed.slurm	3180	48	
+PREPR	prepareForR.slurm	2639	2	
+R	runRscript.slurm	2689	4	12:04:34
+				
+		total (w/o preparation)	500	
+		total (from start/end)	436	
