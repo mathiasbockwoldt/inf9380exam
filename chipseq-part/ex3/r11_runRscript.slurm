@@ -18,4 +18,4 @@ source /cluster/bin/jobsetup
 module load R
 
 # Normalize and plot in R
-Rscript ex2_normalizeAndPlot.R
+Rscript normalizeAndPlot.R
