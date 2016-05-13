@@ -1,0 +1,51 @@
+<tool id="haystack" name="Haystack" version="1.07">
+	<requirements>
+		<requirement type="package">perl</requirement>
+	</requirements>
+	 <version_command interpreter="perl">
+	<![CDATA[
+		haystack.pl --version 2>&1 >/dev/null | head -n 1 | grep -Po '(?<=\(version )[0-9\.]+'
+	]]>
+	</version_command>
+	<command interpreter="perl"><![CDATA[
+		haystack.pl
+		-m "$input_model"
+		-d "$input_data"
+		-c $cutoff_corr
+		-f $cutoff_fold
+		-r $cutoff_p
+		-b $cutoff_bg
+		-n outfile.tsv
+	]]></command>
+	<inputs>
+		<param name="input_data" type="data" format="tabular" label="File with gene expression data" help="One gene per line; first element in each line must be the name of the gene, all other elements the data points. Each line must have the same number of elements." />
+		<param name="input_model" type="data" format="tabular" label="File with models to test against" help="One model per line; first element in each line must be the name of the model, all other elements the data points. Each line must have the same number of elements. Model files can be generated with ##### or downloaded here #####" />
+
+		<param name="cutoff_corr" type="float" value="0.8" min="-1" max="1" label="Pearson correlation cutoff value" help="Pearson correlation values between a data series and a model below this value (i.e. closer to zero) will be excluded from the results" />
+
+		<param name="cutoff_fold" type="float" value="2" min="1" max="100" label="Fold-change cutoff value" help="Any data series where the fold-change between the maximum and the minimum are below this value is excluded from the results" />
+
+		<param name="cutoff_p" type="float" value="0.05" min="0" max="1" label="p-value cutoff" help="p-values for matches between a data series and a model above this value will be excluded from the results" />
+
+		<param name="cutoff_bg" type="float" value="100" min="0" label="Background cutoff" help="Any data series without two consecutive data points above this value are considered background noise and will be excluded from the results" />
+
+	</inputs>
+	<outputs>
+		<data format="tabluar" name="oscillating_genes" label="Table with oscillating genes" />
+		<!-- ############ How to include an output file here???? -->
+	</outputs>
+	<help><![CDATA[
+		Haystack tries to find oscillating genes in a list of data series, usually with gene expression data from microarrays or RNA seq experiments.
+
+		The program takes a tabular file with data series to test. Each line contains one data series with the first element being the name and all other elements being data points. Every line must have the same number of data points.
+
+		In addition, the program needs another tabular file with models to compare the data series with. The structure is the same as for the data file with one model per line and the first element of each line being the name of the model. Model files can be generated with ##### or downloaded here #####.
+
+		The parameters give different cutoffs to exclude bad fits and noisy data.
+
+		The output file contains all data series that were found to fit to some model. Again, there will be one line per series. Each line starts with the word *DATA* followed by the gene name, the model name and the data points that can directly be used for further processing.
+	]]></help>
+	<citations>
+		<citation type="doi">10.1101/sqb.2007.72.006</citation>
+	</citations>
+</tool>
