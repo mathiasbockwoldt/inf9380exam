@@ -3,17 +3,18 @@
 \usepackage{fontspec}
 \usepackage{setspace}			% For line spacing
 \usepackage[usenames,dvipsnames]{color}	% For colorful text
+\usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash,format=plain]{caption}
 \usepackage{microtype}			% For nicer spacing
 \usepackage{graphicx}
 \usepackage{bigfoot}
 %\usepackage{siunitx}			% For units
 
 \usepackage[colorlinks=true,
-        linkcolor=black,
-        citecolor=black,
-        filecolor=black,
-        urlcolor=black,
-        pdfusetitle]{hyperref}	% Links and URLs
+				linkcolor=black,
+				citecolor=black,
+				filecolor=black,
+				urlcolor=black,
+				pdfusetitle]{hyperref}	% Links and URLs
 \urlstyle{rm}					% URLs are written in roman instead of typewriter
 
 \frenchspacing					% No extended space after sentences
@@ -25,6 +26,10 @@
 \setsansfont{Linux Biolinum O}
 
 \newcommand{\xxx}[1]{\textbf{\textcolor{red}{#1}}}	% Emphasizing parts to do
+
+%\definecolor{lightgrey}{rgb}{0.8,0.8,0.8}
+
+%\newcommand{\cmd}[1]{\texttt{\colorbox{lightgrey}{> #1}}}
 
 
 
@@ -46,24 +51,66 @@
 
 All files for this part are in the folder \texttt{chipseq-part}.
 
-\paragraph{1. Bowtie and MPI} All files for this part are in the folder \texttt{ex1\_bowtie}.
+\subsection{1. Bowtie and MPI}
+
+All files for this part are in the folder \texttt{ex1\_bowtie}.
 
 I ran bowtie five times in serial mode to get a baseline for the execution time. Afterwards I ran bowtie using MPI as shown in the example script with one to 16 cores five times each. Everything was run on a single node with all 16 cores allocated to my script. Hence, there should not have been any delay by inter-node data transmission. The script for running bowtie with and without MPI is given in \texttt{run.slurm} (calling the MPI script in a loop) and \texttt{mpirun\_script.sh} (calling bowtie with MPI). The runtimes were measured by the \texttt{time} command and saved in \texttt{times.ods}. As the average times varyied quite heavily, I chose the minimum time of five calls for an estimate of the runtime. The speedup is shown in fig \ref{fig:chipseq-bowtie} using \texttt{real} times.
 
 \begin{figure}[ht]
-  \centering
-    %\includegraphics[width=0.5\textwidth]{chipseq-bowtie}
-  \caption{The speedup of bowtie with MPI. Serial is bowtie without MPI and is set to 1. The MPI with only one processor has a negative speedup (lower than 1) due to the overhead of parallelisation.}
-  \label{fig:chipseq-bowtie}
+	\centering
+		\includegraphics[width=0.8\textwidth]{chipseq-bowtie}
+	\caption{The speedup of bowtie with MPI. Serial is bowtie without MPI and is set to 1. The MPI with only one processor has a negative speedup (lower than 1) due to the overhead of parallelisation.}
+	\label{fig:chipseq-bowtie}
 \end{figure}
 
 The speedup is as expected. The execution gets faster with each additional core, but the increase in speed declines with the number of cores due to the parallelizing overhead. When using more cores, the file must be split into more chunks, more processes must be spawned and more result files must be concatenated after execution. With few processes, this pays off, but the more processes are spawned, the less pronounced is the speedup.
 
 A \texttt{diff} result of the output file of the serial bowtie and bowtie using MPI with 16 cores shows that the file contents themselves are identical. Only the header lines repeat (one header for each process). This is easily solveable for example using awk to remove the excessive headers\footnote{\verb\awk 'NR <= 3 || !/^@/'\}.
 
-\paragraph{2. -- 5. SLURM scripts} All serial files are in the folder \texttt{ex2\_serial} and the parallelized files (using \texttt{arrayrun}) are in the folder \texttt{ex3\_parallel}.
+\subsection{2. – 4. SLURM scripts}
 
-SLURM scripts were written to follow the workflow given in the course. This resulted in eleven scripts plus one for preparation of the data and one R script. Firstly, all scripts were run ones with generous memory and time demands to find out the actual memory consumption and runtime that were used to adjust the sbatch directives accordingly.
+All serial files are in the folder \texttt{ex2\_serial} and the parallelized files (using \texttt{arrayrun}) are in the folder \texttt{ex3\_parallel}.
+
+SLURM scripts were written to follow the workflow given in the course. This resulted in eleven scripts plus one for preparation of the data and one R script. I did not use the SCRATCH folder in any of the scripts as the files were very small. If the files were bigger I would of course take the effort to copy all relevant files for a given script to SCRATCH and copy all relevant output files back to the original directory.
+
+Firstly, all scripts were run ones with generous memory and time demands to find out the actual memory consumption and runtime that were used to adjust the \texttt{sbatch} directives accordingly. Runtimes were given by the SLURM log files. I wrote an SDAG file to start the workflow given in fig \ref{fig:chipseq-workflow}. The whole workflow was started three times with bowtie using MPI (including the little \texttt{awk} script to remove excessive headers) and three times using serial bowtie. The times used for each script and the total times measured by getting the start time of the first script and the end time of the last script (usually \texttt{makeBigWig}). The results were saved in \texttt{runtimes.tsv} and shown in fig \ref{fig:chipseq-runtimes}.
+
+\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.5\textwidth]{chipseq-workflow}
+	\caption{The workflow used for the chipseq part. The first line shows the name of the SLURM script, the second line shows the file types that are used and produced.}
+	\label{fig:chipseq-workflow}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{chipseq-runtimes}
+	\caption{Runtimes for different variations of the chipseq workflow. The first two bars show the sum of runtimes of each script using \texttt{arrayrun} (first bar) or not using any parallelization (second bar). The other three bars show the actual runtimes of whole workflows from the start of the first script until the end of the last script. Each value depicted here is the minimum of three executions of the respective workflows.}
+	\label{fig:chipseq-runtimes}
+\end{figure}
+
+Most scripts were rewritten to work with \texttt{arrayrun}. Each script that should be run in parallel was divided in a submit script (\texttt{sub\_*.slurm}) and a worker script (\texttt{work\_*.slurm}). The SDAG script was adapted accordingly. The new parallelized workflow was run three times and the results saved in \texttt{runtimes.ods} and shown in fig \ref{fig:chipseq-runtimes}.
+
+Interestingly, all arrayrun scripts took between 120 and 150 seconds (2 to 2.5 minutes), although the serial counterparts, except for the bowtie and the bedGraph sorting step to considerably less time. As all arrayrun scripts took a very similar (and relatively long) time, I assume that arrayrun has either a huge overhead or (more likely) only polls for results every few minutes. As such, arrayrun is not suitable for tasks that take less than about three minutes when run in serial. In the two cases where the serial SLURM scripts took more than 150 seconds, arrayrun resulted in a speedup but only to a very limited extend.
+
+Both workflows without MPI (i.e. serial and parallel) coordinated with SDAG were faster than the sum of their parts (columns one vs. three and two vs. four, respectively, in fig \ref{fig:chipseq-runtimes}), although the runtime for the whole workflow included the time waiting for allocation of ressources. The speedup is much larger for the parallel workflow than for the serial one. This is due to the longer runtimes of the parallel scripts compared to the serial scripts, such that the overhead of running the workflow (especially the time for ressource allocation) is relatively less for the parallel than for the serial workflows.
+
+Running bowtie with MPI in eight processes resulted in slightly longer total workflow runtimes than without any parallelization. This is probably again due to the larger overhead of MPI parallelization (splitting, distribution, and merging of files) compared to the small file sizes used in this exam.
+
+In general, larger files would have supported the use of parallelization more than the relatively small files used in the course.
+
+\subsection{5. Setup manual}
+
+This manual assumes that all relevant files are in \texttt{/work/projects/norbis/workflows/chip/data} on Abel and that the necessary programs are in \texttt{/work/projects/norbis/workflows/chip/programs}. Furthermore it assumes execution on Stallo as well as all programs (not being in the above-mentioned directory) being installed properly.
+
+\begin{enumerate}
+\item clone my git reposirory to Abel (\texttt{git clone https://github.com/mathiasbockwoldt/inf9380.git})
+\item navigate to the directory \texttt{chipseq-part/ex2\_serial} or \texttt{chipseq-part/ex3\_parallel} for the serial and parallel part, respectively
+\item prepare directory structure and index reference genome by running \texttt{sbatch preparation.slurm}
+\item load the sdag module (\texttt{module load sdag})
+\item run the desired workflow (\texttt{chipseq.sdag} for both, parallel and serial, or \texttt{chipseq\_withMPI.sdag} in the serial folder for execution without arrayrun but with MPI for the bowtie part \texttt{sdag chipseq.sdag})
+\end{enumerate}
 
 
 \section{Differences between two VCF files}
