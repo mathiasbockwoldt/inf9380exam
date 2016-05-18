@@ -1,6 +1,5 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
-from __future__ import with_statement, print_function
 import multiprocessing as mp
 
 
@@ -76,7 +75,7 @@ if __name__ == '__main__':
 
 	result = pool.map(getSNPs, workpackages)
 
-	with open('result.txt', 'w') as out:
+	with open('result.vcf', 'w') as out:
 		totalLength = 0
 		for chromosome in result:
 			totalLength += len(chromosome)

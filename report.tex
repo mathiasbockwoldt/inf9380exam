@@ -24,6 +24,7 @@
 
 \setromanfont{Linux Libertine O}
 \setsansfont{Linux Biolinum O}
+\setmonofont{Nimbus Mono L}
 
 \newcommand{\xxx}[1]{\textbf{\textcolor{red}{#1}}}	% Emphasizing parts to do
 
@@ -51,7 +52,7 @@
 
 All files for this part are in the folder \texttt{chipseq-part}.
 
-\subsection{1. Bowtie and MPI}
+\subsection{Bowtie and MPI (part 1)}
 
 All files for this part are in the folder \texttt{ex1\_bowtie}.
 
@@ -68,13 +69,13 @@ The speedup is as expected. The execution gets faster with each additional core,
 
 A \texttt{diff} result of the output file of the serial bowtie and bowtie using MPI with 16 cores shows that the file contents themselves are identical. Only the header lines repeat (one header for each process). This is easily solveable for example using awk to remove the excessive headers\footnote{\verb\awk 'NR <= 3 || !/^@/'\}.
 
-\subsection{2. – 4. SLURM scripts}
+\subsection{SLURM scripts (parts 2 to 4)}
 
-All serial files are in the folder \texttt{ex2\_serial} and the parallelized files (using \texttt{arrayrun}) are in the folder \texttt{ex3\_parallel}.
+All serial files are in the folder \texttt{ex2\_serial} and the parallelized files (using \texttt{arrayrun}) in \texttt{ex3\_parallel}.
 
 SLURM scripts were written to follow the workflow given in the course. This resulted in eleven scripts plus one for preparation of the data and one R script. I did not use the SCRATCH folder in any of the scripts as the files were very small. If the files were bigger I would of course take the effort to copy all relevant files for a given script to SCRATCH and copy all relevant output files back to the original directory.
 
-Firstly, all scripts were run ones with generous memory and time demands to find out the actual memory consumption and runtime that were used to adjust the \texttt{sbatch} directives accordingly. Runtimes were given by the SLURM log files. I wrote an SDAG file to start the workflow given in fig \ref{fig:chipseq-workflow}. The whole workflow was started three times with bowtie using MPI (including the little \texttt{awk} script to remove excessive headers) and three times using serial bowtie. The times used for each script and the total times measured by getting the start time of the first script and the end time of the last script (usually \texttt{makeBigWig}). The results were saved in \texttt{runtimes.tsv} and shown in fig \ref{fig:chipseq-runtimes}.
+Firstly, all scripts were run ones with generous memory and time demands to find out the actual memory consumption and runtime that were used to adjust the \texttt{sbatch} directives accordingly. Runtimes were given by the SLURM log files. I wrote an SDAG file to start the workflow given in fig \ref{fig:chipseq-workflow}. The whole workflow was started three times with bowtie using MPI (including the little \texttt{awk} script to remove excessive headers) and three times using serial bowtie. The times used for each script and the total times measured by getting the start time of the first script and the end time of the last script (usually \texttt{makeBigWig}). The results were saved in \texttt{runtimes.ods} and shown in fig \ref{fig:chipseq-runtimes}.
 
 \begin{figure}[ht]
 	\centering
@@ -100,10 +101,11 @@ Running bowtie with MPI in eight processes resulted in slightly longer total wor
 
 In general, larger files would have supported the use of parallelization more than the relatively small files used in the course.
 
-\subsection{5. Setup manual}
+\subsection{Setup manual (part 5)}
 
-This manual assumes that all relevant files are in \texttt{/work/}\allowbreak\texttt{projects/}\texttt{norbis/}\allowbreak\texttt{workflows/}\allowbreak\texttt{chip/}\allowbreak\texttt{data} on Abel and that the necessary programs are in \texttt{/work/}\allowbreak\texttt{projects/}\allowbreak\texttt{norbis/}\allowbreak\texttt{workflows/}\allowbreak\texttt{chip/}\allowbreak\texttt{programs}. Furthermore it assumes execution on Stallo as well as all programs (not being in the above-mentioned directory) being installed properly.
+This manual assumes that all relevant files are in the course directories\footnote{\texttt{/work/}\allowbreak\texttt{projects/}\texttt{norbis/}\allowbreak\texttt{workflows/}\allowbreak\texttt{chip/}} as they were during the course. Furthermore it assumes execution on Stallo as well as all programs (not being in the above-mentioned directory) being installed properly.
 
+\begin{flushleft}
 \begin{enumerate}
 \item clone my git reposirory to Abel (\texttt{git} \texttt{clone} \texttt{https://}\allowbreak\texttt{github.com/}\allowbreak\texttt{mathiasbockwoldt/}\allowbreak\texttt{inf9380.git})
 \item navigate to the directory \texttt{chipseq-part/}\allowbreak\texttt{ex2\_serial} or \texttt{chipseq-part/}\allowbreak\texttt{ex3\_parallel} for the serial and parallel part, respectively
@@ -111,19 +113,18 @@ This manual assumes that all relevant files are in \texttt{/work/}\allowbreak\te
 \item load the sdag module (\texttt{module} \texttt{load} \texttt{sdag})
 \item run the desired workflow (\texttt{chipseq.sdag} for both, parallel and serial, or \texttt{chipseq\_withMPI.sdag} in the serial folder for execution without arrayrun but with MPI for the bowtie part \texttt{sdag} \texttt{chipseq.sdag})
 \end{enumerate}
+\end{flushleft}
 
 
 \section{Differences between two VCF files}
 
-The python code I wrote to find differences between two VCF files is very crude and unflexible but it gets its job done. \xxx{At the moment, I have two scripts. If I have time, I will merge them to one script.}
+The python 3 code I wrote to find differences between two VCF files is very crude and unflexible but it gets its job done.
 
-First the control and subject files are read into python dictionaries (key-value pairs). Each key is a tuple of the chromosome, the position on the chromosome and the alternative base. The value is the whole line of the respective SNP. For each dictionary, a python set is generated of the dictionary keys. These two sets are then subtracted from each other to result in a new set with only the keys that are in the subject but not in the control. Based on this new set, a dictionary is returned with only the values whose keys are in the new set. All lines in that resulted dictionary are finally written to disk.
+First the control and subject files are read into python lists. Afterwards, these are turned into dictionaries (key-value pairs). Each key is a tuple of the chromosome, the position on the chromosome and the alternative base. The value is the whole line of the respective SNP. For each dictionary, a python set is generated of the dictionary keys. These two sets are then subtracted from each other to result in a new set with only the keys that are in the subject but not in the control. Based on this new set, a dictionary is returned with only the values whose keys are in the new set. All lines in that resulted dictionary are finally written to disk.
 
-The parallel script does in principle the same, but splits the input files by chromosome and initializes a python multiprocessing worker pool to send the data for each chromosome to a seperate process. After processing the data, the results are written serially to a single file.
+The parallel script does in principle the same, but splits the input files by chromosome and initializes a python multiprocessing worker pool to send the data for each chromosome to a separate process. After processing the data, the results are written serially to a single file.
 
-\xxx{Timing (must be measured again; I don't have the timings from the course anymore.)}
-
-The parallel execution took more time than the serial execution. This is due to the overhead of splitting and merging the working packages as well as the initialization of the worker pool. The parallel script would probably be faster than the serial script when used with larger files than the given test files.
+The fastest run of the serial program took 150~ms \texttt{real} and 124~ms \texttt{user} time, whereas the fastest run of the parallel version needed 233~ms and 184~ms \texttt{real} and \texttt{user} time, respectively. The average times were close to these values. Thus, the parallel execution took more time than the serial execution. This is due to the overhead of splitting and merging the working packages as well as the initialization of the worker pool. The parallel script would probably be faster than the serial script when used with larger files than the given test files.
 
 \section{Galaxy Docker}
 
