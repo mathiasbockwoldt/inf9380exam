@@ -103,7 +103,7 @@ In general, larger files would have supported the use of parallelization more th
 
 \subsection{Setup manual (part 5)}
 
-This manual assumes that all relevant files are in the course directories\footnote{\texttt{/work/}\allowbreak\texttt{projects/}\texttt{norbis/}\allowbreak\texttt{workflows/}\allowbreak\texttt{chip/}} as they were during the course. Furthermore it assumes execution on Stallo as well as all programs (not being in the above-mentioned directory) being installed properly.
+This manual assumes that all relevant files are in the same directories\footnote{\texttt{/work/}\allowbreak\texttt{projects/}\texttt{norbis/}\allowbreak\texttt{workflows/}\allowbreak\texttt{chip/}} as they were during the course. Furthermore it assumes execution on Stallo as well as all used programs being installed properly or in the course directory.
 
 \begin{flushleft}
 \begin{enumerate}
@@ -118,16 +118,24 @@ This manual assumes that all relevant files are in the course directories\footno
 
 \section{Differences between two VCF files}
 
-The python 3 code I wrote to find differences between two VCF files is very crude and unflexible but it gets its job done.
+All files for this part are in the folder \texttt{python-part}.
 
-First the control and subject files are read into python lists. Afterwards, these are turned into dictionaries (key-value pairs). Each key is a tuple of the chromosome, the position on the chromosome and the alternative base. The value is the whole line of the respective SNP. For each dictionary, a python set is generated of the dictionary keys. These two sets are then subtracted from each other to result in a new set with only the keys that are in the subject but not in the control. Based on this new set, a dictionary is returned with only the values whose keys are in the new set. All lines in that resulted dictionary are finally written to disk.
+The Python 3 code I wrote to find differences between two VCF files is very crude and unflexible but it gets its job done.
 
-The parallel script does in principle the same, but splits the input files by chromosome and initializes a python multiprocessing worker pool to send the data for each chromosome to a separate process. After processing the data, the results are written serially to a single file.
+First the control and subject files are read into Python lists. Afterwards, these are turned into dictionaries (key-value pairs). Each key is a tuple of the chromosome, the position on the chromosome and the alternative base. The value is the whole line of the respective SNP. For each dictionary, a Python set is generated of the dictionary keys. These two sets are then subtracted from each other to result in a new set with only the keys that are in the subject but not in the control. Based on this new set, a dictionary is returned with only the values whose keys are in the new set. All lines in that resulted dictionary are finally written to disk.
+
+The parallel script does in principle the same, but splits the input files by chromosome and initializes a Python multiprocessing worker pool to send the data for each chromosome to a separate process. After processing the data, the results are written serially to a single file.
 
 The fastest run of the serial program took 150~ms \texttt{real} and 124~ms \texttt{user} time, whereas the fastest run of the parallel version needed 233~ms and 184~ms \texttt{real} and \texttt{user} time, respectively. The average times were close to these values. Thus, the parallel execution took more time than the serial execution. This is due to the overhead of splitting and merging the working packages as well as the initialization of the worker pool. The parallel script would probably be faster than the serial script when used with larger files than the given test files.
 
 \section{Galaxy Docker}
 
-I decided to write a wrapper for the software \texttt{haystack}. In my work, I use none of the programs in the list given for this exam and I thought it would be better to use something, I actually work with. Haystack is a Perl script to identify oscillating genes in gene expression data. The program call is not as complicated as the example programs, but with seven parameters it fullfills the demand for more than five parameters.
+All files for this part are in the folder \texttt{galaxy-part}.
+
+I decided to write a wrapper for the software \texttt{haystack}\footnote{\url{http://haystack.mocklerlab.org}}. In my PhD work, I use none of the programs in the list given for this exam and I thought it would be better to use something, I actually work with. Haystack is a Perl script to identify oscillating genes in gene expression data. The program call is not as complicated as the example programs, but with seven parameters it fullfills the demand for more than five parameters and still kept me busy for quite some hours.
+
+I got a basic xml file by using \texttt{planemo} \texttt{tool\_init} with many parameters. This xml file was then filled with additional data and two tests. After some corrections, the Planemo linting tool revealed no obvious failures in the file. The output of \texttt{planemo} \texttt{lint} can be found in the file \texttt{lint_result.txt}. Also the tests with \texttt{planemo} \texttt{test} passed (no output saved).
+
+\xxx{Tool shed, Docker, and DockerHub are missing}
 
 \end{document}
