@@ -78,7 +78,7 @@ Firstly, all scripts were run ones with generous memory and time demands to find
 
 \begin{figure}[ht]
 	\centering
-		\includegraphics[width=0.5\textwidth]{chipseq-workflow}
+		\includegraphics[width=0.6\textwidth]{chipseq-workflow}
 	\caption{The workflow used for the chipseq part. The first line shows the name of the SLURM script, the second line shows the file types that are used and produced.}
 	\label{fig:chipseq-workflow}
 \end{figure}
@@ -102,20 +102,28 @@ In general, larger files would have supported the use of parallelization more th
 
 \subsection{5. Setup manual}
 
-This manual assumes that all relevant files are in \texttt{/work/projects/norbis/workflows/chip/data} on Abel and that the necessary programs are in \texttt{/work/projects/norbis/workflows/chip/programs}. Furthermore it assumes execution on Stallo as well as all programs (not being in the above-mentioned directory) being installed properly.
+This manual assumes that all relevant files are in \texttt{/work/}\allowbreak\texttt{projects/}\texttt{norbis/}\allowbreak\texttt{workflows/}\allowbreak\texttt{chip/}\allowbreak\texttt{data} on Abel and that the necessary programs are in \texttt{/work/}\allowbreak\texttt{projects/}\allowbreak\texttt{norbis/}\allowbreak\texttt{workflows/}\allowbreak\texttt{chip/}\allowbreak\texttt{programs}. Furthermore it assumes execution on Stallo as well as all programs (not being in the above-mentioned directory) being installed properly.
 
 \begin{enumerate}
-\item clone my git reposirory to Abel (\texttt{git clone https://github.com/mathiasbockwoldt/inf9380.git})
-\item navigate to the directory \texttt{chipseq-part/ex2\_serial} or \texttt{chipseq-part/ex3\_parallel} for the serial and parallel part, respectively
-\item prepare directory structure and index reference genome by running \texttt{sbatch preparation.slurm}
-\item load the sdag module (\texttt{module load sdag})
-\item run the desired workflow (\texttt{chipseq.sdag} for both, parallel and serial, or \texttt{chipseq\_withMPI.sdag} in the serial folder for execution without arrayrun but with MPI for the bowtie part \texttt{sdag chipseq.sdag})
+\item clone my git reposirory to Abel (\texttt{git} \texttt{clone} \texttt{https://}\allowbreak\texttt{github.com/}\allowbreak\texttt{mathiasbockwoldt/}\allowbreak\texttt{inf9380.git})
+\item navigate to the directory \texttt{chipseq-part/}\allowbreak\texttt{ex2\_serial} or \texttt{chipseq-part/}\allowbreak\texttt{ex3\_parallel} for the serial and parallel part, respectively
+\item prepare directory structure and index reference genome by running \texttt{sbatch} \texttt{preparation.slurm}
+\item load the sdag module (\texttt{module} \texttt{load} \texttt{sdag})
+\item run the desired workflow (\texttt{chipseq.sdag} for both, parallel and serial, or \texttt{chipseq\_withMPI.sdag} in the serial folder for execution without arrayrun but with MPI for the bowtie part \texttt{sdag} \texttt{chipseq.sdag})
 \end{enumerate}
 
 
 \section{Differences between two VCF files}
 
+The python code I wrote to find differences between two VCF files is very crude and unflexible but it gets its job done. \xxx{At the moment, I have two scripts. If I have time, I will merge them to one script.}
 
+First the control and subject files are read into python dictionaries (key-value pairs). Each key is a tuple of the chromosome, the position on the chromosome and the alternative base. The value is the whole line of the respective SNP. For each dictionary, a python set is generated of the dictionary keys. These two sets are then subtracted from each other to result in a new set with only the keys that are in the subject but not in the control. Based on this new set, a dictionary is returned with only the values whose keys are in the new set. All lines in that resulted dictionary are finally written to disk.
+
+The parallel script does in principle the same, but splits the input files by chromosome and initializes a python multiprocessing worker pool to send the data for each chromosome to a seperate process. After processing the data, the results are written serially to a single file.
+
+\xxx{Timing (must be measured again; I don't have the timings from the course anymore.)}
+
+The parallel execution took more time than the serial execution. This is due to the overhead of splitting and merging the working packages as well as the initialization of the worker pool. The parallel script would probably be faster than the serial script when used with larger files than the given test files.
 
 \section{Galaxy Docker}
 
