@@ -48,6 +48,8 @@
 
 \onehalfspacing
 
+The repository with all files, including this report, can be found here: \url{https://github.com/mathiasbockwoldt/inf9380exam.git} .
+
 \section{ChIP-Seq SLURM workflow}
 
 All files for this part are in the folder \texttt{chipseq-part}.
@@ -103,11 +105,11 @@ In general, larger files would have supported the use of parallelization more th
 
 \subsection{Setup manual (part 5)}
 
-This manual assumes that all relevant files are in the same directories\footnote{\texttt{/work/}\allowbreak\texttt{projects/}\texttt{norbis/}\allowbreak\texttt{workflows/}\allowbreak\texttt{chip/}} as they were during the course. Furthermore it assumes execution on Stallo as well as all used programs being installed properly or in the course directory.
+This manual assumes that all relevant files are in the same directories\footnote{\texttt{/work/}\allowbreak\texttt{projects/}\texttt{norbis/}\allowbreak\texttt{workflows/}\allowbreak\texttt{chip/}} as they were during the course. Furthermore, it assumes execution on Stallo as well as all used programs being installed properly or in the course directory.
 
 \begin{flushleft}
 \begin{enumerate}
-\item clone my git repository to Abel (\texttt{git} \texttt{clone} \texttt{https://}\allowbreak\texttt{github.com/}\allowbreak\texttt{mathiasbockwoldt/}\allowbreak\texttt{inf9380.git})
+\item clone my git repository to Abel (\texttt{git} \texttt{clone} \texttt{https://}\allowbreak\texttt{github.com/}\allowbreak\texttt{mathiasbockwoldt/}\allowbreak\texttt{inf9380exam.git})
 \item navigate to the directory \texttt{chipseq-part/}\allowbreak\texttt{ex2\_serial} or \texttt{chipseq-part/}\allowbreak\texttt{ex3\_parallel} for the serial and parallel part, respectively
 \item prepare directory structure and index reference genome by running \texttt{sbatch} \texttt{preparation.slurm}
 \item load the sdag module (\texttt{module} \texttt{load} \texttt{sdag})
@@ -132,7 +134,7 @@ The fastest run of the serial program took 150~ms \texttt{real} and 124~ms \text
 
 All files for this part are in the folder \texttt{galaxy-part}.
 
-I decided to write a wrapper for the software \texttt{Haystack}\footnote{\url{http://haystack.mocklerlab.org}}. In my PhD work, I use none of the programs in the list given for this exam and I thought it would be better to use something, I actually work with. Haystack is a Perl script to identify oscillating genes in gene expression data. The program call is not as complicated as the example programs, but with seven parameters it fulfills the demand for more than five parameters and still kept me busy for quite some hours.
+I decided to write a wrapper for the software \texttt{Haystack}\footnote{\url{http://haystack.mocklerlab.org}}. In my PhD project, I use none of the programs in the list given for this exam and I thought it would be better to use something, I actually work with. Haystack is a Perl script to identify oscillating genes in gene expression data. The program call is not as complicated as the example programs, but with seven parameters it fulfills the demand for more than five parameters and still kept me busy for quite some hours.
 
 I got a basic xml file by using \texttt{planemo} \texttt{tool\_init} with many parameters. This xml file was then filled with additional data and two tests. After some corrections, the Planemo linting tool revealed no obvious failures in the file. The output of \texttt{planemo} \texttt{lint} can be found in the file \texttt{lint\_result.txt}. Also the tests with \texttt{planemo} \texttt{test} passed (no output saved).
 
