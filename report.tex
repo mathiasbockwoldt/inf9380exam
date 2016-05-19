@@ -24,7 +24,7 @@
 
 \setromanfont{Linux Libertine O}
 \setsansfont{Linux Biolinum O}
-\setmonofont{Nimbus Mono L}
+\setmonofont{FreeMono}
 
 \newcommand{\xxx}[1]{\textbf{\textcolor{red}{#1}}}	% Emphasizing parts to do
 
@@ -61,13 +61,13 @@ I ran bowtie five times in serial mode to get a baseline for the execution time.
 \begin{figure}[ht]
 	\centering
 		\includegraphics[width=0.8\textwidth]{chipseq-bowtie}
-	\caption{The speedup of bowtie with MPI. Serial is bowtie without MPI and is set to 1. The MPI with only one processor has a negative speedup (lower than 1) due to the overhead of parallelisation.}
+	\caption{The speedup of bowtie with MPI. Serial is bowtie without MPI whose speedup is set to 1. The MPI with only one processor has a speedup lower than 1 due to the overhead of parallelisation.}
 	\label{fig:chipseq-bowtie}
 \end{figure}
 
 The speedup is as expected. The execution gets faster with each additional core, but the increase in speed declines with the number of cores due to the parallelizing overhead. When using more cores, the file must be split into more chunks, more processes must be spawned and more result files must be concatenated after execution. With few processes, this pays off, but the more processes are spawned, the less pronounced is the speedup.
 
-A \texttt{diff} result of the output file of the serial bowtie and bowtie using MPI with 16 cores shows that the file contents themselves are identical. Only the header lines repeat (one header for each process). This is easily solveable for example using awk to remove the excessive headers\footnote{\verb\awk 'NR <= 3 || !/^@/'\}.
+A \texttt{diff} result of the output file of the serial bowtie and bowtie using MPI with 16 cores shows that the file contents themselves are identical. Only the header lines repeat (one header for each process). This is easily solveable for example using awk to remove the excessive headers\footnote{\verb&awk 'NR <= 3 || !/^@/'&}.
 
 \subsection{SLURM scripts (parts 2 to 4)}
 
@@ -134,8 +134,12 @@ All files for this part are in the folder \texttt{galaxy-part}.
 
 I decided to write a wrapper for the software \texttt{haystack}\footnote{\url{http://haystack.mocklerlab.org}}. In my PhD work, I use none of the programs in the list given for this exam and I thought it would be better to use something, I actually work with. Haystack is a Perl script to identify oscillating genes in gene expression data. The program call is not as complicated as the example programs, but with seven parameters it fullfills the demand for more than five parameters and still kept me busy for quite some hours.
 
-I got a basic xml file by using \texttt{planemo} \texttt{tool\_init} with many parameters. This xml file was then filled with additional data and two tests. After some corrections, the Planemo linting tool revealed no obvious failures in the file. The output of \texttt{planemo} \texttt{lint} can be found in the file \texttt{lint_result.txt}. Also the tests with \texttt{planemo} \texttt{test} passed (no output saved).
+I got a basic xml file by using \texttt{planemo} \texttt{tool\_init} with many parameters. This xml file was then filled with additional data and two tests. After some corrections, the Planemo linting tool revealed no obvious failures in the file. The output of \texttt{planemo} \texttt{lint} can be found in the file \texttt{lint\_result.txt}. Also the tests with \texttt{planemo} \texttt{test} passed (no output saved).
 
-\xxx{Tool shed, Docker, and DockerHub are missing}
+After creating a \texttt{.shed.yaml} file and filling it with necessary infos, I created the repository \texttt{haystack} in the Test Tool Shed\footnote{\url{https://testtoolshed.g2.bx.psu.edu}} where I could then upload the tool with \texttt{planemo} \texttt{shed_upload}.
+
+\xxx{Failure with Perl dependency...}
+
+\xxx{Docker, and DockerHub are missing}
 
 \end{document}

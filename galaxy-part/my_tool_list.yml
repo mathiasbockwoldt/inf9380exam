@@ -1,0 +1,7 @@
+api_key: HSNiugRFvgT574F43jZ7N9F3
+galaxy_instance: 127.0.0.1
+tools:
+- name: haystack
+  owner: mathiboc
+  tool_panel_section_label: 'Systems Biology'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu

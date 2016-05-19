@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<tool_dependency>
+	<action type="setup_perl_environment">
+		<package>Statistics::Distributions</package>
+	</action>
+</tool_dependency>

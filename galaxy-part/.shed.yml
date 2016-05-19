@@ -1,0 +1,7 @@
+name: haystack
+owner: mathiboc
+description: Haystack version 1.0.7 to identify oscillating genes in gene expression data.
+homepage_url: http://haystack.mocklerlab.org
+categories: [Systems Biology]
+description: haystack
+type: unrestricted
