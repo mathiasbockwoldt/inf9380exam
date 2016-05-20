@@ -95,7 +95,7 @@ Firstly, all scripts were run ones with generous memory and time demands to find
 
 Most scripts were rewritten to work with \texttt{arrayrun}. Each script that should be run in parallel was divided in a submit script (\texttt{sub\_*.slurm}) and a worker script (\texttt{work\_*.slurm}). The SDAG script was adapted accordingly. The new parallelized workflow was run three times and the results saved in \texttt{runtimes.ods} and shown in fig \ref{fig:chipseq-runtimes}.
 
-Interestingly, all arrayrun scripts took between 120 and 150 seconds (2 to 2.5 minutes), although the serial counterparts, except for the Bowtie and the bedGraph sorting step to considerably less time. As all arrayrun scripts took a very similar (and relatively long) time, I assume that arrayrun has either a huge overhead or (more likely) only polls for results every few minutes. As such, arrayrun is not suitable for tasks that take less than about three minutes when run in serial. In the two cases where the serial SLURM scripts took more than 150 seconds, arrayrun resulted in a speedup but only to a very limited extend.
+Interestingly, all arrayrun scripts took between 120 and 150 seconds (2 to 2.5 minutes), although the serial counterparts, except for the Bowtie and the bedGraph sorting step took considerably less time. As all arrayrun scripts took a very similar (and relatively long) time, I assume that arrayrun has either a huge overhead or only polls for results every few minutes. As such, arrayrun is not suitable for tasks that take less than about three minutes when run in serial. In the two cases where the serial SLURM scripts took more than 150 seconds, arrayrun resulted in a speedup but only to a very limited extend.
 
 Both workflows without MPI (i.e. serial and parallel) coordinated with SDAG were faster than the sum of their parts (columns one vs. three and two vs. four, respectively, in fig \ref{fig:chipseq-runtimes}), although the runtime for the whole workflow included the time waiting for allocation of resources. The speedup is much larger for the parallel workflow than for the serial one. This is due to the longer runtimes of the parallel scripts compared to the serial scripts, such that the overhead of running the workflow (especially the time for resource allocation) is relatively less for the parallel than for the serial workflows.
 
@@ -130,18 +130,16 @@ The parallel script does in principle the same, but splits the input files by ch
 
 The fastest run of the serial program took 150~ms \texttt{real} and 124~ms \texttt{user} time, whereas the fastest run of the parallel version needed 233~ms and 184~ms \texttt{real} and \texttt{user} time, respectively. The average times were close to these values. Thus, the parallel execution took more time than the serial execution. This is due to the overhead of splitting and merging the working packages as well as the initialization of the worker pool. The parallel script would probably be faster than the serial script when used with larger files than the given test files.
 
-\section{Galaxy Docker}
+\section{Galaxy and Docker}
 
 All files for this part are in the folder \texttt{galaxy-part}.
 
 I decided to write a wrapper for the software \texttt{Haystack}\footnote{\url{http://haystack.mocklerlab.org}}. In my PhD project, I use none of the programs in the list given for this exam and I thought it would be better to use something, I actually work with. Haystack is a Perl script to identify oscillating genes in gene expression data. The program call is not as complicated as the example programs, but with seven parameters it fulfills the demand for more than five parameters and still kept me busy for quite some hours.
 
-I got a basic xml file by using \texttt{planemo} \texttt{tool\_init} with many parameters. This xml file was then filled with additional data and two tests. After some corrections, the Planemo linting tool revealed no obvious failures in the file. The output of \texttt{planemo} \texttt{lint} can be found in the file \texttt{lint\_result.txt}. Also the tests with \texttt{planemo} \texttt{test} passed (no output saved).
+I got a basic xml file by using \texttt{planemo} \texttt{tool\_init} with many parameters. This xml file was then filled with additional data and two tests. After some corrections, the Planemo linting tool revealed no obvious failures in the file. Also the tests with \texttt{planemo} \texttt{test} passed.
 
 After creating a \texttt{.shed.yaml} file and filling it with necessary infos, I created the repository \texttt{haystack} in the Test Tool Shed\footnote{\url{https://testtoolshed.g2.bx.psu.edu}} where I could then upload the tool with \texttt{planemo} \texttt{shed\_upload}.
 
-\xxx{Failure with Perl dependency...}
-
-\xxx{Docker, and DockerHub are missing}
+I wrote the necessary files for extending the Docker Galaxy flavour and built it with \texttt{docker} \texttt{build}, ran it and pushed it to DockerHub where it can be found under \texttt{mathiboc/}\allowbreak\texttt{galaxyhaystack}. I had a problem with a Perl dependency. Haystack needs the Perl module Statistics::Distributions which was installed on my Computer, so I did not get any failures while testing the Galaxy tool on my computer. However, the module is not installed on the basic Galaxy Docker image. I tried to define the dependecies such that the module is installed automatically (using a \texttt{tool\_dependencies.xml} file that can still be found in the git repository), but when starting the Haystack-flavoured Galaxy in Docker, I always got the error message that the required module is not available. After a lot of unsuccessful reading and trying, I decided to resolve the dependecies by hand in the \texttt{Dockerfile} (lines 17 and 18). I'm aware of that this is not the best practice but the deadline forced me to compromise at some point.
 
 \end{document}
