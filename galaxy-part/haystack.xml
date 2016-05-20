@@ -1,6 +1,7 @@
 <tool id="haystack" name="Haystack" version="1.07">
 	<requirements>
-		<requirement type="package">perl</requirement>
+		<requirement type="package" version="5.18.1">perl</requirement>
+		<requirement type="package" version="1.02">perl_stat_distr</requirement>
 	</requirements>
 	<stdio>
 		<exit_code range="1:" />

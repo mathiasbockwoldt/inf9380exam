@@ -1,6 +1,22 @@
 <?xml version="1.0"?>
 <tool_dependency>
-	<action type="setup_perl_environment">
-		<package>Statistics::Distributions</package>
-	</action>
+	<package name="perl" version="5.18.1">
+		<repository name="package_perl_5_18" owner="iuc" prior_installation_required="True" />
+	</package>
+	<package name="perl_stat_distr" version="1.02">
+		<install version="1.0">
+			<actions>
+				<action type="setup_perl_environment">
+					<repository name="package_perl_5_18" owner="iuc">
+						<package name="perl" version="5.18.1" />
+					</repository>
+					<package>http://www.cpan.org/CPAN/authors/id/M/MI/MIKEK/Statistics-Distributions-1.02.tar.gz</package>
+				</action>
+			</actions>
+		</install>
+		<readme><![CDATA[
+			Perl module: Statistics::Distributions
+		]]>
+		</readme>
+	</package>
 </tool_dependency>

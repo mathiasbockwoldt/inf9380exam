@@ -7,14 +7,15 @@ WORKDIR /galaxy-central
 
 RUN add-tool-shed --url 'http://testtoolshed.g2.bx.psu.edu/' --name 'Test Tool Shed'
 
-# Install Visualisation
-# RUN install-biojs msa
-
 # Adding the tool definitions to the container
 ADD my_tool_list.yml $GALAXY_ROOT/my_tool_list.yml
 
 # Install Haystack
 RUN install-tools $GALAXY_ROOT/my_tool_list.yml
+
+# Install Perl module Statistics::Distributions
+RUN cpan App::cpanminus
+RUN cpanm Statistics::Distributions
 
 # Mark folders as imported from the host.
 VOLUME ["/export/", "/data/", "/var/lib/docker"]
